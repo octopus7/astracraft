@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5cbbd">
+  <meta name="description" content="파스텔빛 작은 마을을 로우폴리와 디테일 모드로 감상하는 인터랙티브 3D 디오라마">
+  <title>포근골 · 작은 마을 디오라마</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">
+    {"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/addons/"}}
+  </script>
+</head>
+<body>
+  <main id="app">
+    <canvas id="scene" aria-label="마우스로 돌려볼 수 있는 파스텔 마을 3D 장면"></canvas>
+    <div class="wash" aria-hidden="true"></div>
+
+    <header class="brand panel">
+      <span class="brand-mark" aria-hidden="true">✿</span>
+      <span><strong>포근골</strong><small>작은 마을의 오후</small></span>
+    </header>
+
+    <section class="intro panel" aria-labelledby="title">
+      <p class="eyebrow">COZY VILLAGE · 04</p>
+      <h1 id="title">햇살이 머무는<br>작은 마을</h1>
+      <p>다리를 건너고, 우물가를 지나<br>반짝이는 오후를 천천히 둘러보세요.</p>
+    </section>
+
+    <section class="mode-panel panel" aria-label="모델 품질 선택">
+      <div class="mode-copy">
+        <span>SCENE STYLE</span>
+        <strong id="mode-title">디테일</strong>
+      </div>
+      <div class="segmented" role="group" aria-label="장면 스타일">
+        <button type="button" data-mode="low" aria-pressed="false">
+          <span class="mode-icon low-icon" aria-hidden="true"></span>
+          <span><strong>로우폴리</strong><small>가볍고 단정하게</small></span>
+        </button>
+        <button type="button" class="active" data-mode="detail" aria-pressed="true">
+          <span class="mode-icon detail-icon" aria-hidden="true">✦</span>
+          <span><strong>원본 무드</strong><small>풍성하고 포근하게</small></span>
+        </button>
+      </div>
+      <p id="mode-description">지붕 타일과 돌, 꽃잎까지 풍성하게 표현합니다.</p>
+    </section>
+
+    <div class="weather panel" aria-label="장면 분위기">
+      <span class="sun" aria-hidden="true">☀</span>
+      <span><strong>포근한 오후</strong><small>빛바랜 복숭아빛 하늘 · 24°C</small></span>
+    </div>
+
+    <nav class="controls panel" aria-label="카메라 조작">
+      <button id="reset" type="button" title="처음 시점으로 돌아가기">
+        <span aria-hidden="true">⌂</span><span>처음 시점</span>
+      </button>
+      <button id="auto-rotate" class="active" type="button" aria-pressed="true" title="자동 회전 켜기 또는 끄기">
+        <span aria-hidden="true">↻</span><span>천천히 보기</span>
+      </button>
+      <button id="fullscreen" type="button" title="전체 화면">
+        <span aria-hidden="true">⛶</span><span>전체 화면</span>
+      </button>
+    </nav>
+
+    <p class="hint"><span aria-hidden="true">↔</span> 드래그해서 둘러보기 <i></i> 스크롤해서 확대하기</p>
+    <div id="loading" role="status"><span class="loader-flower">✿</span><strong>마을을 가꾸는 중</strong><span class="loading-line"><i></i></span></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <noscript>이 3D 장면을 보려면 JavaScript를 켜주세요.</noscript>
+  </main>
+  <script>
+    document.querySelector('#loading strong').textContent = '3D 엔진을 준비하는 중';
+    addEventListener('error', event => {
+      const label = document.querySelector('#loading strong');
+      if (label) label.textContent = '렌더링을 시작하지 못했어요';
+      console.error(event.error || event.message);
+    });
+    addEventListener('unhandledrejection', event => {
+      const label = document.querySelector('#loading strong');
+      if (label) label.textContent = '모델을 불러오지 못했어요';
+      console.error(event.reason);
+    });
+  </script>
+  <script type="module">
+    const label = document.querySelector('#loading strong');
+    label.textContent = '렌더러 모듈을 연결하는 중';
+    import('./main.js').catch(error => {
+      label.textContent = `모델을 불러오지 못했어요 · ${error.message}`;
+      console.error(error);
+    });
+  </script>
+</body>
+</html>
