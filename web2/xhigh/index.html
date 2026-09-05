@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="비 내리는 SF 수리 지구를 탐색하고 중계기를 복구하는 쿼터뷰 3D 게임"
+    />
+    <meta name="theme-color" content="#0b1111" />
+    <title>Cinder Yard // AstraCraft XHigh</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <main class="game-shell" aria-label="Cinder Yard 3D repair game">
+      <div id="viewport" aria-hidden="true"></div>
+
+      <div class="vignette" aria-hidden="true"></div>
+      <div class="scanlines" aria-hidden="true"></div>
+
+      <header class="district-id glass-panel">
+        <a class="archive-link" href="../" aria-label="AstraCraft 아카이브로 돌아가기">✦</a>
+        <div>
+          <p class="eyebrow">LOWER DISTRICT / N–17</p>
+          <h1>CINDER YARD</h1>
+          <p class="weather"><span aria-hidden="true">☂</span> AFTER THE RAIN <b id="clock">17:42</b></p>
+        </div>
+      </header>
+
+      <aside class="signal-panel glass-panel" aria-label="지역 신호 지도">
+        <div class="panel-heading">
+          <span><i class="signal-bars" aria-hidden="true"></i> LOCAL SIGNAL</span>
+          <span>N ↑</span>
+        </div>
+        <div class="radar" id="radar" aria-hidden="true">
+          <span class="radar-grid"></span>
+          <i class="radar-player" id="radar-player"></i>
+        </div>
+        <p><span class="status-dot"></span> CINDER YARD <b id="district-code">N–17</b></p>
+      </aside>
+
+      <section class="mission-panel glass-panel" aria-labelledby="mission-title">
+        <p class="eyebrow">FIELD ORDER / 004</p>
+        <h2 id="mission-title">중계기 재가동</h2>
+        <p class="mission-copy">마당의 손상된 신호 노드 3개를 찾아 복구하세요.</p>
+        <ol id="objectives" class="objectives"></ol>
+      </section>
+
+      <section id="interaction" class="interaction glass-panel" aria-live="polite" hidden>
+        <span class="keycap">E</span>
+        <div><b id="interaction-label">수리 시작</b><span id="interaction-distance">0.0 m</span></div>
+        <span class="hold-meter"><i id="hold-progress"></i></span>
+      </section>
+
+      <p id="toast" class="toast" role="status" aria-live="polite"></p>
+
+      <div id="loading" class="loading" role="status" aria-live="polite">
+        <span class="loading-mark">✦</span>
+        <p>구역 동기화 중</p>
+        <span class="loading-track"><i id="loading-progress"></i></span>
+        <small id="loading-detail">PBR 모델 키트 불러오는 중</small>
+      </div>
+
+      <nav class="camera-tools glass-panel" aria-label="카메라 및 게임 설정">
+        <button id="center-camera" type="button" aria-label="카메라를 플레이어 위치로 되돌리기" title="카메라 되돌리기">⌖</button>
+        <button id="toggle-sound" type="button" aria-label="환경음 켜기" title="환경음 켜기">◖</button>
+        <button id="reset-mission" type="button" aria-label="임무 진행 초기화" title="임무 초기화">↺</button>
+      </nav>
+
+      <footer class="control-hint glass-panel">
+        <span><b>CLICK</b> 이동</span>
+        <span><b>WASD</b> 조종</span>
+        <span><b>DRAG</b> 회전</span>
+        <span><b>SCROLL</b> 확대</span>
+        <span><b>HOLD E</b> 수리</span>
+      </footer>
+
+      <nav class="touch-controls" aria-label="터치 이동 조작">
+        <div class="touch-pad">
+          <button type="button" data-move="forward" aria-label="앞으로 이동">▲</button>
+          <button type="button" data-move="left" aria-label="왼쪽으로 이동">◀</button>
+          <button type="button" data-move="back" aria-label="뒤로 이동">▼</button>
+          <button type="button" data-move="right" aria-label="오른쪽으로 이동">▶</button>
+        </div>
+        <button class="repair-button" id="touch-repair" type="button" aria-label="가까운 중계기 수리">REPAIR</button>
+      </nav>
+
+      <noscript>이 게임을 실행하려면 JavaScript가 필요합니다.</noscript>
+    </main>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1407 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "AstraCraft deterministic glTF pipeline 1.0",
+    "copyright": "Original procedural geometry and project-owned texture atlas",
+    "extras": {
+      "coordinateSystem": "right-handed, +Y up, +Z forward",
+      "units": "meters",
+      "uvPolicy": "TEXCOORD_0; unique non-overlapping islands inside 0-1; atlas gutters"
+    }
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "RepairDistrictGeometry Scene",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "extras": {
+        "gameplay": {
+          "walkableBounds": [
+            -17.6,
+            -13.6,
+            17.6,
+            13.6
+          ],
+          "repairBayRadius": 4.1
+        }
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "RepairDistrictGeometry",
+      "mesh": 0,
+      "extras": {
+        "role": "renderGeometry",
+        "collision": "mesh"
+      }
+    },
+    {
+      "name": "PlayerSpawn",
+      "translation": [
+        -4.8,
+        0.86,
+        7.2
+      ],
+      "extras": {
+        "role": "spawn",
+        "entity": "service-rover",
+        "yawRadians": 2.55
+      }
+    },
+    {
+      "name": "DeliveryPad",
+      "translation": [
+        0,
+        0.92,
+        0
+      ],
+      "extras": {
+        "role": "interaction",
+        "interaction": "repair-bay"
+      }
+    },
+    {
+      "name": "RepairBay",
+      "translation": [
+        0,
+        0.92,
+        0
+      ],
+      "extras": {
+        "role": "objective",
+        "radius": 4.1
+      }
+    },
+    {
+      "name": "CraneConsole",
+      "translation": [
+        10.2,
+        0.55,
+        -4.8
+      ],
+      "extras": {
+        "role": "interaction",
+        "interaction": "crane-console"
+      }
+    },
+    {
+      "name": "DroneSpawn",
+      "translation": [
+        6.8,
+        3.2,
+        5.6
+      ],
+      "extras": {
+        "role": "spawn",
+        "entity": "salvage-drone"
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "RepairDistrictGeometry Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 4,
+          "material": 1,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 5,
+          "material": 2,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 6,
+          "material": 4,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 7,
+          "material": 5,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 8,
+          "material": 6,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 9,
+          "material": 7,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 10,
+          "material": 8,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 11,
+          "material": 9,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 12,
+          "material": 10,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 13,
+          "material": 11,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 14,
+          "material": 12,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 15,
+          "material": 13,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 16,
+          "material": 14,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 17,
+          "material": 15,
+          "mode": 4
+        }
+      ],
+      "extras": {
+        "vertices": 4244,
+        "triangles": 1976,
+        "uvIslands": 1134,
+        "materialPrimitives": 15
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "Blue Hull",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.78,
+        "roughnessFactor": 0.62,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 0,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Dark Service Panel",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.86,
+        "roughnessFactor": 0.58,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 1,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Oxidized Copper",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.72,
+        "roughnessFactor": 0.72,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 2,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Ceramic White",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.18,
+        "roughnessFactor": 0.68,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 3,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Safety Yellow",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.7,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 4,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Hazard Stripe",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.42,
+        "roughnessFactor": 0.74,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 5,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Industrial Rubber",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.05,
+        "roughnessFactor": 0.96,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 6,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Brushed Steel",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.94,
+        "roughnessFactor": 0.44,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 7,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Lunar Concrete",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.02,
+        "roughnessFactor": 0.98,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 8,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Teal Utility Paint",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.66,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 9,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Rescue Orange",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.5,
+        "roughnessFactor": 0.64,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 10,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Oxide Red",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.48,
+        "roughnessFactor": 0.7,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 11,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Cyan Diagnostic Light",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.3,
+        "roughnessFactor": 0.3,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0.35,
+        0.9,
+        1
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 12,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Amber Work Light",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.32,
+        "roughnessFactor": 0.36,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        1,
+        0.42,
+        0.08
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 13,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Clean Structural Steel",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.96,
+        "roughnessFactor": 0.38,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 14,
+        "uvSet": 0
+      }
+    },
+    {
+      "name": "Photovoltaic Cell",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0.38,
+        "roughnessFactor": 0.3,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        }
+      },
+      "normalTexture": {
+        "index": 2,
+        "texCoord": 0,
+        "scale": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0,
+        "strength": 0.62
+      },
+      "emissiveTexture": {
+        "index": 3,
+        "texCoord": 0
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false,
+      "extras": {
+        "atlasTile": 15,
+        "uvSet": 0
+      }
+    }
+  ],
+  "samplers": [
+    {
+      "name": "Atlas clamp sampler",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 33071,
+      "wrapT": 33071
+    }
+  ],
+  "images": [
+    {
+      "name": "Base Color Atlas",
+      "uri": "../textures/district-atlas-basecolor.png"
+    },
+    {
+      "name": "Metallic Roughness Atlas",
+      "uri": "../textures/district-atlas-metallic-roughness.png"
+    },
+    {
+      "name": "Normal Atlas",
+      "uri": "../textures/district-atlas-normal.png"
+    },
+    {
+      "name": "Emissive Atlas",
+      "uri": "../textures/district-atlas-emissive.png"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ],
+  "buffers": [
+    {
+      "name": "RepairDistrictGeometry geometry",
+      "uri": "repair-district.bin",
+      "byteLength": 159520
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 50928,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 50928,
+      "byteLength": 50928,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 101856,
+      "byteLength": 33952,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 135808,
+      "byteLength": 1008,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 136816,
+      "byteLength": 3696,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 140512,
+      "byteLength": 1104,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 141616,
+      "byteLength": 960,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 142576,
+      "byteLength": 4752,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 147328,
+      "byteLength": 1440,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 148768,
+      "byteLength": 1824,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 150592,
+      "byteLength": 864,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 151456,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 151600,
+      "byteLength": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 152176,
+      "byteLength": 144,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 152320,
+      "byteLength": 576,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 152896,
+      "byteLength": 960,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 153856,
+      "byteLength": 5088,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 158944,
+      "byteLength": 576,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4244,
+      "type": "VEC3",
+      "min": [
+        -19,
+        -1.42,
+        -15
+      ],
+      "max": [
+        19,
+        9.524439690876783,
+        15
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4244,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 4244,
+      "type": "VEC2",
+      "min": [
+        0.0009375,
+        0.0009375
+      ],
+      "max": [
+        0.9990625,
+        0.8636458333333333
+      ]
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 252,
+      "type": "SCALAR",
+      "min": [
+        24
+      ],
+      "max": [
+        3403
+      ]
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 924,
+      "type": "SCALAR",
+      "min": [
+        48
+      ],
+      "max": [
+        3715
+      ]
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 276,
+      "type": "SCALAR",
+      "min": [
+        2496
+      ],
+      "max": [
+        3691
+      ]
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 240,
+      "type": "SCALAR",
+      "min": [
+        2696
+      ],
+      "max": [
+        2883
+      ]
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 1188,
+      "type": "SCALAR",
+      "min": [
+        504
+      ],
+      "max": [
+        3475
+      ]
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 360,
+      "type": "SCALAR",
+      "min": [
+        3764
+      ],
+      "max": [
+        4003
+      ]
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 456,
+      "type": "SCALAR",
+      "min": [
+        72
+      ],
+      "max": [
+        3739
+      ]
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 216,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        455
+      ]
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "min": [
+        3188
+      ],
+      "max": [
+        3211
+      ]
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 144,
+      "type": "SCALAR",
+      "min": [
+        2328
+      ],
+      "max": [
+        3763
+      ]
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 36,
+      "type": "SCALAR",
+      "min": [
+        3092
+      ],
+      "max": [
+        3115
+      ]
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 144,
+      "type": "SCALAR",
+      "min": [
+        1736
+      ],
+      "max": [
+        2931
+      ]
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 240,
+      "type": "SCALAR",
+      "min": [
+        1884
+      ],
+      "max": [
+        3091
+      ]
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 1272,
+      "type": "SCALAR",
+      "min": [
+        1784
+      ],
+      "max": [
+        4243
+      ]
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 144,
+      "type": "SCALAR",
+      "min": [
+        3476
+      ],
+      "max": [
+        3643
+      ]
+    }
+  ]
+}

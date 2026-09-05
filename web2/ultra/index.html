@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#071114" />
+    <meta
+      name="description"
+      content="폐기 직전의 궤도 수리 지구를 복구하는 쿼터뷰 3D 액션 게임, VOIDWRENCH."
+    />
+    <title>VOIDWRENCH // AstraCraft Ultra</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="game" class="game-shell" data-phase="boot">
+      <canvas id="viewport" tabindex="0" aria-label="VOIDWRENCH 3D 게임 화면"></canvas>
+
+      <div class="world-vignette" aria-hidden="true"></div>
+      <div class="scanlines" aria-hidden="true"></div>
+
+      <header class="topbar hud-layer" aria-label="게임 상태">
+        <a class="brand" href="../" aria-label="AstraCraft 아카이브로 돌아가기">
+          <span class="brand-mark">V<span>W</span></span>
+          <span><b>VOIDWRENCH</b><small>ASTRACRAFT // ULTRA</small></span>
+        </a>
+
+        <div class="shift-clock">
+          <span>SHIFT REMAINING</span>
+          <strong id="clock">03:00</strong>
+        </div>
+
+        <div class="sector-status">
+          <span class="signal-dot" aria-hidden="true"></span>
+          <span><small>SECTOR</small><b id="sector-label">R-07 // DRYDOCK</b></span>
+        </div>
+      </header>
+
+      <aside class="mission-panel hud-layer" aria-label="현재 작업 명령" aria-live="polite">
+        <div class="eyebrow"><span>ACTIVE WORK ORDER</span><b id="order-index">01 / 05</b></div>
+        <h1 id="objective-title">BOOTING DISTRICT LINK</h1>
+        <p id="objective-copy">현장 진단 데이터를 동기화하고 있습니다.</p>
+        <div class="progress-track"><i id="objective-progress"></i></div>
+        <div class="mission-meta">
+          <span><small>REPAIRED</small><b id="repair-count">0 / 5</b></span>
+          <span><small>CREDITS</small><b id="score">0000</b></span>
+        </div>
+      </aside>
+
+      <aside class="systems-panel hud-layer" aria-label="필드 장비 상태">
+        <div class="systems-title"><span>FIELD RIG</span><i id="rig-state">NOMINAL</i></div>
+        <div class="meter-row">
+          <span>SUIT</span>
+          <div class="segmented-meter" id="integrity-meter" role="progressbar" aria-label="슈트 내구도" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"></div>
+          <b id="integrity-value">100</b>
+        </div>
+        <div class="meter-row energy">
+          <span>CHARGE</span>
+          <div class="segmented-meter" id="energy-meter" role="progressbar" aria-label="장비 충전량" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100"></div>
+          <b id="energy-value">100</b>
+        </div>
+        <div class="inventory-row">
+          <span><i class="cell-icon"></i><small>FLUX CELLS</small><b id="cells-count">02</b></span>
+          <span><i class="coolant-icon"></i><small>COOLANT</small><b id="coolant-count">01</b></span>
+        </div>
+      </aside>
+
+      <aside class="radar-panel hud-layer" aria-label="근접 레이더">
+        <canvas id="radar" width="180" height="180"></canvas>
+        <div class="radar-copy"><small>PROXIMITY GRID</small><b>80<span>m</span></b></div>
+      </aside>
+
+      <div class="toolbelt hud-layer" role="group" aria-label="조작 안내">
+        <span><kbd>WASD</kbd><small>MOVE</small></span>
+        <span><kbd>SHIFT</kbd><small>BOOST</small></span>
+        <span class="primary-action"><kbd>E</kbd><small>REPAIR</small></span>
+        <span><kbd>Q</kbd><small>SCAN</small></span>
+        <span><kbd>C</kbd><small>COOLANT</small></span>
+        <button id="audio-toggle" type="button" aria-label="음향 켜기" aria-pressed="false"><b>◖</b><small>SFX OFF</small></button>
+      </div>
+
+      <div id="interaction" class="interaction-prompt hud-layer" hidden>
+        <div class="key-orbit"><span>E</span><svg viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="19"></circle><circle id="repair-ring" cx="22" cy="22" r="19"></circle></svg></div>
+        <span><b id="interaction-title">HOLD TO REPAIR</b><small id="interaction-detail">POWER RELAY</small></span>
+      </div>
+
+      <div id="toast-stack" class="toast-stack hud-layer" aria-live="polite"></div>
+
+      <section id="boot-screen" class="modal-screen is-visible" role="dialog" aria-modal="true" aria-labelledby="game-title">
+        <div class="boot-grid" aria-hidden="true"></div>
+        <div class="boot-content">
+          <p class="kicker"><span></span> ORBITAL MAINTENANCE DIVISION</p>
+          <div class="title-lockup">
+            <span class="title-index">R-07</span>
+            <h1 id="game-title">VOID<span>WRENCH</span></h1>
+          </div>
+          <p class="intro-copy">
+            궤도 수리 지구의 전력망이 붕괴 중입니다.<br />
+            정비 드론을 투입해 <b>다섯 개 설비</b>를 제한 시간 안에 복구하세요.
+          </p>
+          <button id="start-button" class="start-button" type="button" disabled>
+            <span class="button-status" id="load-status" role="status" aria-live="polite">DISTRICT LOADING // 0%</span>
+            <strong>BEGIN SHIFT</strong>
+            <i>↗</i>
+          </button>
+          <div class="briefing-strip">
+            <span><b>01</b> 설비에 접근</span>
+            <span><b>02</b> <kbd>E</kbd>를 눌러 수리</span>
+            <span><b>03</b> 방전 구역 회피</span>
+          </div>
+        </div>
+        <div class="boot-aside" aria-hidden="true">
+          <span>FIELD UNIT</span>
+          <b>ALTAIR<br />MK.IV</b>
+          <i></i>
+          <small>AUTHORIZED PERSONNEL ONLY<br />SERVICE DECK 7</small>
+        </div>
+      </section>
+
+      <section id="result-screen" class="modal-screen result-screen" role="dialog" aria-modal="true" aria-labelledby="result-title" aria-hidden="true" hidden>
+        <div class="result-card">
+          <p class="kicker"><span></span><b id="result-kicker">SHIFT COMPLETE</b></p>
+          <h2 id="result-title">DISTRICT<br />STABILIZED</h2>
+          <p id="result-copy">전력망이 다시 연결되었습니다. 다음 궤도까지 지구가 유지됩니다.</p>
+          <div class="result-stats">
+            <span><small>WORK ORDERS</small><b id="result-repairs">5 / 5</b></span>
+            <span><small>SHIFT SCORE</small><b id="result-score">0000</b></span>
+            <span><small>TIME BONUS</small><b id="result-time">00:00</b></span>
+          </div>
+          <button id="restart-button" class="start-button" type="button"><strong>RUN ANOTHER SHIFT</strong><i>↻</i></button>
+          <a href="../">RETURN TO ARCHIVE</a>
+        </div>
+      </section>
+
+      <button id="pause-button" class="pause-button hud-layer" type="button" aria-label="게임 일시정지">Ⅱ</button>
+      <div id="pause-card" class="pause-card" role="dialog" aria-modal="true" aria-label="일시정지" aria-hidden="true" hidden>
+        <span>SHIFT PAUSED</span>
+        <button id="resume-button" type="button">계속하기</button>
+      </div>
+
+      <p class="rotate-notice">가로 화면에서 더 넓은 수리 지구를 볼 수 있습니다.</p>
+      <noscript>이 게임은 JavaScript를 사용합니다. 브라우저 설정에서 JavaScript를 켜 주세요.</noscript>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

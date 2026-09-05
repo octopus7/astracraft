@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "generatorVersion": "1.0.0",
+  "source": {
+    "kind": "imagegen-or-replacement",
+    "filename": "district-atlas-imagegen.png",
+    "sha256": "01de23caf2eb89e3b3cd0c8bf32f88f1ccca96164dc8f2b9765c084222d99728",
+    "width": 1254,
+    "height": 1254
+  },
+  "overlay": null,
+  "outputs": {
+    "width": 1024,
+    "height": 1024,
+    "baseColor": "district-atlas-basecolor.png",
+    "metallicRoughness": "district-atlas-metallic-roughness.png",
+    "normal": "district-atlas-normal.png",
+    "emissive": "district-atlas-emissive.png"
+  }
+}

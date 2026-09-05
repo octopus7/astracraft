@@ -1,0 +1,19 @@
+{
+  "name": "astracraft-rain-court-xhigh",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "assets": "node tools/generate-support-textures.mjs && node tools/generate-models.mjs",
+    "validate:models": "node tools/validate-models.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "npm run assets && npm run validate:models && npm test && vite build"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "7.1.4"
+  }
+}

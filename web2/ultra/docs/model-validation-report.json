@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "valid": true,
+  "profile": "glTF 2.0 external JSON + BIN + PNG; metallic-roughness PBR; Y-up meters",
+  "checks": [
+    "external-buffer-bounds-and-alignment",
+    "external-png-signatures-and-dimensions",
+    "finite-position-normal-uv-accessors",
+    "unit-length-normals",
+    "indexed-triangle-bounds",
+    "standard-pbr-texture-slots",
+    "uvs-inside-0-1-and-assigned-atlas-tile",
+    "positive-area-uv-triangle-overlap-zero",
+    "gameplay-marker-nodes"
+  ],
+  "models": [
+    {
+      "file": "repair-district.gltf",
+      "gltfBytes": 26454,
+      "binaryBytes": 159520,
+      "sha256": {
+        "gltf": "aa5963dde6e2a3f7d1ecc72f953a132e8ab57de2f7562579661dd6bb629d707b",
+        "binary": "6992166501d54731163b76af637de90ba32d088a4cc66bfb0fcabf2afe7327b8"
+      },
+      "vertices": 4244,
+      "triangles": 1976,
+      "materialPrimitives": 15,
+      "uv": {
+        "minimum": [
+          0.0009375
+        ],
+        "maximum": [
+          0.9990625
+        ],
+        "overlapPairs": 0
+      },
+      "markers": [
+        "PlayerSpawn",
+        "DeliveryPad",
+        "RepairBay",
+        "CraneConsole",
+        "DroneSpawn"
+      ],
+      "textures": [
+        {
+          "file": "district-atlas-basecolor.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "a202f79827860b037ed78d5a71f50ea148672552cf466b374efeb906b228ea09"
+        },
+        {
+          "file": "district-atlas-metallic-roughness.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "1a274d5b4d60d7bf7ec0030aa74217fb56181126a599aaa8ac9f5aa128853ffe"
+        },
+        {
+          "file": "district-atlas-normal.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "48599fae3b4a96b96dadafdd4a768cd0ce6876027fa1e93919e146fb398eb76c"
+        },
+        {
+          "file": "district-atlas-emissive.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "801d3190c8b195664fef2c5bba299ab33cff8db5f186873cf2ab1177569924b2"
+        }
+      ]
+    },
+    {
+      "file": "salvage-drone.gltf",
+      "gltfBytes": 22073,
+      "binaryBytes": 67280,
+      "sha256": {
+        "gltf": "bda8dbca2c1b3957fb141bb8de3f1b3ca79046d314d407c95bbbf061bb8b2d6a",
+        "binary": "451f6ad64e9252fd7baca295c5ff5cc1f82bcb3e18d0ea9a10355911bde17d5c"
+      },
+      "vertices": 1792,
+      "triangles": 828,
+      "materialPrimitives": 8,
+      "uv": {
+        "minimum": [
+          0.0009375
+        ],
+        "maximum": [
+          0.9990625
+        ],
+        "overlapPairs": 0
+      },
+      "markers": [
+        "CameraFocus",
+        "CargoSocket"
+      ],
+      "textures": [
+        {
+          "file": "district-atlas-basecolor.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "a202f79827860b037ed78d5a71f50ea148672552cf466b374efeb906b228ea09"
+        },
+        {
+          "file": "district-atlas-metallic-roughness.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "1a274d5b4d60d7bf7ec0030aa74217fb56181126a599aaa8ac9f5aa128853ffe"
+        },
+        {
+          "file": "district-atlas-normal.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "48599fae3b4a96b96dadafdd4a768cd0ce6876027fa1e93919e146fb398eb76c"
+        },
+        {
+          "file": "district-atlas-emissive.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "801d3190c8b195664fef2c5bba299ab33cff8db5f186873cf2ab1177569924b2"
+        }
+      ]
+    },
+    {
+      "file": "service-rover.gltf",
+      "gltfBytes": 23321,
+      "binaryBytes": 50512,
+      "sha256": {
+        "gltf": "30fe2875f64639ba36bea89cb850864bb24ba91141888d521e167e0cb7a6a7a7",
+        "binary": "90884dbcf5854c9d6dc36e7f2233fca3e56c600c2e65f5b7c7fe8594d2c3c006"
+      },
+      "vertices": 1364,
+      "triangles": 572,
+      "materialPrimitives": 10,
+      "uv": {
+        "minimum": [
+          0.0009375
+        ],
+        "maximum": [
+          0.8115625
+        ],
+        "overlapPairs": 0
+      },
+      "markers": [
+        "CameraFocus",
+        "ToolTip",
+        "GroundContact"
+      ],
+      "textures": [
+        {
+          "file": "district-atlas-basecolor.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "a202f79827860b037ed78d5a71f50ea148672552cf466b374efeb906b228ea09"
+        },
+        {
+          "file": "district-atlas-metallic-roughness.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "1a274d5b4d60d7bf7ec0030aa74217fb56181126a599aaa8ac9f5aa128853ffe"
+        },
+        {
+          "file": "district-atlas-normal.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "48599fae3b4a96b96dadafdd4a768cd0ce6876027fa1e93919e146fb398eb76c"
+        },
+        {
+          "file": "district-atlas-emissive.png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "801d3190c8b195664fef2c5bba299ab33cff8db5f186873cf2ab1177569924b2"
+        }
+      ]
+    }
+  ]
+}
