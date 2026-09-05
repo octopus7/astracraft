@@ -1,0 +1,61 @@
+{
+  "source": "material-atlas-source.png",
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "outputSize": [
+    1024,
+    1024
+  ],
+  "materials": [
+    {
+      "name": "concrete",
+      "sourceCrop": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "roughnessMean": 0.76,
+      "normalConvention": "OpenGL tangent-space +Y",
+      "borderMaxDifference": 0.0
+    },
+    {
+      "name": "painted-metal",
+      "sourceCrop": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "roughnessMean": 0.48,
+      "normalConvention": "OpenGL tangent-space +Y",
+      "borderMaxDifference": 0.0
+    },
+    {
+      "name": "timber",
+      "sourceCrop": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "roughnessMean": 0.57,
+      "normalConvention": "OpenGL tangent-space +Y",
+      "borderMaxDifference": 0.0
+    },
+    {
+      "name": "rust",
+      "sourceCrop": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "roughnessMean": 0.75,
+      "normalConvention": "OpenGL tangent-space +Y",
+      "borderMaxDifference": 0.0
+    }
+  ]
+}

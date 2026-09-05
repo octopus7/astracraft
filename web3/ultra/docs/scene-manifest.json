@@ -1,0 +1,10 @@
+{
+  "objects": 3361,
+  "unique_meshes": 162,
+  "triangles_instanced": 121536,
+  "materials": 22,
+  "imagegen_textures": 13,
+  "units": "metres",
+  "seed": 42,
+  "uv_policy": "Packed islands per module, .035 smart_project island_margin. Intentional shared layout on repeated bricks, tiles, beams, crates, robot parts. Puddle planar UV continuous with adjacent edges. No atlas painting required; material-class tiling surfaces."
+}

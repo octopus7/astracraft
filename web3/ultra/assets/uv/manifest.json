@@ -1,0 +1,1937 @@
+[
+  {
+    "mesh": "Courier ID",
+    "file": "000-Courier ID.svg",
+    "instances": 1,
+    "example_objects": [
+      "Courier ID"
+    ],
+    "polygons": 404,
+    "vertices": 204
+  },
+  {
+    "mesh": "Drained right edge",
+    "file": "001-Drained right edge.svg",
+    "instances": 1,
+    "example_objects": [
+      "Drained right edge"
+    ],
+    "polygons": 28,
+    "vertices": 29
+  },
+  {
+    "mesh": "Front rain pool",
+    "file": "002-Front rain pool.svg",
+    "instances": 1,
+    "example_objects": [
+      "Front rain pool"
+    ],
+    "polygons": 28,
+    "vertices": 29
+  },
+  {
+    "mesh": "Gate district number",
+    "file": "003-Gate district number.svg",
+    "instances": 1,
+    "example_objects": [
+      "Gate district number"
+    ],
+    "polygons": 443,
+    "vertices": 222
+  },
+  {
+    "mesh": "Gate runoff",
+    "file": "004-Gate runoff.svg",
+    "instances": 1,
+    "example_objects": [
+      "Gate runoff"
+    ],
+    "polygons": 28,
+    "vertices": 29
+  },
+  {
+    "mesh": "Long shop reflection",
+    "file": "005-Long shop reflection.svg",
+    "instances": 1,
+    "example_objects": [
+      "Long shop reflection"
+    ],
+    "polygons": 28,
+    "vertices": 29
+  },
+  {
+    "mesh": "Pool around companion",
+    "file": "006-Pool around companion.svg",
+    "instances": 1,
+    "example_objects": [
+      "Pool around companion"
+    ],
+    "polygons": 28,
+    "vertices": 29
+  },
+  {
+    "mesh": "Shop lower label",
+    "file": "007-Shop lower label.svg",
+    "instances": 1,
+    "example_objects": [
+      "Shop lower label"
+    ],
+    "polygons": 2636,
+    "vertices": 1336
+  },
+  {
+    "mesh": "The Rain Court sign",
+    "file": "008-The Rain Court sign.svg",
+    "instances": 1,
+    "example_objects": [
+      "The Rain Court sign"
+    ],
+    "polygons": 2065,
+    "vertices": 1048
+  },
+  {
+    "mesh": "cylinder_102",
+    "file": "009-cylinder_102.svg",
+    "instances": 2,
+    "example_objects": [
+      "Reclaimed steel drum",
+      "Reclaimed steel drum.001"
+    ],
+    "polygons": 18,
+    "vertices": 32
+  },
+  {
+    "mesh": "cylinder_103",
+    "file": "010-cylinder_103.svg",
+    "instances": 8,
+    "example_objects": [
+      "Drum rolled band",
+      "Drum rolled band.001",
+      "Drum rolled band.002",
+      "Drum rolled band.003"
+    ],
+    "polygons": 18,
+    "vertices": 32
+  },
+  {
+    "mesh": "cylinder_105",
+    "file": "011-cylinder_105.svg",
+    "instances": 6,
+    "example_objects": [
+      "MOSS / courier 07 | ankle",
+      "MOSS / courier 07 | ankle.001",
+      "PIP / repair unit | ankle",
+      "PIP / repair unit | ankle.001"
+    ],
+    "polygons": 14,
+    "vertices": 24
+  },
+  {
+    "mesh": "cylinder_113",
+    "file": "012-cylinder_113.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | neck",
+      "PIP / repair unit | neck",
+      "TUG / cargo helper | neck"
+    ],
+    "polygons": 14,
+    "vertices": 24
+  },
+  {
+    "mesh": "cylinder_118",
+    "file": "013-cylinder_118.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | antenna",
+      "PIP / repair unit | antenna",
+      "TUG / cargo helper | antenna"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_119",
+    "file": "014-cylinder_119.svg",
+    "instances": 6,
+    "example_objects": [
+      "MOSS / courier 07 | upper arm",
+      "MOSS / courier 07 | upper arm.001",
+      "PIP / repair unit | upper arm",
+      "PIP / repair unit | upper arm.001"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_122",
+    "file": "015-cylinder_122.svg",
+    "instances": 12,
+    "example_objects": [
+      "MOSS / courier 07 | body rivet",
+      "MOSS / courier 07 | body rivet.001",
+      "MOSS / courier 07 | body rivet.002",
+      "MOSS / courier 07 | body rivet.003"
+    ],
+    "polygons": 10,
+    "vertices": 16
+  },
+  {
+    "mesh": "cylinder_125",
+    "file": "016-cylinder_125.svg",
+    "instances": 24,
+    "example_objects": [
+      "Ivy woody runner",
+      "Ivy woody runner.001",
+      "Ivy woody runner.002",
+      "Ivy woody runner.003"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_126",
+    "file": "017-cylinder_126.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.012",
+      "Ivy woody runner.013",
+      "Ivy woody runner.014",
+      "Ivy woody runner.015"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_127",
+    "file": "018-cylinder_127.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.024",
+      "Ivy woody runner.025",
+      "Ivy woody runner.026",
+      "Ivy woody runner.027"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_128",
+    "file": "019-cylinder_128.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.036",
+      "Ivy woody runner.037",
+      "Ivy woody runner.038",
+      "Ivy woody runner.039"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_129",
+    "file": "020-cylinder_129.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.048",
+      "Ivy woody runner.049",
+      "Ivy woody runner.050",
+      "Ivy woody runner.051"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_130",
+    "file": "021-cylinder_130.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.060",
+      "Ivy woody runner.061",
+      "Ivy woody runner.062",
+      "Ivy woody runner.063"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_131",
+    "file": "022-cylinder_131.svg",
+    "instances": 24,
+    "example_objects": [
+      "Ivy woody runner.072",
+      "Ivy woody runner.073",
+      "Ivy woody runner.074",
+      "Ivy woody runner.075"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_132",
+    "file": "023-cylinder_132.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.084",
+      "Ivy woody runner.085",
+      "Ivy woody runner.086",
+      "Ivy woody runner.087"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_133",
+    "file": "024-cylinder_133.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.096",
+      "Ivy woody runner.097",
+      "Ivy woody runner.098",
+      "Ivy woody runner.099"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_134",
+    "file": "025-cylinder_134.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.108",
+      "Ivy woody runner.109",
+      "Ivy woody runner.110",
+      "Ivy woody runner.111"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_135",
+    "file": "026-cylinder_135.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.120",
+      "Ivy woody runner.121",
+      "Ivy woody runner.122",
+      "Ivy woody runner.123"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_136",
+    "file": "027-cylinder_136.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.144",
+      "Ivy woody runner.145",
+      "Ivy woody runner.146",
+      "Ivy woody runner.147"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_137",
+    "file": "028-cylinder_137.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.168",
+      "Ivy woody runner.169",
+      "Ivy woody runner.170",
+      "Ivy woody runner.171"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_138",
+    "file": "029-cylinder_138.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.180",
+      "Ivy woody runner.181",
+      "Ivy woody runner.182",
+      "Ivy woody runner.183"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_139",
+    "file": "030-cylinder_139.svg",
+    "instances": 24,
+    "example_objects": [
+      "Ivy woody runner.192",
+      "Ivy woody runner.193",
+      "Ivy woody runner.194",
+      "Ivy woody runner.195"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_140",
+    "file": "031-cylinder_140.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.204",
+      "Ivy woody runner.205",
+      "Ivy woody runner.206",
+      "Ivy woody runner.207"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_141",
+    "file": "032-cylinder_141.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.216",
+      "Ivy woody runner.217",
+      "Ivy woody runner.218",
+      "Ivy woody runner.219"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_142",
+    "file": "033-cylinder_142.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.228",
+      "Ivy woody runner.229",
+      "Ivy woody runner.230",
+      "Ivy woody runner.231"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_143",
+    "file": "034-cylinder_143.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.240",
+      "Ivy woody runner.241",
+      "Ivy woody runner.242",
+      "Ivy woody runner.243"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_144",
+    "file": "035-cylinder_144.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.252",
+      "Ivy woody runner.253",
+      "Ivy woody runner.254",
+      "Ivy woody runner.255"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_145",
+    "file": "036-cylinder_145.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.264",
+      "Ivy woody runner.265",
+      "Ivy woody runner.266",
+      "Ivy woody runner.267"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_146",
+    "file": "037-cylinder_146.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.276",
+      "Ivy woody runner.277",
+      "Ivy woody runner.278",
+      "Ivy woody runner.279"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_147",
+    "file": "038-cylinder_147.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.288",
+      "Ivy woody runner.289",
+      "Ivy woody runner.290",
+      "Ivy woody runner.291"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_148",
+    "file": "039-cylinder_148.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.312",
+      "Ivy woody runner.313",
+      "Ivy woody runner.314",
+      "Ivy woody runner.315"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_149",
+    "file": "040-cylinder_149.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.324",
+      "Ivy woody runner.325",
+      "Ivy woody runner.326",
+      "Ivy woody runner.327"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_150",
+    "file": "041-cylinder_150.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.336",
+      "Ivy woody runner.337",
+      "Ivy woody runner.338",
+      "Ivy woody runner.339"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_151",
+    "file": "042-cylinder_151.svg",
+    "instances": 12,
+    "example_objects": [
+      "Ivy woody runner.348",
+      "Ivy woody runner.349",
+      "Ivy woody runner.350",
+      "Ivy woody runner.351"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_3",
+    "file": "043-cylinder_3.svg",
+    "instances": 22,
+    "example_objects": [
+      "Hairline paving fracture",
+      "Hairline paving fracture.001",
+      "Hairline paving fracture.002",
+      "Hairline paving fracture.003"
+    ],
+    "polygons": 8,
+    "vertices": 12
+  },
+  {
+    "mesh": "cylinder_43",
+    "file": "044-cylinder_43.svg",
+    "instances": 2,
+    "example_objects": [
+      "Boiler exhaust chimney",
+      "Boiler exhaust chimney.001"
+    ],
+    "polygons": 18,
+    "vertices": 32
+  },
+  {
+    "mesh": "cylinder_44",
+    "file": "045-cylinder_44.svg",
+    "instances": 2,
+    "example_objects": [
+      "Chimney crown",
+      "Chimney crown.001"
+    ],
+    "polygons": 18,
+    "vertices": 32
+  },
+  {
+    "mesh": "cylinder_66",
+    "file": "046-cylinder_66.svg",
+    "instances": 1,
+    "example_objects": [
+      "Awning front gutter"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_67",
+    "file": "047-cylinder_67.svg",
+    "instances": 2,
+    "example_objects": [
+      "Awning diagonal bracket",
+      "Awning diagonal bracket.001"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_68",
+    "file": "048-cylinder_68.svg",
+    "instances": 3,
+    "example_objects": [
+      "Lantern wall bracket",
+      "Lantern wall bracket.001",
+      "Lantern wall bracket.002"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_72",
+    "file": "049-cylinder_72.svg",
+    "instances": 2,
+    "example_objects": [
+      "North downpipe",
+      "North downpipe.001"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_73",
+    "file": "050-cylinder_73.svg",
+    "instances": 6,
+    "example_objects": [
+      "Pipe clamp",
+      "Pipe clamp.001",
+      "Pipe clamp.002",
+      "Pipe clamp.003"
+    ],
+    "polygons": 14,
+    "vertices": 24
+  },
+  {
+    "mesh": "cylinder_74",
+    "file": "051-cylinder_74.svg",
+    "instances": 3,
+    "example_objects": [
+      "North pipe elbow",
+      "North pipe elbow.001",
+      "North pipe elbow.002"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_75",
+    "file": "052-cylinder_75.svg",
+    "instances": 1,
+    "example_objects": [
+      "North downpipe.002"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_76",
+    "file": "053-cylinder_76.svg",
+    "instances": 3,
+    "example_objects": [
+      "Pipe clamp.006",
+      "Pipe clamp.007",
+      "Pipe clamp.008"
+    ],
+    "polygons": 14,
+    "vertices": 24
+  },
+  {
+    "mesh": "cylinder_77",
+    "file": "054-cylinder_77.svg",
+    "instances": 2,
+    "example_objects": [
+      "North service horizontal",
+      "North service horizontal.001"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_78",
+    "file": "055-cylinder_78.svg",
+    "instances": 3,
+    "example_objects": [
+      "West drain vertical",
+      "West drain vertical.001",
+      "West drain vertical.002"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_79",
+    "file": "056-cylinder_79.svg",
+    "instances": 2,
+    "example_objects": [
+      "West long water main",
+      "West long water main.001"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_86",
+    "file": "057-cylinder_86.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable",
+      "Overhead sagging utility cable.019",
+      "Overhead sagging utility cable.020",
+      "Overhead sagging utility cable.039"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_87",
+    "file": "058-cylinder_87.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.001",
+      "Overhead sagging utility cable.018",
+      "Overhead sagging utility cable.021",
+      "Overhead sagging utility cable.038"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_88",
+    "file": "059-cylinder_88.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.002",
+      "Overhead sagging utility cable.017",
+      "Overhead sagging utility cable.022",
+      "Overhead sagging utility cable.037"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_89",
+    "file": "060-cylinder_89.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.003",
+      "Overhead sagging utility cable.016",
+      "Overhead sagging utility cable.023",
+      "Overhead sagging utility cable.036"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_90",
+    "file": "061-cylinder_90.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.004",
+      "Overhead sagging utility cable.015",
+      "Overhead sagging utility cable.024",
+      "Overhead sagging utility cable.035"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_91",
+    "file": "062-cylinder_91.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.005",
+      "Overhead sagging utility cable.014",
+      "Overhead sagging utility cable.025",
+      "Overhead sagging utility cable.034"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_92",
+    "file": "063-cylinder_92.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.006",
+      "Overhead sagging utility cable.013",
+      "Overhead sagging utility cable.026",
+      "Overhead sagging utility cable.033"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_93",
+    "file": "064-cylinder_93.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.007",
+      "Overhead sagging utility cable.012",
+      "Overhead sagging utility cable.027",
+      "Overhead sagging utility cable.032"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_94",
+    "file": "065-cylinder_94.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.008",
+      "Overhead sagging utility cable.011",
+      "Overhead sagging utility cable.028",
+      "Overhead sagging utility cable.031"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "cylinder_95",
+    "file": "066-cylinder_95.svg",
+    "instances": 4,
+    "example_objects": [
+      "Overhead sagging utility cable.009",
+      "Overhead sagging utility cable.010",
+      "Overhead sagging utility cable.029",
+      "Overhead sagging utility cable.030"
+    ],
+    "polygons": 12,
+    "vertices": 20
+  },
+  {
+    "mesh": "ico_leaf_or_joint",
+    "file": "067-ico_leaf_or_joint.svg",
+    "instances": 915,
+    "example_objects": [
+      "MOSS / courier 07 | knee",
+      "MOSS / courier 07 | knee.001",
+      "MOSS / courier 07 | antenna light",
+      "MOSS / courier 07 | shoulder"
+    ],
+    "polygons": 20,
+    "vertices": 12
+  },
+  {
+    "mesh": "module_0",
+    "file": "068-module_0.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundation | exposed diorama plinth"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_1",
+    "file": "069-module_1.svg",
+    "instances": 1,
+    "example_objects": [
+      "Subgrade | mortar"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_10",
+    "file": "070-module_10.svg",
+    "instances": 1,
+    "example_objects": [
+      "North wall left | pier"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_100",
+    "file": "071-module_100.svg",
+    "instances": 36,
+    "example_objects": [
+      "Crate lid strap",
+      "Crate lid strap.001",
+      "Crate lid strap.002",
+      "Crate lid strap.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_101",
+    "file": "072-module_101.svg",
+    "instances": 18,
+    "example_objects": [
+      "Crate paper label",
+      "Crate paper label.001",
+      "Crate paper label.002",
+      "Crate paper label.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_104",
+    "file": "073-module_104.svg",
+    "instances": 6,
+    "example_objects": [
+      "MOSS / courier 07 | grounded foot",
+      "MOSS / courier 07 | grounded foot.001",
+      "PIP / repair unit | grounded foot",
+      "PIP / repair unit | grounded foot.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_106",
+    "file": "074-module_106.svg",
+    "instances": 6,
+    "example_objects": [
+      "MOSS / courier 07 | shin",
+      "MOSS / courier 07 | shin.001",
+      "PIP / repair unit | shin",
+      "PIP / repair unit | shin.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_108",
+    "file": "075-module_108.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | hip",
+      "PIP / repair unit | hip",
+      "TUG / cargo helper | hip"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_109",
+    "file": "076-module_109.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | body shell",
+      "PIP / repair unit | body shell",
+      "TUG / cargo helper | body shell"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_11",
+    "file": "077-module_11.svg",
+    "instances": 20,
+    "example_objects": [
+      "North wall left | pier cap",
+      "North wall left | pier cap.001",
+      "North wall center | pier cap",
+      "North wall center | pier cap.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_110",
+    "file": "078-module_110.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | chest inset",
+      "PIP / repair unit | chest inset",
+      "TUG / cargo helper | chest inset"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_111",
+    "file": "079-module_111.svg",
+    "instances": 12,
+    "example_objects": [
+      "MOSS / courier 07 | chest grille",
+      "MOSS / courier 07 | chest grille.001",
+      "MOSS / courier 07 | chest grille.002",
+      "MOSS / courier 07 | chest grille.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_112",
+    "file": "080-module_112.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | chest signal",
+      "PIP / repair unit | chest signal",
+      "TUG / cargo helper | chest signal"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_114",
+    "file": "081-module_114.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | head",
+      "PIP / repair unit | head",
+      "TUG / cargo helper | head"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_115",
+    "file": "082-module_115.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | face visor",
+      "PIP / repair unit | face visor",
+      "TUG / cargo helper | face visor"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_116",
+    "file": "083-module_116.svg",
+    "instances": 6,
+    "example_objects": [
+      "MOSS / courier 07 | warm optic",
+      "MOSS / courier 07 | warm optic.001",
+      "PIP / repair unit | warm optic",
+      "PIP / repair unit | warm optic.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_117",
+    "file": "084-module_117.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | cap brim",
+      "PIP / repair unit | cap brim",
+      "TUG / cargo helper | cap brim"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_12",
+    "file": "085-module_12.svg",
+    "instances": 36,
+    "example_objects": [
+      "North wall left | loose coping",
+      "North wall left | loose coping.001",
+      "North wall left | loose coping.002",
+      "North wall center | loose coping"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_120",
+    "file": "086-module_120.svg",
+    "instances": 6,
+    "example_objects": [
+      "MOSS / courier 07 | forearm",
+      "MOSS / courier 07 | forearm.001",
+      "PIP / repair unit | forearm",
+      "PIP / repair unit | forearm.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_121",
+    "file": "087-module_121.svg",
+    "instances": 12,
+    "example_objects": [
+      "MOSS / courier 07 | claw",
+      "MOSS / courier 07 | claw.001",
+      "MOSS / courier 07 | claw.002",
+      "MOSS / courier 07 | claw.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_123",
+    "file": "088-module_123.svg",
+    "instances": 3,
+    "example_objects": [
+      "MOSS / courier 07 | backpack",
+      "PIP / repair unit | backpack",
+      "TUG / cargo helper | backpack"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_124",
+    "file": "089-module_124.svg",
+    "instances": 9,
+    "example_objects": [
+      "MOSS / courier 07 | battery rib",
+      "MOSS / courier 07 | battery rib.001",
+      "MOSS / courier 07 | battery rib.002",
+      "PIP / repair unit | battery rib"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_13",
+    "file": "090-module_13.svg",
+    "instances": 6,
+    "example_objects": [
+      "North wall center | pier",
+      "North wall center | pier.001",
+      "North wall center | pier.002",
+      "North wall center | pier.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_14",
+    "file": "091-module_14.svg",
+    "instances": 2,
+    "example_objects": [
+      "Front broken parapet | pier",
+      "Front broken parapet | pier.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_15",
+    "file": "092-module_15.svg",
+    "instances": 1,
+    "example_objects": [
+      "Front east remnant | pier"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_152",
+    "file": "093-module_152.svg",
+    "instances": 34,
+    "example_objects": [
+      "Loose masonry rubble",
+      "Loose masonry rubble.001",
+      "Loose masonry rubble.002",
+      "Loose masonry rubble.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_16",
+    "file": "094-module_16.svg",
+    "instances": 1,
+    "example_objects": [
+      "Gate shadow recess"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_17",
+    "file": "095-module_17.svg",
+    "instances": 2,
+    "example_objects": [
+      "Gate teal panel",
+      "Gate teal panel.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_18",
+    "file": "096-module_18.svg",
+    "instances": 8,
+    "example_objects": [
+      "Gate reinforcement",
+      "Gate reinforcement.001",
+      "Gate reinforcement.002",
+      "Gate reinforcement.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_19",
+    "file": "097-module_19.svg",
+    "instances": 4,
+    "example_objects": [
+      "Gate raised seam",
+      "Gate raised seam.001",
+      "Gate raised seam.002",
+      "Gate raised seam.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_2",
+    "file": "098-module_2.svg",
+    "instances": 341,
+    "example_objects": [
+      "Paving | staggered wet flagstone",
+      "Paving | staggered wet flagstone.001",
+      "Paving | staggered wet flagstone.002",
+      "Paving | staggered wet flagstone.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_20",
+    "file": "099-module_20.svg",
+    "instances": 2,
+    "example_objects": [
+      "Gate light groove",
+      "Gate light groove.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_21",
+    "file": "100-module_21.svg",
+    "instances": 2,
+    "example_objects": [
+      "Gate cyan vertical",
+      "Gate cyan vertical.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_22",
+    "file": "101-module_22.svg",
+    "instances": 1,
+    "example_objects": [
+      "Gate transom"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_23",
+    "file": "102-module_23.svg",
+    "instances": 3,
+    "example_objects": [
+      "Gate transom light",
+      "Gate transom light.001",
+      "Gate transom light.002"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_24",
+    "file": "103-module_24.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry block 0"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_25",
+    "file": "104-module_25.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry roof overhang"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_26",
+    "file": "105-module_26.svg",
+    "instances": 66,
+    "example_objects": [
+      "Factory window recess",
+      "Factory window recess.001",
+      "Factory window recess.002",
+      "Factory window recess.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_27",
+    "file": "106-module_27.svg",
+    "instances": 9,
+    "example_objects": [
+      "Dim inhabited window",
+      "Dim inhabited window.001",
+      "Dim inhabited window.002",
+      "Dim inhabited window.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_28",
+    "file": "107-module_28.svg",
+    "instances": 66,
+    "example_objects": [
+      "Factory window mullion",
+      "Factory window mullion.001",
+      "Factory window mullion.002",
+      "Factory window mullion.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_29",
+    "file": "108-module_29.svg",
+    "instances": 15,
+    "example_objects": [
+      "Roof ventilation stack",
+      "Roof ventilation stack.001",
+      "Roof ventilation stack.002",
+      "Roof ventilation stack.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_30",
+    "file": "109-module_30.svg",
+    "instances": 15,
+    "example_objects": [
+      "Vent rain cap",
+      "Vent rain cap.001",
+      "Vent rain cap.002",
+      "Vent rain cap.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_31",
+    "file": "110-module_31.svg",
+    "instances": 2,
+    "example_objects": [
+      "Building cornice",
+      "Building cornice.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_32",
+    "file": "111-module_32.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry block 1"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_33",
+    "file": "112-module_33.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry roof overhang.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_34",
+    "file": "113-module_34.svg",
+    "instances": 4,
+    "example_objects": [
+      "Building cornice.002",
+      "Building cornice.003",
+      "Building cornice.006",
+      "Building cornice.007"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_35",
+    "file": "114-module_35.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry block 2"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_36",
+    "file": "115-module_36.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry roof overhang.002"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_37",
+    "file": "116-module_37.svg",
+    "instances": 2,
+    "example_objects": [
+      "Building cornice.004",
+      "Building cornice.005"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_38",
+    "file": "117-module_38.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry block 3"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_39",
+    "file": "118-module_39.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry roof overhang.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_4",
+    "file": "119-module_4.svg",
+    "instances": 478,
+    "example_objects": [
+      "West boundary | brick",
+      "West boundary | brick.001",
+      "West boundary | brick.002",
+      "West boundary | brick.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_40",
+    "file": "120-module_40.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry block 4"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_41",
+    "file": "121-module_41.svg",
+    "instances": 1,
+    "example_objects": [
+      "Foundry roof overhang.004"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_42",
+    "file": "122-module_42.svg",
+    "instances": 2,
+    "example_objects": [
+      "Building cornice.008",
+      "Building cornice.009"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_45",
+    "file": "123-module_45.svg",
+    "instances": 1,
+    "example_objects": [
+      "Kiosk shell"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_46",
+    "file": "124-module_46.svg",
+    "instances": 1,
+    "example_objects": [
+      "Kiosk top fascia"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_47",
+    "file": "125-module_47.svg",
+    "instances": 1,
+    "example_objects": [
+      "Warm service recess"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_48",
+    "file": "126-module_48.svg",
+    "instances": 1,
+    "example_objects": [
+      "Service opening"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_49",
+    "file": "127-module_49.svg",
+    "instances": 5,
+    "example_objects": [
+      "Service interior shelf",
+      "Service interior shelf.001",
+      "Service interior shelf.002",
+      "Service interior shelf.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_5",
+    "file": "128-module_5.svg",
+    "instances": 6,
+    "example_objects": [
+      "West boundary | pier",
+      "West boundary | pier.001",
+      "West boundary | pier.002",
+      "West boundary | pier.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_50",
+    "file": "129-module_50.svg",
+    "instances": 10,
+    "example_objects": [
+      "Spare component on shelf",
+      "Spare component on shelf.001",
+      "Spare component on shelf.002",
+      "Spare component on shelf.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_51",
+    "file": "130-module_51.svg",
+    "instances": 1,
+    "example_objects": [
+      "Service counter"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_52",
+    "file": "131-module_52.svg",
+    "instances": 1,
+    "example_objects": [
+      "Warm repair window"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_53",
+    "file": "132-module_53.svg",
+    "instances": 4,
+    "example_objects": [
+      "Window muntin",
+      "Window muntin.001",
+      "Window muntin.002",
+      "Window muntin.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_54",
+    "file": "133-module_54.svg",
+    "instances": 4,
+    "example_objects": [
+      "Window crossbar",
+      "Window crossbar.001",
+      "Window crossbar.002",
+      "Window crossbar.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_55",
+    "file": "134-module_55.svg",
+    "instances": 1,
+    "example_objects": [
+      "Repair shop door"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_56",
+    "file": "135-module_56.svg",
+    "instances": 1,
+    "example_objects": [
+      "Door top glass"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_57",
+    "file": "136-module_57.svg",
+    "instances": 1,
+    "example_objects": [
+      "Door push plate"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_58",
+    "file": "137-module_58.svg",
+    "instances": 1,
+    "example_objects": [
+      "Shop threshold"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_59",
+    "file": "138-module_59.svg",
+    "instances": 2,
+    "example_objects": [
+      "Shop upright",
+      "Shop upright.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_6",
+    "file": "139-module_6.svg",
+    "instances": 22,
+    "example_objects": [
+      "West boundary | pier cap",
+      "West boundary | pier cap.001",
+      "West boundary | pier cap.002",
+      "West boundary | pier cap.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_60",
+    "file": "140-module_60.svg",
+    "instances": 2,
+    "example_objects": [
+      "Bench seat",
+      "Bench seat.001"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_61",
+    "file": "141-module_61.svg",
+    "instances": 4,
+    "example_objects": [
+      "Bench steel leg",
+      "Bench steel leg.001",
+      "Bench steel leg.002",
+      "Bench steel leg.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_62",
+    "file": "142-module_62.svg",
+    "instances": 1,
+    "example_objects": [
+      "Repair shop signboard"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_63",
+    "file": "143-module_63.svg",
+    "instances": 19,
+    "example_objects": [
+      "Corrugated kiosk roof",
+      "Corrugated kiosk roof.001",
+      "Corrugated kiosk roof.002",
+      "Corrugated kiosk roof.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_64",
+    "file": "144-module_64.svg",
+    "instances": 19,
+    "example_objects": [
+      "Roof standing seam",
+      "Roof standing seam.001",
+      "Roof standing seam.002",
+      "Roof standing seam.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_65",
+    "file": "145-module_65.svg",
+    "instances": 4,
+    "example_objects": [
+      "Roof repair patch",
+      "Roof repair patch.001",
+      "Roof repair patch.002",
+      "Roof repair patch.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_69",
+    "file": "146-module_69.svg",
+    "instances": 3,
+    "example_objects": [
+      "Lantern glowing glass",
+      "Lantern glowing glass.001",
+      "Lantern glowing glass.002"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_7",
+    "file": "147-module_7.svg",
+    "instances": 44,
+    "example_objects": [
+      "West boundary | loose coping",
+      "West boundary | loose coping.001",
+      "West boundary | loose coping.002",
+      "West boundary | loose coping.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_70",
+    "file": "148-module_70.svg",
+    "instances": 6,
+    "example_objects": [
+      "Lantern cap",
+      "Lantern cap.001",
+      "Lantern cap.002",
+      "Lantern cap.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_71",
+    "file": "149-module_71.svg",
+    "instances": 12,
+    "example_objects": [
+      "Lantern cage",
+      "Lantern cage.001",
+      "Lantern cage.002",
+      "Lantern cage.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_8",
+    "file": "150-module_8.svg",
+    "instances": 5,
+    "example_objects": [
+      "East boundary | pier",
+      "East boundary | pier.001",
+      "East boundary | pier.002",
+      "East boundary | pier.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_80",
+    "file": "151-module_80.svg",
+    "instances": 1,
+    "example_objects": [
+      "Electrical meter cabinet"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_81",
+    "file": "152-module_81.svg",
+    "instances": 1,
+    "example_objects": [
+      "Meter face"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_82",
+    "file": "153-module_82.svg",
+    "instances": 3,
+    "example_objects": [
+      "Meter indicator",
+      "Meter indicator.001",
+      "Meter indicator.002"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_83",
+    "file": "154-module_83.svg",
+    "instances": 3,
+    "example_objects": [
+      "Meter vent",
+      "Meter vent.001",
+      "Meter vent.002"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_84",
+    "file": "155-module_84.svg",
+    "instances": 6,
+    "example_objects": [
+      "Storm drain rim",
+      "Storm drain rim.001",
+      "Storm drain rim.002",
+      "Storm drain rim.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_85",
+    "file": "156-module_85.svg",
+    "instances": 54,
+    "example_objects": [
+      "Storm drain grille",
+      "Storm drain grille.001",
+      "Storm drain grille.002",
+      "Storm drain grille.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_9",
+    "file": "157-module_9.svg",
+    "instances": 330,
+    "example_objects": [
+      "North wall left | brick",
+      "North wall left | brick.001",
+      "North wall left | brick.002",
+      "North wall left | brick.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_96",
+    "file": "158-module_96.svg",
+    "instances": 3,
+    "example_objects": [
+      "Cargo pallet",
+      "Cargo pallet.001",
+      "Cargo pallet.002"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_97",
+    "file": "159-module_97.svg",
+    "instances": 18,
+    "example_objects": [
+      "Salvage crate body",
+      "Salvage crate body.001",
+      "Salvage crate body.002",
+      "Salvage crate body.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_98",
+    "file": "160-module_98.svg",
+    "instances": 36,
+    "example_objects": [
+      "Crate front iron strap",
+      "Crate front iron strap.001",
+      "Crate front iron strap.002",
+      "Crate front iron strap.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  },
+  {
+    "mesh": "module_99",
+    "file": "161-module_99.svg",
+    "instances": 36,
+    "example_objects": [
+      "Crate front cross slat",
+      "Crate front cross slat.001",
+      "Crate front cross slat.002",
+      "Crate front cross slat.003"
+    ],
+    "polygons": 26,
+    "vertices": 24
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "schema": "rain-court-package-manifest/v1",
+  "host_file_limit_bytes": 26214400,
+  "missing_required_assets": [],
+  "archives": [
+    {
+      "name": "rain-court-gltf.zip",
+      "input_files": 14,
+      "combined_zip_bytes": 16358983,
+      "split_into_independent_volumes": false,
+      "outputs": [
+        {
+          "path": "downloads/rain-court-gltf.zip",
+          "bytes": 16358983,
+          "mib": 15.601,
+          "sha256": "5e2799caaa291a1b1be56558df838080cbbac3a6fd83e360f19b2ed33a34292a",
+          "within_host_limit": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "rain-court-textures.zip",
+      "input_files": 180,
+      "combined_zip_bytes": 19780931,
+      "split_into_independent_volumes": false,
+      "outputs": [
+        {
+          "path": "downloads/rain-court-textures.zip",
+          "bytes": 19780931,
+          "mib": 18.865,
+          "sha256": "6d169163ded68cb44e53e2075c30e9002cf35395fa3d548dee985b18789a0f15",
+          "within_host_limit": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "name": "rain-court-production.zip",
+      "input_files": 222,
+      "combined_zip_bytes": 72873800,
+      "split_into_independent_volumes": true,
+      "outputs": [
+        {
+          "path": "downloads/rain-court-production-part-01.zip",
+          "bytes": 16356971,
+          "mib": 15.599,
+          "sha256": "f4a0f8bf3b35d363911ba3749a6d0546c38dfd45d0af1e60704e58788e366a4a",
+          "within_host_limit": true
+        },
+        {
+          "path": "downloads/rain-court-production-part-02.zip",
+          "bytes": 25513469,
+          "mib": 24.332,
+          "sha256": "3a23c32662fe0c0c447f443f7a99a311925130c34e0d52b1eeae4a5fb152bd27",
+          "within_host_limit": true
+        },
+        {
+          "path": "downloads/rain-court-production-part-03.zip",
+          "bytes": 25995370,
+          "mib": 24.791,
+          "sha256": "26dde6b1a941c088154287ba326f3157bfe5260f8dfbebcde485a991029f8741",
+          "within_host_limit": true
+        },
+        {
+          "path": "downloads/rain-court-production-part-04.zip",
+          "bytes": 5008056,
+          "mib": 4.776,
+          "sha256": "900cebca7ac50c3757f6534e47551744c073a0a738b3ede86fa185f7a0234eba",
+          "within_host_limit": true
+        },
+        {
+          "path": "downloads/rain-court-production-READ-ME.txt",
+          "bytes": 404,
+          "mib": 0.0,
+          "sha256": "1ef283343193703882e41c8eafcdb4bf2be4a5685b36648bef992e9b2b893e55",
+          "within_host_limit": true
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "oversized_project_files": [],
+  "passed": true
+}

@@ -1,0 +1,8 @@
+The full package exceeds the configured static-host file limit.
+Download every numbered ZIP with this name and extract all volumes
+into the same folder. Each volume is an independent ordinary ZIP.
+Project-relative directories reconstruct the complete handoff.
+rain-court-production-part-01.zip
+rain-court-production-part-02.zip
+rain-court-production-part-03.zip
+rain-court-production-part-04.zip

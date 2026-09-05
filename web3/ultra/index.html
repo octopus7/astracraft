@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#13201f">
+  <meta name="description" content="Explore The Rain Court, a rain-washed industrial courtyard from AFTERLIGHT. An original, fully modeled 3D environment with downloadable Blender, FBX, and glTF assets.">
+  <title>AFTERLIGHT — The Rain Court</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23d9c991' d='M32 3 40 24 61 32 40 40 32 61 24 40 3 32 24 24Z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/addons/"}}</script>
+  <script type="module" src="./viewer.js"></script>
+</head>
+<body>
+  <main class="world" id="world" aria-label="Interactive 3D courtyard">
+    <div class="render-preview" aria-hidden="true"></div>
+    <div id="viewport" aria-label="3D model. Drag to orbit, Shift drag to pan, scroll to zoom." tabindex="0"></div>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <header class="identity hud">
+      <a class="wordmark" href="../" aria-label="AFTERLIGHT — return to scene collection">
+        <svg class="emblem" viewBox="0 0 60 60" aria-hidden="true"><path d="M30 3 38 22 57 30 38 38 30 57 22 38 3 30 22 22Z"/><path d="M30 13 35 25 47 30 35 35 30 47 25 35 13 30 25 25Z"/></svg>
+        <span><strong>AFTERLIGHT</strong><small>A WORLD WORTH REPAIRING</small></span>
+      </a>
+      <div class="location">
+        <div class="district"><span></span> LOWER DISTRICT / 04</div>
+        <h1>The Rain Court<span class="title-dot">.</span></h1>
+        <p class="weather"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3M4 4l2 2m12 12 2 2M4 20l2-2M18 6l2-2"/></svg>AFTER THE RAIN <span>17:42</span></p>
+      </div>
+    </header>
+
+    <aside class="local-map panel hud" aria-label="Courtyard map">
+      <div class="map-heading"><span class="signal-bars" aria-hidden="true">▂▄▆</span> LOCAL SIGNAL <span class="north">N ↑</span></div>
+      <svg class="map-drawing" viewBox="0 0 200 142" aria-label="Live camera position above The Rain Court" role="img">
+        <defs><pattern id="map-grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M16 0H0V16" fill="none" stroke="#728682" stroke-opacity=".12" stroke-width=".6"/></pattern><filter id="map-glow"><feGaussianBlur stdDeviation="2.5"/></filter></defs>
+        <rect width="200" height="142" fill="url(#map-grid)"/>
+        <path class="map-building" d="M34 34H138V116H34ZM138 59H178V87H138M64 34V18H114V34M21 48H34V91H21"/>
+        <path class="map-inner" d="M40 40H132V109H40ZM57 40V46H114V40M40 98H54V109M115 93H132"/>
+        <rect x="78" y="23" width="18" height="11" class="map-shop"/>
+        <g id="map-camera" transform="translate(96 76)"><path d="M0 0 -10 18H10Z" fill="#dccc8b" opacity=".15"/><circle r="6" fill="#e9d488" filter="url(#map-glow)"/><circle r="2.8" fill="#f4e3a7"/></g>
+      </svg>
+      <div class="map-footer"><span><i></i> THE RAIN COURT</span><span>04</span></div>
+    </aside>
+
+    <div class="load-state panel" id="load-state" role="status" aria-live="polite">
+      <span class="eyebrow" id="load-eyebrow">ESTABLISHING LOCAL SIGNAL</span>
+      <p id="load-message">Entering the courtyard</p>
+      <div class="load-track"><span id="load-progress"></span></div>
+      <span class="load-detail" id="load-detail">Loading the 3D environment…</span>
+      <button id="retry" class="button" hidden>Try again</button>
+    </div>
+
+    <section class="camera-panel panel hud" aria-label="Camera controls">
+      <div class="camera-heading"><span>FREE CAMERA</span><button class="text-button" id="hide-ui" title="Hide interface (H)"><kbd>H</kbd> Hide interface</button></div>
+      <div class="camera-tools">
+        <button class="button selected" id="mode-orbit" aria-pressed="true" title="Orbit the model"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M19 8a8 8 0 1 1-6-4m1-3v6h6"/></svg>Orbit</button>
+        <button class="button" id="mode-pan" aria-pressed="false" title="Pan the camera"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M2 12h20M8 6l4-4 4 4M8 18l4 4 4-4M6 8l-4 4 4 4m12-8 4 4-4 4"/></svg>Pan</button>
+        <button class="button recenter" id="reset" title="Restore original camera (R)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5M12 7v10M7 12h10"/></svg>Recenter<kbd>R</kbd></button>
+        <div class="zoom-tools"><button class="icon-button" id="zoom-in" aria-label="Zoom in" title="Zoom in (+)">+</button><button class="icon-button" id="zoom-out" aria-label="Zoom out" title="Zoom out (−)">−</button></div>
+      </div>
+      <p class="camera-help"><span class="desktop-help">Drag to orbit · Shift + drag to pan · Scroll to zoom</span><span class="touch-help">One finger to orbit · Two fingers to pan and zoom</span></p>
+      <div class="camera-foot"><span class="keyboard-help">WASD or arrow keys also pan</span><span id="camera-coordinates">21.0 / 23.0 / 29.0</span></div>
+    </section>
+
+    <nav class="bottom-actions hud" aria-label="Scene actions">
+      <span class="live-state"><i></i><span id="scene-state">CONNECTING</span></span>
+      <button class="button" id="auto-orbit" aria-pressed="false" title="Slowly rotate around the scene"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7a8 8 0 1 1-1 9M5 2v5H0"/></svg><span>Auto orbit</span></button>
+      <button class="button" id="open-settings" aria-expanded="false" aria-controls="settings-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18M8 3v6m8 0v6m-6 0v6"/></svg><span>Settings</span></button>
+      <button class="button download-trigger" id="open-downloads" aria-expanded="false" aria-controls="downloads-panel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg><span>Download</span></button>
+    </nav>
+
+    <aside class="drawer panel" id="settings-panel" aria-labelledby="settings-title" hidden>
+      <div class="drawer-heading"><span class="eyebrow" id="settings-title">VIEW SETTINGS</span><button class="close-button" data-close aria-label="Close settings">×</button></div>
+      <label class="control-label" for="camera-preset">Camera position</label>
+      <select id="camera-preset"><option value="court">The Rain Court</option><option value="street">Courtyard level</option><option value="overhead">Above the district</option><option value="shop">The warm window</option></select>
+      <label class="control-label" for="quality">Render quality</label>
+      <select id="quality"><option value="balanced">Balanced</option><option value="high" selected>High</option><option value="low">Battery saver</option></select>
+      <label class="control-label" for="exposure">Exposure <output id="exposure-value" for="exposure">1.00</output></label>
+      <input type="range" id="exposure" min="0.5" max="1.8" value="1" step="0.05">
+      <label class="toggle-row" for="wireframe"><span>Wireframe<span class="setting-detail">Inspect the modeled geometry</span></span><input type="checkbox" id="wireframe"></label>
+      <label class="toggle-row" for="atmosphere"><span>Atmosphere<span class="setting-detail">Soft haze beyond the courtyard</span></span><input type="checkbox" id="atmosphere" checked></label>
+      <button class="button full-width" id="capture"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h5l2-3h4l2 3h5v15H3Z"/><circle cx="12" cy="13" r="4"/></svg>Save this view</button>
+      <p class="drawer-note" id="model-stats">3D scene loading…</p>
+    </aside>
+
+    <aside class="drawer panel download-drawer" id="downloads-panel" aria-labelledby="downloads-title" hidden>
+      <div class="drawer-heading"><span class="eyebrow" id="downloads-title">TAKE THE COURT WITH YOU</span><button class="close-button" data-close aria-label="Close downloads">×</button></div>
+      <p class="download-intro">An open door to another world.<br>Bring this scene into your own engine.</p>
+      <a class="download-row" href="./assets/rain-court.glb" download><span><strong>Scene · GLB</strong><small>Single file · embedded PBR textures</small></span><span>↗</span></a>
+      <a class="download-row" href="./assets/rain-court.fbx" download><span><strong>Scene · FBX</strong><small>Mesh · also download the texture library</small></span><span>↗</span></a>
+      <a class="download-row" href="./assets/rain-court.blend" download><span><strong>Source · Blender</strong><small>The complete editable scene</small></span><span>↗</span></a>
+      <a class="download-row" data-archive="rain-court-gltf.zip" href="./downloads/rain-court-gltf.zip" download><span><strong>Scene · glTF package</strong><small>glTF, geometry & textures</small></span><span>↗</span></a>
+      <a class="download-row" data-archive="rain-court-textures.zip" href="./downloads/rain-court-textures.zip" download><span><strong>Texture & UV library</strong><small>PBR maps, UV layouts & checker</small></span><span>↗</span></a>
+      <a class="button download-all" data-archive="rain-court-production.zip" href="./downloads/rain-court-production.zip" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg>Complete production package</a>
+    </aside>
+    <button class="show-ui button" id="show-ui" hidden><kbd>H</kbd> Show interface</button>
+    <div class="toast panel" id="toast" role="status" aria-live="polite" hidden></div>
+    <noscript><div class="noscript panel">Enable JavaScript to explore the 3D scene. You can still <a href="./assets/rain-court.glb" download>download the GLB model</a>.</div></noscript>
+  </main>
+</body>
+</html>

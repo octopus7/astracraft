@@ -1,0 +1,14 @@
+{
+  "name": "afterlight-rain-court-ultra",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone offline 3D courtyard viewer. No build step or CDN required.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check viewer.js && node --check scripts/serve.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "vendoredDependencies": { "three": "0.180.0" }
+}
