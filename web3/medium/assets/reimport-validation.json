@@ -1,0 +1,28 @@
+{
+  "glb": {
+    "meshes": 13,
+    "vertices": 127208,
+    "uvLoops": 238278,
+    "images": [
+      {
+        "name": "surface-atlas",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "errors": []
+  },
+  "fbx": {
+    "meshes": 13,
+    "vertices": 43271,
+    "uvLoops": 172974,
+    "images": [
+      {
+        "name": "surface-atlas.png",
+        "width": 1254,
+        "height": 1254
+      }
+    ],
+    "errors": []
+  }
+}

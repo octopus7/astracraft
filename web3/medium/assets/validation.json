@@ -1,0 +1,86 @@
+{
+  "seed": 42,
+  "moduleCount": 1759,
+  "meshes": [
+    {
+      "name": "Graphite rubber",
+      "vertices": 744,
+      "polygons": 800,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Limestone | atlas NW",
+      "vertices": 21816,
+      "polygons": 23634,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Petrol paint | atlas NE",
+      "vertices": 4992,
+      "polygons": 5408,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Signal mint",
+      "vertices": 264,
+      "polygons": 286,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Oxidized iron | atlas SW",
+      "vertices": 1152,
+      "polygons": 1230,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Salvaged timber | atlas SE",
+      "vertices": 1812,
+      "polygons": 1948,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Aged brass",
+      "vertices": 1428,
+      "polygons": 1502,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Lantern amber",
+      "vertices": 168,
+      "polygons": 182,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Robot enamel",
+      "vertices": 96,
+      "polygons": 104,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Ochre workwear",
+      "vertices": 168,
+      "polygons": 176,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Rainwater",
+      "vertices": 95,
+      "polygons": 90,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Moss olive",
+      "vertices": 5712,
+      "polygons": 6188,
+      "uvOutOfBounds": 0
+    },
+    {
+      "name": "Damp ivy",
+      "vertices": 4824,
+      "polygons": 5226,
+      "uvOutOfBounds": 0
+    }
+  ],
+  "atlas": "surface-atlas.png",
+  "uvPolicy": "Module faces are nonoverlapping with margins; repeated modules intentionally reuse the same atlas area. UV dimensions are proportional per module, not a unique scene-wide lightmap."
+}
