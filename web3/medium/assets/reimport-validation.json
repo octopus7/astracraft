@@ -1,8 +1,8 @@
 {
   "glb": {
     "meshes": 13,
-    "vertices": 127208,
-    "uvLoops": 238278,
+    "vertices": 123707,
+    "uvLoops": 230646,
     "images": [
       {
         "name": "surface-atlas",
@@ -14,8 +14,8 @@
   },
   "fbx": {
     "meshes": 13,
-    "vertices": 43271,
-    "uvLoops": 172974,
+    "vertices": 41999,
+    "uvLoops": 168086,
     "images": [
       {
         "name": "surface-atlas.png",

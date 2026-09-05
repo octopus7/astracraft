@@ -30,3 +30,5 @@ Blender: 미터, Z up. GLB: glTF 표준 Y up으로 변환. FBX: -Z forward / Y u
 `blender -b -t 4 -P tools/build_scene.py` (Blender 4.5 이상). 스크립트의 위치에서 출력 경로를 계산합니다. ImageGen 아틀라스는 입력 파일로 유지됩니다. 공통 프롬프트는 ../prompts/common.md 와 ../prompts/user-request.md 에 기록되어 있습니다.
 
 Three.js 0.180.0은 vendor에 포함했고 MIT 라이선스는 vendor/LICENSE에 있습니다.
+
+최종 검증: GLB/FBX 독립 재임포트에서 UV 누락, 범위 초과, 접힌 UV 폴리곤, 비정상 좌표 오류 0건. 베벨에서 생긴 극소 퇴화 면은 제거했고, 필요한 베벨 면은 아틀라스의 남는 띠에 비율을 보존해 매핑했습니다. 실제 ImageGen 아틀라스 해상도는 1254 × 1254입니다.

@@ -17,6 +17,10 @@ for kind in ['glb','fbx']:
    for t in o.data.uv_layers.active.data:
     uvcount+=1
     if not all(math.isfinite(v) and -.00001<=v<=1.00001 for v in t.uv):bad.append(o.name+': invalid UV');break
+   for p in o.data.polygons:
+    coords=[o.data.uv_layers.active.data[i].uv[:] for i in p.loop_indices]
+    area=abs(sum(a[0]*b[1]-b[0]*a[1] for a,b in zip(coords,coords[1:]+coords[:1])))
+    if area<1e-14:bad.append(o.name+': collapsed UV polygon');break
   if any(not all(math.isfinite(c) for c in v.co) for v in o.data.vertices):bad.append(o.name+': invalid position')
  images=[{'name':i.name,'width':i.size[0],'height':i.size[1]} for i in bpy.data.images if i.type=='IMAGE']
  if not any(i['width']>0 for i in images):bad.append('missing texture')

@@ -4,8 +4,8 @@
   "meshes": [
     {
       "name": "Graphite rubber",
-      "vertices": 744,
-      "polygons": 800,
+      "vertices": 736,
+      "polygons": 792,
       "uvOutOfBounds": 0
     },
     {
@@ -16,14 +16,14 @@
     },
     {
       "name": "Petrol paint | atlas NE",
-      "vertices": 4992,
-      "polygons": 5408,
+      "vertices": 3952,
+      "polygons": 4368,
       "uvOutOfBounds": 0
     },
     {
       "name": "Signal mint",
-      "vertices": 264,
-      "polygons": 286,
+      "vertices": 248,
+      "polygons": 270,
       "uvOutOfBounds": 0
     },
     {
@@ -34,20 +34,20 @@
     },
     {
       "name": "Salvaged timber | atlas SE",
-      "vertices": 1812,
-      "polygons": 1948,
+      "vertices": 1632,
+      "polygons": 1858,
       "uvOutOfBounds": 0
     },
     {
       "name": "Aged brass",
-      "vertices": 1428,
-      "polygons": 1502,
+      "vertices": 1408,
+      "polygons": 1492,
       "uvOutOfBounds": 0
     },
     {
       "name": "Lantern amber",
-      "vertices": 168,
-      "polygons": 182,
+      "vertices": 160,
+      "polygons": 174,
       "uvOutOfBounds": 0
     },
     {

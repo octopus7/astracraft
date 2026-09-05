@@ -1,5 +1,5 @@
 """Blender 4.5+, deterministic modular Rain Court. Run blender -b -t 4 -P this_file."""
-import bpy, math, random, json, os
+import bpy, bmesh, math, random, json, os
 from pathlib import Path
 from mathutils import Vector
 
@@ -208,6 +208,24 @@ for key,(mat,q) in materials.items():
  mod=group[0].modifiers.new('Module edge bevel','BEVEL');mod.width=.018;mod.segments=1
  bpy.ops.object.modifier_apply(modifier=mod.name)
  mod=group[0].modifiers.new('Weighted normals','WEIGHTED_NORMAL');bpy.ops.object.modifier_apply(modifier=mod.name)
+ bm=bmesh.new();bm.from_mesh(group[0].data)
+ bmesh.ops.dissolve_degenerate(bm,dist=.00001,edges=list(bm.edges))
+ tiny=[f for f in bm.faces if f.calc_area()<1e-9]
+ if tiny:bmesh.ops.delete(bm,geom=tiny,context='FACES_ONLY')
+ bm.to_mesh(group[0].data);bm.free();group[0].data.update()
+ # Bevel can collapse UVs on very thin faces. Give those faces a proportional
+ # planar island in the unused top band; repeated bevel strips intentionally reuse it.
+ mesh=group[0].data;uv=mesh.uv_layers.active
+ for p in mesh.polygons:
+  coords=[uv.data[i].uv[:] for i in p.loop_indices]
+  area=abs(sum(a[0]*b[1]-b[0]*a[1] for a,b in zip(coords,coords[1:]+coords[:1])))
+  if area>1e-12:continue
+  pts=[mesh.vertices[mesh.loops[i].vertex_index].co for i in p.loop_indices]
+  edges=[b-a for a,b in zip(pts,pts[1:]+pts[:1])];u=max(edges,key=lambda e:e.length).normalized();v=p.normal.cross(u).normalized()
+  projected=[(pt.dot(u),pt.dot(v)) for pt in pts]
+  lo=[min(pt[i] for pt in projected) for i in [0,1]];hi=[max(pt[i] for pt in projected) for i in [0,1]]
+  scale=.024/max(hi[0]-lo[0],hi[1]-lo[1],1e-9);origin=q or (0,0)
+  for li,pt in zip(p.loop_indices,projected):uv.data[li].uv=(origin[0]+.445+(pt[0]-lo[0])*scale,origin[1]+.445+(pt[1]-lo[1])*scale)
  print('MERGED',key,flush=True)
  group[0]['UV_policy']='Nonoverlapping face islands per module. Intentional atlas reuse across repeated modules.'
 
