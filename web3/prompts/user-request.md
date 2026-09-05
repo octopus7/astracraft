@@ -33,3 +33,7 @@ web3/ultra 경로에 페이지를 넣어 web3 페이지에서 이동할수있게
 페이지스는 이렇게 설정했다
 
 첨부 화면: Framework preset None / Build command exit 0 / Build output directory web3.
+
+## 카드 제목 수정
+
+버튼에 각 페이지이동 카드에 맵의 제목대신 reasoning effort 를 적어줘
