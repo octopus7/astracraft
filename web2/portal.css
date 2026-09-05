@@ -13,6 +13,10 @@ h1 { margin:4px 0 0; font-size:clamp(28px,5vw,64px); font-weight:300; letter-spa
 .preview::before { content:""; position:absolute; width:56%; height:56%; left:24%; top:17%; transform:rotateX(60deg) rotateZ(-34deg); border:1px solid #d7d0b24d; background:repeating-linear-gradient(90deg,#65716b 0 28px,#252e2e 29px 31px); box-shadow:0 0 70px #d2bb7270; }
 .preview i { position:absolute; z-index:1; width:70px; height:120px; background:#101717; border:1px solid #63716e; top:15%; }
 .preview i:nth-child(1){left:16%}.preview i:nth-child(2){right:18%;height:180px}.preview i:nth-child(3){right:36%;top:8%;height:90px}
+.project-card.high { background:linear-gradient(145deg,#102422dd,#091313ee); }
+.project-card.high .preview { opacity:.64; background:radial-gradient(circle at 62% 34%,#c7823966 0 3%,transparent 4%),linear-gradient(155deg,transparent 42%,#081313 43%),linear-gradient(25deg,#17423e,#0c1818); }
+.project-card.high .preview::before { border-color:#6de0cf55; background:repeating-linear-gradient(0deg,#21433f 0 20px,#132725 21px 23px),repeating-linear-gradient(90deg,transparent 0 27px,#c98b4540 28px 30px); box-shadow:0 0 80px #48c7b044; }
+.project-card.high .preview i { background:#102c29; border-color:#5d9c92; }
 .serial,.copy,.enter { position:relative; z-index:2; }
 .copy strong { display:block; font-size:clamp(28px,5vw,60px); font-weight:300; letter-spacing:.08em; }
 .copy small { display:block; margin-top:10px; color:#b9c1bd; font-size:15px; letter-spacing:.08em; }

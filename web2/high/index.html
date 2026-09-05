@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="쿼터뷰 SF 수리 지구를 탐사하고 고장 난 중계기를 복구하는 3D 웹게임" />
+    <title>AstraCraft: The Mender's Quarter</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <main id="game" aria-label="The Mender's Quarter 3D game"></main>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <header class="brand panel">
+      <span class="brand-mark" aria-hidden="true">✦</span>
+      <div><p>ASTRACRAFT / FIELD UNIT 07</p><h1>THE MENDER'S QUARTER</h1></div>
+    </header>
+
+    <section class="objective panel" aria-live="polite">
+      <span class="eyebrow">ACTIVE CONTRACT</span>
+      <div class="objective-row"><strong id="objectiveTitle">WAKE THE DISTRICT</strong><b id="repairCount">0 / 5</b></div>
+      <div class="progress"><i id="progressBar"></i></div>
+      <p id="objectiveText">Find the amber relay beacons and hold <kbd>E</kbd> to repair.</p>
+    </section>
+
+    <aside class="telemetry panel">
+      <div class="telemetry-head"><span>FIELD TELEMETRY</span><span id="districtLabel">YARD 03</span></div>
+      <div class="meter"><label>ENERGY</label><span><i id="energyBar"></i></span><b id="energyValue">100</b></div>
+      <div class="meter scrap"><label>SCRAP</label><span><i id="scrapBar"></i></span><b id="scrapValue">0</b></div>
+      <div class="radar" aria-hidden="true"><i id="radarPlayer"></i><span></span><span></span><span></span><span></span><span></span></div>
+    </aside>
+
+    <section class="repair panel" id="repairPrompt" aria-hidden="true">
+      <span class="key">E</span><div><strong>REPAIR RELAY</strong><small>hold to calibrate</small></div><i id="repairRing"></i>
+    </section>
+
+    <section class="controls panel" id="controlsPanel">
+      <div><kbd>WASD</kbd> move</div><div><kbd>CLICK</kbd> travel</div><div><kbd>E</kbd> repair</div><div><kbd>R</kbd> pulse</div>
+    </section>
+
+    <nav class="menu" aria-label="게임 메뉴">
+      <a href="../">← ARCHIVE</a>
+      <button id="soundButton" type="button">SOUND / ON</button>
+      <button id="cameraButton" type="button">CAMERA / FOLLOW</button>
+    </nav>
+
+    <div class="toast" id="toast" role="status"></div>
+    <section class="briefing" id="briefing">
+      <div class="briefing-card panel">
+        <span class="eyebrow">LOWER ORBIT / REPAIR DISTRICT 03</span>
+        <h2>A district gone dark.<br />Five signals left breathing.</h2>
+        <p>Guide the Mender drone through flooded service lanes. Salvage loose parts, avoid electric spills, and restore every relay before your power cell empties.</p>
+        <button id="startButton" type="button"><span>BEGIN SHIFT</span><small>WASD · mouse · touch</small></button>
+      </div>
+    </section>
+    <section class="completion" id="completion" aria-hidden="true">
+      <div class="completion-card panel">
+        <span class="eyebrow">DISTRICT ONLINE</span>
+        <h2>THE LIGHTS REMEMBER.</h2>
+        <p id="completionStats"></p>
+        <button id="restartButton" type="button">RUN ANOTHER SHIFT</button>
+      </div>
+    </section>
+    <div class="loading" id="loading"><i></i><p>ASSEMBLING DISTRICT</p></div>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

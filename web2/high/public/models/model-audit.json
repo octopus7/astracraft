@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "model": "Repair District",
+      "uvRange": [
+        0.0112,
+        0.0112,
+        0.9888,
+        0.6888
+      ],
+      "primitives": [
+        {
+          "material": "graphite",
+          "vertices": 864,
+          "triangles": 372,
+          "islandCount": 246,
+          "uvRange": [
+            0.0112,
+            0.0112,
+            0.4888,
+            0.1288
+          ]
+        },
+        {
+          "material": "ivory",
+          "vertices": 1440,
+          "triangles": 672,
+          "islandCount": 384,
+          "uvRange": [
+            0.5112,
+            0.5112,
+            0.9888,
+            0.6888
+          ]
+        },
+        {
+          "material": "teal",
+          "vertices": 312,
+          "triangles": 156,
+          "islandCount": 78,
+          "uvRange": [
+            0.0112,
+            0.5112,
+            0.4888,
+            0.5538000000000001
+          ]
+        },
+        {
+          "material": "copper",
+          "vertices": 2360,
+          "triangles": 980,
+          "islandCount": 690,
+          "uvRange": [
+            0.5112,
+            0.0112,
+            0.9888,
+            0.3388
+          ]
+        },
+        {
+          "material": "signal",
+          "vertices": 780,
+          "triangles": 324,
+          "islandCount": 228,
+          "uvRange": [
+            0.021150000000000002,
+            0.52115,
+            0.47885,
+            0.63385
+          ]
+        }
+      ]
+    },
+    {
+      "model": "Mender Drone",
+      "uvRange": [
+        0.0112,
+        0.0112,
+        0.9888,
+        0.57635
+      ],
+      "primitives": [
+        {
+          "material": "teal",
+          "vertices": 120,
+          "triangles": 48,
+          "islandCount": 36,
+          "uvRange": [
+            0.0112,
+            0.5112,
+            0.4888,
+            0.5388000000000001
+          ]
+        },
+        {
+          "material": "ivory",
+          "vertices": 172,
+          "triangles": 76,
+          "islandCount": 48,
+          "uvRange": [
+            0.5112,
+            0.5112,
+            0.9888,
+            0.5388000000000001
+          ]
+        },
+        {
+          "material": "graphite",
+          "vertices": 504,
+          "triangles": 204,
+          "islandCount": 150,
+          "uvRange": [
+            0.0112,
+            0.0112,
+            0.4888,
+            0.08379999999999999
+          ]
+        },
+        {
+          "material": "signal",
+          "vertices": 344,
+          "triangles": 140,
+          "islandCount": 102,
+          "uvRange": [
+            0.021150000000000002,
+            0.52115,
+            0.47885,
+            0.57635
+          ]
+        },
+        {
+          "material": "copper",
+          "vertices": 176,
+          "triangles": 80,
+          "islandCount": 48,
+          "uvRange": [
+            0.5112,
+            0.0112,
+            0.9888,
+            0.0388
+          ]
+        }
+      ]
+    }
+  ]
+}

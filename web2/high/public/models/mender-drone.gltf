@@ -1,0 +1,610 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "AstraCraft procedural model studio",
+    "copyright": "AstraCraft project asset"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Mender Drone Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Mender Drone",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mender Drone",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4,
+          "extras": {
+            "materialRole": "teal",
+            "uvIslandCount": 36,
+            "uvPolicy": "unique packed face islands"
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4,
+          "extras": {
+            "materialRole": "ivory",
+            "uvIslandCount": 48,
+            "uvPolicy": "unique packed face islands"
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4,
+          "extras": {
+            "materialRole": "graphite",
+            "uvIslandCount": 150,
+            "uvPolicy": "unique packed face islands"
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 4,
+          "mode": 4,
+          "extras": {
+            "materialRole": "signal",
+            "uvIslandCount": 102,
+            "uvPolicy": "unique packed face islands"
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 3,
+          "mode": 4,
+          "extras": {
+            "materialRole": "copper",
+            "uvIslandCount": 48,
+            "uvPolicy": "unique packed face islands"
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Oxidized Teal Metal",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.92,
+        "roughnessFactor": 0.82
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Warm Ceramic Composite",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.06,
+        "roughnessFactor": 0.94
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Graphite Service Floor",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.02,
+        "roughnessFactor": 0.92
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Aged Copper Machinery",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.92,
+        "roughnessFactor": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Amber Signal Glass",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.35
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      },
+      "emissiveTexture": {
+        "index": 2
+      },
+      "emissiveFactor": [
+        1,
+        0.42,
+        0.06
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "images": [
+    {
+      "uri": "repair-atlas-basecolor.png",
+      "name": "Repair Atlas Base Color"
+    },
+    {
+      "uri": "repair-atlas-orm.png",
+      "name": "Repair Atlas Occlusion Roughness Metallic"
+    },
+    {
+      "uri": "repair-atlas-emissive.png",
+      "name": "Repair Atlas Emissive"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "mender-drone.bin",
+      "byteLength": 45400
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1440,
+      "byteLength": 1440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2880,
+      "byteLength": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3840,
+      "byteLength": 288,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 4128,
+      "byteLength": 2064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 6192,
+      "byteLength": 2064,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 8256,
+      "byteLength": 1376,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 9632,
+      "byteLength": 456,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10088,
+      "byteLength": 6048,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 16136,
+      "byteLength": 6048,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 22184,
+      "byteLength": 4032,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 26216,
+      "byteLength": 1224,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27440,
+      "byteLength": 4128,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 31568,
+      "byteLength": 4128,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35696,
+      "byteLength": 2752,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 38448,
+      "byteLength": 840,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 39288,
+      "byteLength": 2112,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 41400,
+      "byteLength": 2112,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 43512,
+      "byteLength": 1408,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 44920,
+      "byteLength": 480,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC3",
+      "min": [
+        -0.72,
+        -0.21,
+        -0.72
+      ],
+      "max": [
+        0.72,
+        0.21,
+        0.72
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC2",
+      "min": [
+        0.0112,
+        0.5112
+      ],
+      "max": [
+        0.4888,
+        0.5388000000000001
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 144,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        119
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 172,
+      "type": "VEC3",
+      "min": [
+        -1.03,
+        -0.94,
+        -0.42797543233281915
+      ],
+      "max": [
+        1.03,
+        0.37,
+        0.52
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 172,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 172,
+      "type": "VEC2",
+      "min": [
+        0.5112,
+        0.5112
+      ],
+      "max": [
+        0.9888,
+        0.5388000000000001
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 228,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        171
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 504,
+      "type": "VEC3",
+      "min": [
+        -1.3699999999999999,
+        -0.43,
+        -1.3699999999999999
+      ],
+      "max": [
+        1.3699999999999999,
+        0.07,
+        1.3699999999999999
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 504,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 504,
+      "type": "VEC2",
+      "min": [
+        0.0112,
+        0.0112
+      ],
+      "max": [
+        0.4888,
+        0.08379999999999999
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 612,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        503
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 344,
+      "type": "VEC3",
+      "min": [
+        -1.08,
+        0.060000000000000005,
+        -1.08
+      ],
+      "max": [
+        1.08,
+        0.48,
+        1.08
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 344,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 344,
+      "type": "VEC2",
+      "min": [
+        0.021150000000000002,
+        0.52115
+      ],
+      "max": [
+        0.47885,
+        0.57635
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 420,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        343
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC3",
+      "min": [
+        -1.075,
+        -0.81,
+        -1.075
+      ],
+      "max": [
+        1.075,
+        0.065,
+        1.075
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 176,
+      "type": "VEC2",
+      "min": [
+        0.5112,
+        0.0112
+      ],
+      "max": [
+        0.9888,
+        0.0388
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5123,
+      "count": 240,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        175
+      ]
+    }
+  ],
+  "extras": {
+    "pbrWorkflow": "metallic-roughness",
+    "uvPolicy": "0-1 range, non-overlapping face islands per primitive",
+    "textureLicense": "Project-generated with OpenAI ImageGen; prompt in docs/imagegen-prompts.md"
+  }
+}

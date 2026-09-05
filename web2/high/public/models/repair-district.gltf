@@ -1,0 +1,610 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "AstraCraft procedural model studio",
+    "copyright": "AstraCraft project asset"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Repair District Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Repair District",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Repair District",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 2,
+          "mode": 4,
+          "extras": {
+            "materialRole": "graphite",
+            "uvIslandCount": 246,
+            "uvPolicy": "unique packed face islands"
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4,
+          "extras": {
+            "materialRole": "ivory",
+            "uvIslandCount": 384,
+            "uvPolicy": "unique packed face islands"
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4,
+          "extras": {
+            "materialRole": "teal",
+            "uvIslandCount": 78,
+            "uvPolicy": "unique packed face islands"
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4,
+          "extras": {
+            "materialRole": "copper",
+            "uvIslandCount": 690,
+            "uvPolicy": "unique packed face islands"
+          }
+        },
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 4,
+          "mode": 4,
+          "extras": {
+            "materialRole": "signal",
+            "uvIslandCount": 228,
+            "uvPolicy": "unique packed face islands"
+          }
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "Oxidized Teal Metal",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.92,
+        "roughnessFactor": 0.82
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Warm Ceramic Composite",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.06,
+        "roughnessFactor": 0.94
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Graphite Service Floor",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.02,
+        "roughnessFactor": 0.92
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Aged Copper Machinery",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.92,
+        "roughnessFactor": 0.72
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      }
+    },
+    {
+      "name": "Amber Signal Glass",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.35,
+        "roughnessFactor": 0.35
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "strength": 1
+      },
+      "emissiveTexture": {
+        "index": 2
+      },
+      "emissiveFactor": [
+        1,
+        0.42,
+        0.06
+      ]
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "images": [
+    {
+      "uri": "repair-atlas-basecolor.png",
+      "name": "Repair Atlas Base Color"
+    },
+    {
+      "uri": "repair-atlas-orm.png",
+      "name": "Repair Atlas Occlusion Roughness Metallic"
+    },
+    {
+      "uri": "repair-atlas-emissive.png",
+      "name": "Repair Atlas Emissive"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "repair-district.bin",
+      "byteLength": 199216
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 10368,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 10368,
+      "byteLength": 10368,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 20736,
+      "byteLength": 6912,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 27648,
+      "byteLength": 2232,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 29880,
+      "byteLength": 17280,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 47160,
+      "byteLength": 17280,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 64440,
+      "byteLength": 11520,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 75960,
+      "byteLength": 4032,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 79992,
+      "byteLength": 3744,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 83736,
+      "byteLength": 3744,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 87480,
+      "byteLength": 2496,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 89976,
+      "byteLength": 936,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 90912,
+      "byteLength": 28320,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 119232,
+      "byteLength": 28320,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 147552,
+      "byteLength": 18880,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 166432,
+      "byteLength": 5880,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 172312,
+      "byteLength": 9360,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 181672,
+      "byteLength": 9360,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 191032,
+      "byteLength": 6240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 197272,
+      "byteLength": 1944,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 864,
+      "type": "VEC3",
+      "min": [
+        -14,
+        -0.355,
+        -14
+      ],
+      "max": [
+        14,
+        6.4399999999999995,
+        14
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 864,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 864,
+      "type": "VEC2",
+      "min": [
+        0.0112,
+        0.0112
+      ],
+      "max": [
+        0.4888,
+        0.1288
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 1116,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        863
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1440,
+      "type": "VEC3",
+      "min": [
+        -13.1,
+        0,
+        -12.5
+      ],
+      "max": [
+        12.850000000000001,
+        8.42,
+        13
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1440,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1440,
+      "type": "VEC2",
+      "min": [
+        0.5112,
+        0.5112
+      ],
+      "max": [
+        0.9888,
+        0.6888
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 2016,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        1439
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 312,
+      "type": "VEC3",
+      "min": [
+        -13.2,
+        0,
+        -12.3
+      ],
+      "max": [
+        12.799999999999999,
+        5,
+        12.1
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 312,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 312,
+      "type": "VEC2",
+      "min": [
+        0.0112,
+        0.5112
+      ],
+      "max": [
+        0.4888,
+        0.5538000000000001
+      ]
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 468,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        311
+      ]
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 2360,
+      "type": "VEC3",
+      "min": [
+        -12.36,
+        0,
+        -12.092596873089539
+      ],
+      "max": [
+        12.137,
+        8.9,
+        12.235
+      ]
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 2360,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 2360,
+      "type": "VEC2",
+      "min": [
+        0.5112,
+        0.0112
+      ],
+      "max": [
+        0.9888,
+        0.3388
+      ]
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 2940,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        2359
+      ]
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 780,
+      "type": "VEC3",
+      "min": [
+        -11.55424997358808,
+        0,
+        -10.48
+      ],
+      "max": [
+        11.58,
+        9.14,
+        11.501712221282212
+      ]
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 780,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5126,
+      "count": 780,
+      "type": "VEC2",
+      "min": [
+        0.021150000000000002,
+        0.52115
+      ],
+      "max": [
+        0.47885,
+        0.63385
+      ]
+    },
+    {
+      "bufferView": 19,
+      "componentType": 5123,
+      "count": 972,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        779
+      ]
+    }
+  ],
+  "extras": {
+    "pbrWorkflow": "metallic-roughness",
+    "uvPolicy": "0-1 range, non-overlapping face islands per primitive",
+    "textureLicense": "Project-generated with OpenAI ImageGen; prompt in docs/imagegen-prompts.md"
+  }
+}

@@ -8,7 +8,11 @@
     "build": "vite build",
     "models": "node medium/tools/generate-models.mjs",
     "test": "node --test medium/tests/*.test.mjs",
-    "validate:models": "node medium/tools/validate-models.mjs"
+    "validate:models": "node medium/tools/validate-models.mjs",
+    "models:high": "node high/tools/generate-models.mjs",
+    "build:high": "npm run models:high && vite build --config high/vite.config.js",
+    "test:high": "node --test high/tests/*.test.mjs",
+    "validate:high": "node high/tools/validate-models.mjs"
   },
   "dependencies": {
     "three": "0.180.0"
