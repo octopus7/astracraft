@@ -1,0 +1,639 @@
+[
+  {
+    "mesh": "Foundation",
+    "modules": 2,
+    "polygons": 52,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Rain polished paving",
+    "modules": 390,
+    "polygons": 10140,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Rainwater pools",
+    "modules": 23,
+    "polygons": 23,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "West enclosure mortar",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "West enclosure brickwork",
+    "modules": 306,
+    "polygons": 7956,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "West enclosure coping",
+    "modules": 25,
+    "polygons": 650,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "West enclosure pilasters",
+    "modules": 6,
+    "polygons": 156,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "West enclosure capitals",
+    "modules": 6,
+    "polygons": 156,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "North enclosure mortar",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "North enclosure brickwork",
+    "modules": 428,
+    "polygons": 11128,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "North enclosure coping",
+    "modules": 31,
+    "polygons": 806,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "North enclosure pilasters",
+    "modules": 7,
+    "polygons": 182,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "North enclosure capitals",
+    "modules": 7,
+    "polygons": 182,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "East cutaway mortar",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "East cutaway brickwork",
+    "modules": 111,
+    "polygons": 2886,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "East cutaway coping",
+    "modules": 24,
+    "polygons": 624,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "East cutaway pilasters",
+    "modules": 6,
+    "polygons": 156,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "East cutaway capitals",
+    "modules": 6,
+    "polygons": 156,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "South cutaway mortar",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "South cutaway brickwork",
+    "modules": 47,
+    "polygons": 1222,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "South cutaway coping",
+    "modules": 30,
+    "polygons": 780,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "South cutaway pilasters",
+    "modules": 7,
+    "polygons": 182,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "South cutaway capitals",
+    "modules": 7,
+    "polygons": 182,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Industrial skyline",
+    "modules": 4,
+    "polygons": 104,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Skyline window recess",
+    "modules": 42,
+    "polygons": 1092,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Skyline glazing",
+    "modules": 42,
+    "polygons": 1092,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Skyline cornices",
+    "modules": 4,
+    "polygons": 104,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Roof machinery",
+    "modules": 4,
+    "polygons": 104,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Repair shop",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Store front shadow",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Shop posts",
+    "modules": 4,
+    "polygons": 104,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Window frame",
+    "modules": 2,
+    "polygons": 52,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Window glass",
+    "modules": 2,
+    "polygons": 52,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Window mullions",
+    "modules": 8,
+    "polygons": 208,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Window sill",
+    "modules": 2,
+    "polygons": 52,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Shop door",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Door glass",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Door handle",
+    "modules": 1,
+    "polygons": 62,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Shop doorstep",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Copper awning",
+    "modules": 17,
+    "polygons": 17,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Awning seams",
+    "modules": 17,
+    "polygons": 646,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Awning lip",
+    "modules": 1,
+    "polygons": 62,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Awning supports",
+    "modules": 2,
+    "polygons": 124,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Shop fascia",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Shop standing seam roof",
+    "modules": 19,
+    "polygons": 494,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Roof vents",
+    "modules": 2,
+    "polygons": 124,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Roof vent cap",
+    "modules": 2,
+    "polygons": 52,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Lantern mounts",
+    "modules": 4,
+    "polygons": 104,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Amber lantern",
+    "modules": 4,
+    "polygons": 104,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Lantern cages",
+    "modules": 8,
+    "polygons": 304,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Lantern caps",
+    "modules": 4,
+    "polygons": 104,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Service gate frame",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Service gate",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Gate ribs",
+    "modules": 3,
+    "polygons": 78,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Gate cross braces",
+    "modules": 3,
+    "polygons": 78,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Gate lights",
+    "modules": 2,
+    "polygons": 52,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Service pipe",
+    "modules": 4,
+    "polygons": 248,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Pipe collars",
+    "modules": 16,
+    "polygons": 992,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "West horizontal pipes",
+    "modules": 3,
+    "polygons": 186,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Valve wheel",
+    "modules": 12,
+    "polygons": 456,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Cargo crates",
+    "modules": 9,
+    "polygons": 234,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Crate bindings",
+    "modules": 36,
+    "polygons": 936,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Crate front bands",
+    "modules": 18,
+    "polygons": 468,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Crate lid planks",
+    "modules": 27,
+    "polygons": 702,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Cargo label",
+    "modules": 9,
+    "polygons": 234,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Utility kiosk",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Kiosk recess",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Kiosk ventilation",
+    "modules": 10,
+    "polygons": 260,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Kiosk roof",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Kiosk signal",
+    "modules": 1,
+    "polygons": 26,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot feet",
+    "modules": 6,
+    "polygons": 156,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot shins",
+    "modules": 6,
+    "polygons": 372,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot knee axles",
+    "modules": 6,
+    "polygons": 372,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot chassis",
+    "modules": 3,
+    "polygons": 78,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot chest panel",
+    "modules": 3,
+    "polygons": 78,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot chest LEDs",
+    "modules": 9,
+    "polygons": 234,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot neck",
+    "modules": 3,
+    "polygons": 186,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot head",
+    "modules": 3,
+    "polygons": 78,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot visor",
+    "modules": 3,
+    "polygons": 78,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot optics",
+    "modules": 6,
+    "polygons": 156,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot shoulders",
+    "modules": 6,
+    "polygons": 372,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot arms",
+    "modules": 6,
+    "polygons": 372,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot claws",
+    "modules": 6,
+    "polygons": 156,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot aerial",
+    "modules": 3,
+    "polygons": 114,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Aerial light",
+    "modules": 3,
+    "polygons": 78,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Robot backpack",
+    "modules": 3,
+    "polygons": 78,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Drain frames",
+    "modules": 4,
+    "polygons": 104,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Drain slots",
+    "modules": 40,
+    "polygons": 1040,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Rubble",
+    "modules": 135,
+    "polygons": 3510,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Ivy stems",
+    "modules": 397,
+    "polygons": 2779,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  },
+  {
+    "mesh": "Ivy leaves",
+    "modules": 794,
+    "polygons": 794,
+    "uv0": "deliberate material-module reuse; aspect-preserving separate quad islands",
+    "uv1": "unique planar face cells, 20% cell gutter after bevel"
+  }
+]

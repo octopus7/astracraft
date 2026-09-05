@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "errors": [],
+  "externalRequests": [],
+  "downloads": [
+    {
+      "url": "http://127.0.0.1:8132/assets/models/afterlight-rain-court.glb",
+      "status": 200,
+      "bytes": 16490112
+    },
+    {
+      "url": "http://127.0.0.1:8132/assets/models/afterlight-rain-court.fbx",
+      "status": 200,
+      "bytes": 10138764
+    },
+    {
+      "url": "http://127.0.0.1:8132/assets/models/afterlight-rain-court.blend",
+      "status": 200,
+      "bytes": 15975566
+    },
+    {
+      "url": "http://127.0.0.1:8132/assets/afterlight-source-kit.zip",
+      "status": 200,
+      "bytes": 10404538
+    },
+    {
+      "url": "http://127.0.0.1:8132/uv/checker-scene.png",
+      "status": 200,
+      "bytes": 977941
+    },
+    {
+      "url": "http://127.0.0.1:8132/docs/README.md",
+      "status": 200,
+      "bytes": 6068
+    }
+  ],
+  "orbit": true,
+  "pan": true,
+  "zoom": true,
+  "reset": true,
+  "tour": true,
+  "desktop": [
+    1600,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "stats": {
+    "meshes": 105,
+    "triangles": 108594,
+    "calls": 105
+  }
+}

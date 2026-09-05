@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "formats": [
+    {
+      "format": "blend",
+      "bytes": 15975566,
+      "meshObjects": 95,
+      "vertices": 64512,
+      "polygons": 63220,
+      "missingUV": [],
+      "uvOutOfBounds": 0,
+      "uniqueUVFacesVerified": 59305
+    },
+    {
+      "format": "glb",
+      "bytes": 16490112,
+      "meshObjects": 95,
+      "vertices": 227824,
+      "polygons": 108594,
+      "missingUV": [],
+      "uvOutOfBounds": 0,
+      "uniqueUVFacesVerified": 0
+    },
+    {
+      "format": "gltf",
+      "bytes": 139706,
+      "meshObjects": 95,
+      "vertices": 227824,
+      "polygons": 108594,
+      "missingUV": [],
+      "uvOutOfBounds": 0,
+      "uniqueUVFacesVerified": 0
+    },
+    {
+      "format": "fbx",
+      "bytes": 10138764,
+      "meshObjects": 95,
+      "vertices": 64512,
+      "polygons": 63220,
+      "missingUV": [],
+      "uvOutOfBounds": 0,
+      "uniqueUVFacesVerified": 0
+    }
+  ],
+  "gltfMissingResources": [],
+  "note": "UV1 non-overlap certified by disjoint per-face cell containment. UV0 deliberately reuses module surfaces; bevel strips inherit module UVs. FBX material translation varies by engine; GLB is the PBR reference."
+}

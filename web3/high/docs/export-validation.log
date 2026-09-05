@@ -1,0 +1,250 @@
+Reloading external rigs...
+Reloading external metarigs...
+Cannot read ARP prefs
+Update armature presets...
+22:07:52 | INFO: Data are loaded, start creating Blender stuff
+22:07:52 | INFO: Blender create Mesh node N O R T H   /   R E P A I R
+22:07:52 | INFO: Blender create Mesh node OPEN
+22:07:52 | INFO: Blender create Mesh node SECTOR 04
+22:07:52 | INFO: Blender create Mesh node 04
+22:07:52 | INFO: Blender create Mesh node Foundation
+22:07:52 | INFO: Blender create Mesh node Rain polished paving
+22:07:52 | INFO: Blender create Mesh node Rainwater pools
+22:07:52 | INFO: Blender create Mesh node West enclosure mortar
+22:07:52 | INFO: Blender create Mesh node West enclosure brickwork
+22:07:53 | INFO: Blender create Mesh node West enclosure coping
+22:07:53 | INFO: Blender create Mesh node West enclosure pilasters
+22:07:53 | INFO: Blender create Mesh node West enclosure capitals
+22:07:53 | INFO: Blender create Mesh node North enclosure mortar
+22:07:53 | INFO: Blender create Mesh node North enclosure brickwork
+22:07:53 | INFO: Blender create Mesh node North enclosure coping
+22:07:53 | INFO: Blender create Mesh node North enclosure pilasters
+22:07:53 | INFO: Blender create Mesh node North enclosure capitals
+22:07:53 | INFO: Blender create Mesh node East cutaway mortar
+22:07:53 | INFO: Blender create Mesh node East cutaway brickwork
+22:07:53 | INFO: Blender create Mesh node East cutaway coping
+22:07:53 | INFO: Blender create Mesh node East cutaway pilasters
+22:07:53 | INFO: Blender create Mesh node East cutaway capitals
+22:07:53 | INFO: Blender create Mesh node South cutaway mortar
+22:07:53 | INFO: Blender create Mesh node South cutaway brickwork
+22:07:53 | INFO: Blender create Mesh node South cutaway coping
+22:07:53 | INFO: Blender create Mesh node South cutaway pilasters
+22:07:53 | INFO: Blender create Mesh node South cutaway capitals
+22:07:53 | INFO: Blender create Mesh node Industrial skyline
+22:07:53 | INFO: Blender create Mesh node Skyline window recess
+22:07:53 | INFO: Blender create Mesh node Skyline glazing
+22:07:53 | INFO: Blender create Mesh node Skyline cornices
+22:07:53 | INFO: Blender create Mesh node Roof machinery
+22:07:53 | INFO: Blender create Mesh node Repair shop
+22:07:53 | INFO: Blender create Mesh node Store front shadow
+22:07:53 | INFO: Blender create Mesh node Shop posts
+22:07:53 | INFO: Blender create Mesh node Window frame
+22:07:53 | INFO: Blender create Mesh node Window glass
+22:07:53 | INFO: Blender create Mesh node Window mullions
+22:07:53 | INFO: Blender create Mesh node Window sill
+22:07:53 | INFO: Blender create Mesh node Shop door
+22:07:53 | INFO: Blender create Mesh node Door glass
+22:07:53 | INFO: Blender create Mesh node Door handle
+22:07:53 | INFO: Blender create Mesh node Shop doorstep
+22:07:53 | INFO: Blender create Mesh node Copper awning
+22:07:53 | INFO: Blender create Mesh node Awning seams
+22:07:53 | INFO: Blender create Mesh node Awning lip
+22:07:53 | INFO: Blender create Mesh node Awning supports
+22:07:53 | INFO: Blender create Mesh node Shop fascia
+22:07:53 | INFO: Blender create Mesh node Shop standing seam roof
+22:07:53 | INFO: Blender create Mesh node Roof vents
+22:07:53 | INFO: Blender create Mesh node Roof vent cap
+22:07:53 | INFO: Blender create Mesh node Lantern mounts
+22:07:53 | INFO: Blender create Mesh node Amber lantern
+22:07:53 | INFO: Blender create Mesh node Lantern cages
+22:07:53 | INFO: Blender create Mesh node Lantern caps
+22:07:53 | INFO: Blender create Mesh node Service gate frame
+22:07:53 | INFO: Blender create Mesh node Service gate
+22:07:53 | INFO: Blender create Mesh node Gate ribs
+22:07:53 | INFO: Blender create Mesh node Gate cross braces
+22:07:53 | INFO: Blender create Mesh node Gate lights
+22:07:53 | INFO: Blender create Mesh node Service pipe
+22:07:53 | INFO: Blender create Mesh node Pipe collars
+22:07:53 | INFO: Blender create Mesh node West horizontal pipes
+22:07:53 | INFO: Blender create Mesh node Valve wheel
+22:07:53 | INFO: Blender create Mesh node Cargo crates
+22:07:53 | INFO: Blender create Mesh node Crate bindings
+22:07:53 | INFO: Blender create Mesh node Crate front bands
+22:07:53 | INFO: Blender create Mesh node Crate lid planks
+22:07:53 | INFO: Blender create Mesh node Cargo label
+22:07:53 | INFO: Blender create Mesh node Utility kiosk
+22:07:53 | INFO: Blender create Mesh node Kiosk recess
+22:07:53 | INFO: Blender create Mesh node Kiosk ventilation
+22:07:53 | INFO: Blender create Mesh node Kiosk roof
+22:07:53 | INFO: Blender create Mesh node Kiosk signal
+22:07:53 | INFO: Blender create Mesh node Robot feet
+22:07:53 | INFO: Blender create Mesh node Robot shins
+22:07:53 | INFO: Blender create Mesh node Robot knee axles
+22:07:53 | INFO: Blender create Mesh node Robot chassis
+22:07:53 | INFO: Blender create Mesh node Robot chest panel
+22:07:53 | INFO: Blender create Mesh node Robot chest LEDs
+22:07:53 | INFO: Blender create Mesh node Robot neck
+22:07:53 | INFO: Blender create Mesh node Robot head
+22:07:53 | INFO: Blender create Mesh node Robot visor
+22:07:53 | INFO: Blender create Mesh node Robot optics
+22:07:53 | INFO: Blender create Mesh node Robot shoulders
+22:07:53 | INFO: Blender create Mesh node Robot arms
+22:07:53 | INFO: Blender create Mesh node Robot claws
+22:07:53 | INFO: Blender create Mesh node Robot aerial
+22:07:53 | INFO: Blender create Mesh node Aerial light
+22:07:53 | INFO: Blender create Mesh node Robot backpack
+22:07:53 | INFO: Blender create Mesh node Drain frames
+22:07:53 | INFO: Blender create Mesh node Drain slots
+22:07:53 | INFO: Blender create Mesh node Rubble
+22:07:53 | INFO: Blender create Mesh node Ivy stems
+22:07:53 | INFO: Blender create Mesh node Ivy leaves
+22:07:53 | INFO: glTF import finished in 0.43s
+22:07:54 | INFO: Data are loaded, start creating Blender stuff
+22:07:54 | INFO: Blender create Mesh node N O R T H   /   R E P A I R
+22:07:54 | INFO: Blender create Mesh node OPEN
+22:07:54 | INFO: Blender create Mesh node SECTOR 04
+22:07:54 | INFO: Blender create Mesh node 04
+22:07:54 | INFO: Blender create Mesh node Foundation
+22:07:54 | INFO: Blender create Mesh node Rain polished paving
+22:07:54 | INFO: Blender create Mesh node Rainwater pools
+22:07:54 | INFO: Blender create Mesh node West enclosure mortar
+22:07:54 | INFO: Blender create Mesh node West enclosure brickwork
+22:07:54 | INFO: Blender create Mesh node West enclosure coping
+22:07:54 | INFO: Blender create Mesh node West enclosure pilasters
+22:07:54 | INFO: Blender create Mesh node West enclosure capitals
+22:07:54 | INFO: Blender create Mesh node North enclosure mortar
+22:07:54 | INFO: Blender create Mesh node North enclosure brickwork
+22:07:54 | INFO: Blender create Mesh node North enclosure coping
+22:07:54 | INFO: Blender create Mesh node North enclosure pilasters
+22:07:54 | INFO: Blender create Mesh node North enclosure capitals
+22:07:54 | INFO: Blender create Mesh node East cutaway mortar
+22:07:54 | INFO: Blender create Mesh node East cutaway brickwork
+22:07:54 | INFO: Blender create Mesh node East cutaway coping
+22:07:54 | INFO: Blender create Mesh node East cutaway pilasters
+22:07:54 | INFO: Blender create Mesh node East cutaway capitals
+22:07:54 | INFO: Blender create Mesh node South cutaway mortar
+22:07:54 | INFO: Blender create Mesh node South cutaway brickwork
+22:07:54 | INFO: Blender create Mesh node South cutaway coping
+22:07:54 | INFO: Blender create Mesh node South cutaway pilasters
+22:07:54 | INFO: Blender create Mesh node South cutaway capitals
+22:07:54 | INFO: Blender create Mesh node Industrial skyline
+22:07:54 | INFO: Blender create Mesh node Skyline window recess
+22:07:54 | INFO: Blender create Mesh node Skyline glazing
+22:07:54 | INFO: Blender create Mesh node Skyline cornices
+22:07:54 | INFO: Blender create Mesh node Roof machinery
+22:07:54 | INFO: Blender create Mesh node Repair shop
+22:07:54 | INFO: Blender create Mesh node Store front shadow
+22:07:54 | INFO: Blender create Mesh node Shop posts
+22:07:54 | INFO: Blender create Mesh node Window frame
+22:07:54 | INFO: Blender create Mesh node Window glass
+22:07:54 | INFO: Blender create Mesh node Window mullions
+22:07:54 | INFO: Blender create Mesh node Window sill
+22:07:54 | INFO: Blender create Mesh node Shop door
+22:07:54 | INFO: Blender create Mesh node Door glass
+22:07:54 | INFO: Blender create Mesh node Door handle
+22:07:54 | INFO: Blender create Mesh node Shop doorstep
+22:07:54 | INFO: Blender create Mesh node Copper awning
+22:07:54 | INFO: Blender create Mesh node Awning seams
+22:07:54 | INFO: Blender create Mesh node Awning lip
+22:07:54 | INFO: Blender create Mesh node Awning supports
+22:07:54 | INFO: Blender create Mesh node Shop fascia
+22:07:54 | INFO: Blender create Mesh node Shop standing seam roof
+22:07:54 | INFO: Blender create Mesh node Roof vents
+22:07:54 | INFO: Blender create Mesh node Roof vent cap
+22:07:54 | INFO: Blender create Mesh node Lantern mounts
+22:07:54 | INFO: Blender create Mesh node Amber lantern
+22:07:54 | INFO: Blender create Mesh node Lantern cages
+22:07:54 | INFO: Blender create Mesh node Lantern caps
+22:07:54 | INFO: Blender create Mesh node Service gate frame
+22:07:54 | INFO: Blender create Mesh node Service gate
+22:07:54 | INFO: Blender create Mesh node Gate ribs
+22:07:54 | INFO: Blender create Mesh node Gate cross braces
+22:07:54 | INFO: Blender create Mesh node Gate lights
+22:07:54 | INFO: Blender create Mesh node Service pipe
+22:07:54 | INFO: Blender create Mesh node Pipe collars
+22:07:54 | INFO: Blender create Mesh node West horizontal pipes
+22:07:54 | INFO: Blender create Mesh node Valve wheel
+22:07:54 | INFO: Blender create Mesh node Cargo crates
+22:07:54 | INFO: Blender create Mesh node Crate bindings
+22:07:54 | INFO: Blender create Mesh node Crate front bands
+22:07:54 | INFO: Blender create Mesh node Crate lid planks
+22:07:54 | INFO: Blender create Mesh node Cargo label
+22:07:54 | INFO: Blender create Mesh node Utility kiosk
+22:07:54 | INFO: Blender create Mesh node Kiosk recess
+22:07:54 | INFO: Blender create Mesh node Kiosk ventilation
+22:07:54 | INFO: Blender create Mesh node Kiosk roof
+22:07:54 | INFO: Blender create Mesh node Kiosk signal
+22:07:54 | INFO: Blender create Mesh node Robot feet
+22:07:54 | INFO: Blender create Mesh node Robot shins
+22:07:54 | INFO: Blender create Mesh node Robot knee axles
+22:07:54 | INFO: Blender create Mesh node Robot chassis
+22:07:54 | INFO: Blender create Mesh node Robot chest panel
+22:07:54 | INFO: Blender create Mesh node Robot chest LEDs
+22:07:54 | INFO: Blender create Mesh node Robot neck
+22:07:54 | INFO: Blender create Mesh node Robot head
+22:07:54 | INFO: Blender create Mesh node Robot visor
+22:07:54 | INFO: Blender create Mesh node Robot optics
+22:07:54 | INFO: Blender create Mesh node Robot shoulders
+22:07:54 | INFO: Blender create Mesh node Robot arms
+22:07:54 | INFO: Blender create Mesh node Robot claws
+22:07:54 | INFO: Blender create Mesh node Robot aerial
+22:07:54 | INFO: Blender create Mesh node Aerial light
+22:07:54 | INFO: Blender create Mesh node Robot backpack
+22:07:54 | INFO: Blender create Mesh node Drain frames
+22:07:54 | INFO: Blender create Mesh node Drain slots
+22:07:54 | INFO: Blender create Mesh node Rubble
+22:07:54 | INFO: Blender create Mesh node Ivy stems
+22:07:54 | INFO: Blender create Mesh node Ivy leaves
+22:07:54 | INFO: glTF import finished in 0.41s
+FBX version: 7400
+{
+  "passed": true,
+  "formats": [
+    {
+      "format": "blend",
+      "bytes": 15975566,
+      "meshObjects": 95,
+      "vertices": 64512,
+      "polygons": 63220,
+      "missingUV": [],
+      "uvOutOfBounds": 0,
+      "uniqueUVFacesVerified": 59305
+    },
+    {
+      "format": "glb",
+      "bytes": 16490112,
+      "meshObjects": 95,
+      "vertices": 227824,
+      "polygons": 108594,
+      "missingUV": [],
+      "uvOutOfBounds": 0,
+      "uniqueUVFacesVerified": 0
+    },
+    {
+      "format": "gltf",
+      "bytes": 139706,
+      "meshObjects": 95,
+      "vertices": 227824,
+      "polygons": 108594,
+      "missingUV": [],
+      "uvOutOfBounds": 0,
+      "uniqueUVFacesVerified": 0
+    },
+    {
+      "format": "fbx",
+      "bytes": 10138764,
+      "meshObjects": 95,
+      "vertices": 64512,
+      "polygons": 63220,
+      "missingUV": [],
+      "uvOutOfBounds": 0,
+      "uniqueUVFacesVerified": 0
+    }
+  ],
+  "gltfMissingResources": [],
+  "note": "UV1 non-overlap certified by disjoint per-face cell containment. UV0 deliberately reuses module surfaces; bevel strips inherit module UVs. FBX material translation varies by engine; GLB is the PBR reference."
+}
+Blender 4.5.12 LTS (hash 84afd5f785f7 built 2026-07-21 01:33:53)
+Read blend: "D:\github\astracraft\web3\high\assets\models\afterlight-rain-court.blend"
+
+Blender quit

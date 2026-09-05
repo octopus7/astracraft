@@ -1,0 +1,577 @@
+{
+  "under25MiB": true,
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 45
+    },
+    {
+      "file": "app.js",
+      "bytes": 5698
+    },
+    {
+      "file": "index.html",
+      "bytes": 4029
+    },
+    {
+      "file": "preview.png",
+      "bytes": 2647646
+    },
+    {
+      "file": "style.css",
+      "bytes": 6916
+    },
+    {
+      "file": "assets/afterlight-source-kit.zip",
+      "bytes": 10404532
+    },
+    {
+      "file": "docs/build.log",
+      "bytes": 46531
+    },
+    {
+      "file": "docs/common.md",
+      "bytes": 1646
+    },
+    {
+      "file": "docs/export-validation.json",
+      "bytes": 1217
+    },
+    {
+      "file": "docs/export-validation.log",
+      "bytes": 12921
+    },
+    {
+      "file": "docs/file-sizes.json",
+      "bytes": 11852
+    },
+    {
+      "file": "docs/imagegen-prompt.md",
+      "bytes": 1875
+    },
+    {
+      "file": "docs/README.md",
+      "bytes": 6068
+    },
+    {
+      "file": "docs/user-request.md",
+      "bytes": 1211
+    },
+    {
+      "file": "docs/uv-manifest.json",
+      "bytes": 21946
+    },
+    {
+      "file": "docs/viewer-desktop.png",
+      "bytes": 983509
+    },
+    {
+      "file": "docs/viewer-mobile.png",
+      "bytes": 286079
+    },
+    {
+      "file": "docs/web-validation.json",
+      "bytes": 1079
+    },
+    {
+      "file": "scripts/build_scene.py",
+      "bytes": 22855
+    },
+    {
+      "file": "scripts/package_assets.py",
+      "bytes": 1094
+    },
+    {
+      "file": "scripts/serve.mjs",
+      "bytes": 960
+    },
+    {
+      "file": "scripts/validate_exports.py",
+      "bytes": 2452
+    },
+    {
+      "file": "scripts/validate_web.cjs",
+      "bytes": 3750
+    },
+    {
+      "file": "uv/04-UVMap.svg",
+      "bytes": 23626
+    },
+    {
+      "file": "uv/Aerial-light-UVMap.svg",
+      "bytes": 6098
+    },
+    {
+      "file": "uv/Amber-lantern-UVMap.svg",
+      "bytes": 3379
+    },
+    {
+      "file": "uv/Awning-lip-UVMap.svg",
+      "bytes": 5102
+    },
+    {
+      "file": "uv/Awning-seams-UVMap.svg",
+      "bytes": 13430
+    },
+    {
+      "file": "uv/Awning-supports-UVMap.svg",
+      "bytes": 6185
+    },
+    {
+      "file": "uv/Cargo-crates-UVMap.svg",
+      "bytes": 13680
+    },
+    {
+      "file": "uv/Cargo-label-UVMap.svg",
+      "bytes": 12553
+    },
+    {
+      "file": "uv/checker-scene.png",
+      "bytes": 977941
+    },
+    {
+      "file": "uv/checker.png",
+      "bytes": 213161
+    },
+    {
+      "file": "uv/Copper-awning-UVMap.svg",
+      "bytes": 346
+    },
+    {
+      "file": "uv/Crate-bindings-UVMap.svg",
+      "bytes": 15588
+    },
+    {
+      "file": "uv/Crate-front-bands-UVMap.svg",
+      "bytes": 15239
+    },
+    {
+      "file": "uv/Crate-lid-planks-UVMap.svg",
+      "bytes": 16196
+    },
+    {
+      "file": "uv/Door-glass-UVMap.svg",
+      "bytes": 2118
+    },
+    {
+      "file": "uv/Door-handle-UVMap.svg",
+      "bytes": 5043
+    },
+    {
+      "file": "uv/Drain-frames-UVMap.svg",
+      "bytes": 3956
+    },
+    {
+      "file": "uv/Drain-slots-UVMap.svg",
+      "bytes": 6031
+    },
+    {
+      "file": "uv/East-cutaway-brickwork-UVMap.svg",
+      "bytes": 13829
+    },
+    {
+      "file": "uv/East-cutaway-capitals-UVMap.svg",
+      "bytes": 2176
+    },
+    {
+      "file": "uv/East-cutaway-coping-UVMap.svg",
+      "bytes": 3262
+    },
+    {
+      "file": "uv/East-cutaway-mortar-UVMap.svg",
+      "bytes": 2170
+    },
+    {
+      "file": "uv/East-cutaway-pilasters-UVMap.svg",
+      "bytes": 2141
+    },
+    {
+      "file": "uv/Foundation-UVMap.svg",
+      "bytes": 4099
+    },
+    {
+      "file": "uv/Gate-cross-braces-UVMap.svg",
+      "bytes": 3339
+    },
+    {
+      "file": "uv/Gate-lights-UVMap.svg",
+      "bytes": 2147
+    },
+    {
+      "file": "uv/Gate-ribs-UVMap.svg",
+      "bytes": 2614
+    },
+    {
+      "file": "uv/Industrial-skyline-UVMap.svg",
+      "bytes": 8075
+    },
+    {
+      "file": "uv/Ivy-leaves-UVMap.svg",
+      "bytes": 413
+    },
+    {
+      "file": "uv/Ivy-stems-UVMap.svg",
+      "bytes": 1078
+    },
+    {
+      "file": "uv/Kiosk-recess-UVMap.svg",
+      "bytes": 2142
+    },
+    {
+      "file": "uv/Kiosk-roof-UVMap.svg",
+      "bytes": 2160
+    },
+    {
+      "file": "uv/Kiosk-signal-UVMap.svg",
+      "bytes": 2132
+    },
+    {
+      "file": "uv/Kiosk-ventilation-UVMap.svg",
+      "bytes": 3106
+    },
+    {
+      "file": "uv/Lantern-cages-UVMap.svg",
+      "bytes": 6850
+    },
+    {
+      "file": "uv/Lantern-caps-UVMap.svg",
+      "bytes": 2153
+    },
+    {
+      "file": "uv/Lantern-mounts-UVMap.svg",
+      "bytes": 3506
+    },
+    {
+      "file": "uv/material-module-layout.svg",
+      "bytes": 3438
+    },
+    {
+      "file": "uv/N-O-R-T-H-------R-E-P-A-I-R-UVMap.svg",
+      "bytes": 104117
+    },
+    {
+      "file": "uv/North-enclosure-brickwork-UVMap.svg",
+      "bytes": 21712
+    },
+    {
+      "file": "uv/North-enclosure-capitals-UVMap.svg",
+      "bytes": 2176
+    },
+    {
+      "file": "uv/North-enclosure-coping-UVMap.svg",
+      "bytes": 3197
+    },
+    {
+      "file": "uv/North-enclosure-mortar-UVMap.svg",
+      "bytes": 2146
+    },
+    {
+      "file": "uv/North-enclosure-pilasters-UVMap.svg",
+      "bytes": 2169
+    },
+    {
+      "file": "uv/OPEN-UVMap.svg",
+      "bytes": 36960
+    },
+    {
+      "file": "uv/Pipe-collars-UVMap.svg",
+      "bytes": 20533
+    },
+    {
+      "file": "uv/Rain-polished-paving-LightmapUV.svg",
+      "bytes": 777307
+    },
+    {
+      "file": "uv/Rain-polished-paving-UVMap.svg",
+      "bytes": 8495
+    },
+    {
+      "file": "uv/Rainwater-pools-UVMap.svg",
+      "bytes": 469
+    },
+    {
+      "file": "uv/Repair-shop-UVMap.svg",
+      "bytes": 2201
+    },
+    {
+      "file": "uv/Robot-aerial-UVMap.svg",
+      "bytes": 9012
+    },
+    {
+      "file": "uv/Robot-arms-UVMap.svg",
+      "bytes": 23053
+    },
+    {
+      "file": "uv/Robot-backpack-UVMap.svg",
+      "bytes": 6099
+    },
+    {
+      "file": "uv/Robot-chassis-LightmapUV.svg",
+      "bytes": 6151
+    },
+    {
+      "file": "uv/Robot-chassis-UVMap.svg",
+      "bytes": 6143
+    },
+    {
+      "file": "uv/Robot-chest-LEDs-UVMap.svg",
+      "bytes": 9438
+    },
+    {
+      "file": "uv/Robot-chest-panel-UVMap.svg",
+      "bytes": 6069
+    },
+    {
+      "file": "uv/Robot-claws-UVMap.svg",
+      "bytes": 7192
+    },
+    {
+      "file": "uv/Robot-feet-UVMap.svg",
+      "bytes": 7749
+    },
+    {
+      "file": "uv/Robot-head-UVMap.svg",
+      "bytes": 6176
+    },
+    {
+      "file": "uv/Robot-knee-axles-UVMap.svg",
+      "bytes": 19858
+    },
+    {
+      "file": "uv/Robot-neck-UVMap.svg",
+      "bytes": 14759
+    },
+    {
+      "file": "uv/Robot-optics-UVMap.svg",
+      "bytes": 7181
+    },
+    {
+      "file": "uv/Robot-shins-UVMap.svg",
+      "bytes": 20496
+    },
+    {
+      "file": "uv/Robot-shoulders-UVMap.svg",
+      "bytes": 20875
+    },
+    {
+      "file": "uv/Robot-visor-UVMap.svg",
+      "bytes": 6069
+    },
+    {
+      "file": "uv/Roof-machinery-UVMap.svg",
+      "bytes": 2929
+    },
+    {
+      "file": "uv/Roof-vent-cap-UVMap.svg",
+      "bytes": 2380
+    },
+    {
+      "file": "uv/Roof-vents-UVMap.svg",
+      "bytes": 7089
+    },
+    {
+      "file": "uv/Rubble-UVMap.svg",
+      "bytes": 268408
+    },
+    {
+      "file": "uv/SECTOR-04-UVMap.svg",
+      "bytes": 114356
+    },
+    {
+      "file": "uv/Service-gate-frame-UVMap.svg",
+      "bytes": 2144
+    },
+    {
+      "file": "uv/Service-gate-LightmapUV.svg",
+      "bytes": 2131
+    },
+    {
+      "file": "uv/Service-gate-UVMap.svg",
+      "bytes": 2152
+    },
+    {
+      "file": "uv/Service-pipe-UVMap.svg",
+      "bytes": 13604
+    },
+    {
+      "file": "uv/Shop-door-UVMap.svg",
+      "bytes": 2154
+    },
+    {
+      "file": "uv/Shop-doorstep-UVMap.svg",
+      "bytes": 2169
+    },
+    {
+      "file": "uv/Shop-fascia-UVMap.svg",
+      "bytes": 2150
+    },
+    {
+      "file": "uv/Shop-posts-UVMap.svg",
+      "bytes": 3046
+    },
+    {
+      "file": "uv/Shop-standing-seam-roof-UVMap.svg",
+      "bytes": 2181
+    },
+    {
+      "file": "uv/Skyline-cornices-UVMap.svg",
+      "bytes": 7649
+    },
+    {
+      "file": "uv/Skyline-glazing-UVMap.svg",
+      "bytes": 6893
+    },
+    {
+      "file": "uv/Skyline-window-recess-UVMap.svg",
+      "bytes": 3556
+    },
+    {
+      "file": "uv/South-cutaway-brickwork-UVMap.svg",
+      "bytes": 10558
+    },
+    {
+      "file": "uv/South-cutaway-capitals-UVMap.svg",
+      "bytes": 2176
+    },
+    {
+      "file": "uv/South-cutaway-coping-UVMap.svg",
+      "bytes": 2968
+    },
+    {
+      "file": "uv/South-cutaway-mortar-UVMap.svg",
+      "bytes": 2156
+    },
+    {
+      "file": "uv/South-cutaway-pilasters-UVMap.svg",
+      "bytes": 2142
+    },
+    {
+      "file": "uv/Store-front-shadow-UVMap.svg",
+      "bytes": 2142
+    },
+    {
+      "file": "uv/Utility-kiosk-UVMap.svg",
+      "bytes": 2155
+    },
+    {
+      "file": "uv/Valve-wheel-UVMap.svg",
+      "bytes": 25893
+    },
+    {
+      "file": "uv/West-enclosure-brickwork-UVMap.svg",
+      "bytes": 19089
+    },
+    {
+      "file": "uv/West-enclosure-capitals-UVMap.svg",
+      "bytes": 2176
+    },
+    {
+      "file": "uv/West-enclosure-coping-UVMap.svg",
+      "bytes": 3015
+    },
+    {
+      "file": "uv/West-enclosure-mortar-UVMap.svg",
+      "bytes": 2149
+    },
+    {
+      "file": "uv/West-enclosure-pilasters-UVMap.svg",
+      "bytes": 2152
+    },
+    {
+      "file": "uv/West-horizontal-pipes-UVMap.svg",
+      "bytes": 9886
+    },
+    {
+      "file": "uv/Window-frame-UVMap.svg",
+      "bytes": 2743
+    },
+    {
+      "file": "uv/Window-glass-UVMap.svg",
+      "bytes": 2154
+    },
+    {
+      "file": "uv/Window-mullions-UVMap.svg",
+      "bytes": 6290
+    },
+    {
+      "file": "uv/Window-sill-UVMap.svg",
+      "bytes": 2607
+    },
+    {
+      "file": "vendor/BufferGeometryUtils.js",
+      "bytes": 35539
+    },
+    {
+      "file": "vendor/GLTFLoader.js",
+      "bytes": 114733
+    },
+    {
+      "file": "vendor/OrbitControls.js",
+      "bytes": 38703
+    },
+    {
+      "file": "vendor/RoomEnvironment.js",
+      "bytes": 4891
+    },
+    {
+      "file": "vendor/THREE-LICENSE.txt",
+      "bytes": 1081
+    },
+    {
+      "file": "vendor/three.core.js",
+      "bytes": 1403454
+    },
+    {
+      "file": "vendor/three.module.js",
+      "bytes": 603113
+    },
+    {
+      "file": "assets/models/afterlight-rain-court.bin",
+      "bytes": 9702988
+    },
+    {
+      "file": "assets/models/afterlight-rain-court.blend",
+      "bytes": 15975566
+    },
+    {
+      "file": "assets/models/afterlight-rain-court.fbx",
+      "bytes": 10138764
+    },
+    {
+      "file": "assets/models/afterlight-rain-court.glb",
+      "bytes": 16490112
+    },
+    {
+      "file": "assets/models/afterlight-rain-court.gltf",
+      "bytes": 139706
+    },
+    {
+      "file": "assets/models/rain-court-albedo.png",
+      "bytes": 2963235
+    },
+    {
+      "file": "assets/models/rain-court-normal.png",
+      "bytes": 2533489
+    },
+    {
+      "file": "assets/models/rain-court-roughness.png",
+      "bytes": 1188014
+    },
+    {
+      "file": "assets/renders/hero.png",
+      "bytes": 2647646
+    },
+    {
+      "file": "assets/textures/rain-court-albedo.png",
+      "bytes": 2963235
+    },
+    {
+      "file": "assets/textures/rain-court-normal.png",
+      "bytes": 2533489
+    },
+    {
+      "file": "assets/textures/rain-court-roughness.png",
+      "bytes": 1193485
+    }
+  ]
+}

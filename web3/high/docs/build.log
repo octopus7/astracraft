@@ -1,0 +1,620 @@
+Reloading external rigs...
+Reloading external metarigs...
+Cannot read ARP prefs
+Update armature presets...
+Info: Saved as "afterlight-rain-court.blend"
+INFO Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 4.5\4.5\scripts\addons_core\io_scene_gltf2\extern_draco.dll
+22:06:53 | INFO: Starting glTF 2.0 export
+22:06:53 | INFO: Extracting primitive: N O R T H   /   R E P A I R
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: OPEN
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: SECTOR 04
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: 04
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Foundation
+22:06:53 | INFO: Primitives created: 2
+22:06:53 | INFO: Extracting primitive: Rain polished paving
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Rainwater pools
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: West enclosure mortar
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: West enclosure brickwork
+22:06:53 | INFO: Primitives created: 2
+22:06:53 | INFO: Extracting primitive: West enclosure coping
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: West enclosure pilasters
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: West enclosure capitals
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: North enclosure mortar
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: North enclosure brickwork
+22:06:53 | INFO: Primitives created: 2
+22:06:53 | INFO: Extracting primitive: North enclosure coping
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: North enclosure pilasters
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: North enclosure capitals
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: East cutaway mortar
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: East cutaway brickwork
+22:06:53 | INFO: Primitives created: 2
+22:06:53 | INFO: Extracting primitive: East cutaway coping
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: East cutaway pilasters
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: East cutaway capitals
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: South cutaway mortar
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: South cutaway brickwork
+22:06:53 | INFO: Primitives created: 2
+22:06:53 | INFO: Extracting primitive: South cutaway coping
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: South cutaway pilasters
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: South cutaway capitals
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Industrial skyline
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Skyline window recess
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Skyline glazing
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Skyline cornices
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Roof machinery
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Repair shop
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Store front shadow
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Shop posts
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Window frame
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Window glass
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Window mullions
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Window sill
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Shop door
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Door glass
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Door handle
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Shop doorstep
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Copper awning
+22:06:53 | INFO: Primitives created: 2
+22:06:53 | INFO: Extracting primitive: Awning seams
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Awning lip
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Awning supports
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Shop fascia
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Shop standing seam roof
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Roof vents
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Roof vent cap
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Lantern mounts
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Amber lantern
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Lantern cages
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Lantern caps
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Service gate frame
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Service gate
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Gate ribs
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Gate cross braces
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Gate lights
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Service pipe
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Pipe collars
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: West horizontal pipes
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Valve wheel
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Cargo crates
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Crate bindings
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Crate front bands
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Crate lid planks
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Cargo label
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Utility kiosk
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Kiosk recess
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Kiosk ventilation
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Kiosk roof
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Kiosk signal
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Robot feet
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Robot shins
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Robot knee axles
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Robot chassis
+22:06:53 | INFO: Primitives created: 2
+22:06:53 | INFO: Extracting primitive: Robot chest panel
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Robot chest LEDs
+22:06:53 | INFO: Primitives created: 1
+22:06:53 | INFO: Extracting primitive: Robot neck
+22:06:53 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot head
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Robot visor
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot optics
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Robot shoulders
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot arms
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Robot claws
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot aerial
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Aerial light
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot backpack
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Drain frames
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Drain slots
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Rubble
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Ivy stems
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Ivy leaves
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | WARNING: Unsupported light source AREA
+22:06:54 | WARNING: Unsupported light source AREA
+22:06:54 | WARNING: Unsupported light source AREA
+22:06:54 | INFO: Finished glTF 2.0 export in 0.9587137699127197 s
+
+22:06:54 | INFO: Starting glTF 2.0 export
+22:06:54 | INFO: Extracting primitive: N O R T H   /   R E P A I R
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: OPEN
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: SECTOR 04
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: 04
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Foundation
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Rain polished paving
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Rainwater pools
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: West enclosure mortar
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: West enclosure brickwork
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: West enclosure coping
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: West enclosure pilasters
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: West enclosure capitals
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: North enclosure mortar
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: North enclosure brickwork
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: North enclosure coping
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: North enclosure pilasters
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: North enclosure capitals
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: East cutaway mortar
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: East cutaway brickwork
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: East cutaway coping
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: East cutaway pilasters
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: East cutaway capitals
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: South cutaway mortar
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: South cutaway brickwork
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: South cutaway coping
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: South cutaway pilasters
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: South cutaway capitals
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Industrial skyline
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Skyline window recess
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Skyline glazing
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Skyline cornices
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Roof machinery
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Repair shop
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Store front shadow
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Shop posts
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Window frame
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Window glass
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Window mullions
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Window sill
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Shop door
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Door glass
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Door handle
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Shop doorstep
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Copper awning
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Awning seams
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Awning lip
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Awning supports
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Shop fascia
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Shop standing seam roof
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Roof vents
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Roof vent cap
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Lantern mounts
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Amber lantern
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Lantern cages
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Lantern caps
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Service gate frame
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Service gate
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Gate ribs
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Gate cross braces
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Gate lights
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Service pipe
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Pipe collars
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: West horizontal pipes
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Valve wheel
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Cargo crates
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Crate bindings
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Crate front bands
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Crate lid planks
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Cargo label
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Utility kiosk
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Kiosk recess
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Kiosk ventilation
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Kiosk roof
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Kiosk signal
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot feet
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot shins
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot knee axles
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot chassis
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Robot chest panel
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot chest LEDs
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot neck
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot head
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Robot visor
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot optics
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Robot shoulders
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot arms
+22:06:54 | INFO: Primitives created: 2
+22:06:54 | INFO: Extracting primitive: Robot claws
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot aerial
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Aerial light
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Robot backpack
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Drain frames
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Drain slots
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Rubble
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Ivy stems
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | INFO: Extracting primitive: Ivy leaves
+22:06:54 | INFO: Primitives created: 1
+22:06:54 | WARNING: Unsupported light source AREA
+22:06:54 | WARNING: Unsupported light source AREA
+22:06:54 | WARNING: Unsupported light source AREA
+22:06:55 | INFO: Finished glTF 2.0 export in 0.9126923084259033 s
+Blender 4.5.12 LTS (hash 84afd5f785f7 built 2026-07-21 01:33:53)
+Fra:1 Mem:69.93M (Peak 69.93M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N O R T H   /   R E P A I R
+Fra:1 Mem:69.93M (Peak 69.93M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | OPEN
+Fra:1 Mem:69.99M (Peak 69.99M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Warm spill.002
+Fra:1 Mem:70.05M (Peak 70.05M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SECTOR 04
+Fra:1 Mem:70.09M (Peak 70.09M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Foundation
+Fra:1 Mem:70.21M (Peak 70.21M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rain polished paving
+Fra:1 Mem:70.22M (Peak 70.22M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West enclosure mortar
+Fra:1 Mem:70.23M (Peak 70.23M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West enclosure coping
+Fra:1 Mem:70.26M (Peak 70.26M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West enclosure pilasters
+Fra:1 Mem:70.35M (Peak 70.35M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West enclosure capitals
+Fra:1 Mem:70.36M (Peak 70.36M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | North enclosure coping
+Fra:1 Mem:70.79M (Peak 70.79M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | North enclosure capitals
+Fra:1 Mem:70.90M (Peak 70.90M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | East cutaway mortar
+Fra:1 Mem:71.32M (Peak 71.32M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | East cutaway coping
+Fra:1 Mem:72.07M (Peak 72.07M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | East cutaway capitals
+Fra:1 Mem:72.08M (Peak 72.08M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | South cutaway coping
+Fra:1 Mem:72.17M (Peak 72.17M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | South cutaway pilasters
+Fra:1 Mem:72.18M (Peak 72.18M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skyline glazing
+Fra:1 Mem:72.25M (Peak 72.25M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skyline cornices
+Fra:1 Mem:72.24M (Peak 72.25M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roof machinery
+Fra:1 Mem:72.24M (Peak 72.25M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Repair shop
+Fra:1 Mem:72.60M (Peak 72.60M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Store front shadow
+Fra:1 Mem:72.63M (Peak 72.63M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Window frame
+Fra:1 Mem:72.63M (Peak 72.78M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Window mullions
+Fra:1 Mem:73.28M (Peak 73.28M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shop door
+Fra:1 Mem:73.68M (Peak 73.68M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Door glass
+Fra:1 Mem:74.03M (Peak 74.03M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Door handle
+Fra:1 Mem:74.03M (Peak 74.03M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Copper awning
+Fra:1 Mem:74.50M (Peak 74.50M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Awning lip
+Fra:1 Mem:74.52M (Peak 74.52M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shop standing seam roof
+Fra:1 Mem:75.03M (Peak 75.03M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lantern mounts
+Fra:1 Mem:75.04M (Peak 75.04M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gate ribs
+Fra:1 Mem:75.09M (Peak 75.09M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gate cross braces
+Fra:1 Mem:75.16M (Peak 75.16M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gate lights
+Fra:1 Mem:75.17M (Peak 75.17M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Service pipe
+Fra:1 Mem:75.39M (Peak 75.39M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pipe collars
+Fra:1 Mem:75.42M (Peak 75.42M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West horizontal pipes
+Fra:1 Mem:75.56M (Peak 75.56M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cargo crates
+Fra:1 Mem:75.58M (Peak 75.58M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Crate front bands
+Fra:1 Mem:75.62M (Peak 75.62M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cargo label
+Fra:1 Mem:75.65M (Peak 75.65M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kiosk ventilation
+Fra:1 Mem:75.71M (Peak 75.71M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kiosk roof
+Fra:1 Mem:75.83M (Peak 75.83M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kiosk signal
+Fra:1 Mem:76.01M (Peak 76.01M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot knee axles
+Fra:1 Mem:76.03M (Peak 76.03M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot chest panel
+Fra:1 Mem:76.05M (Peak 76.05M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot chest LEDs
+Fra:1 Mem:76.05M (Peak 76.05M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot head
+Fra:1 Mem:76.08M (Peak 76.08M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot visor
+Fra:1 Mem:76.09M (Peak 76.09M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot shoulders
+Fra:1 Mem:76.56M (Peak 76.56M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot arms
+Fra:1 Mem:76.56M (Peak 76.56M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot claws
+Fra:1 Mem:76.62M (Peak 76.62M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gate cyan bounce
+Fra:1 Mem:76.78M (Peak 76.78M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial light
+Fra:1 Mem:76.63M (Peak 76.78M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Drain frames
+Fra:1 Mem:76.64M (Peak 76.78M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubble
+Fra:1 Mem:76.65M (Peak 76.78M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivy stems
+Fra:1 Mem:76.66M (Peak 76.78M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivy leaves
+Fra:1 Mem:76.66M (Peak 76.78M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Late sun through cloud
+Fra:1 Mem:76.70M (Peak 76.78M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cool open sky
+Fra:1 Mem:78.65M (Peak 78.65M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:78.25M (Peak 78.65M) | Time:00:00.23 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading rain-court-normal.png
+Fra:1 Mem:78.25M (Peak 78.65M) | Time:00:00.24 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading rain-court-albedo.png
+Fra:1 Mem:92.50M (Peak 96.24M) | Time:00:00.24 | Mem:18.00M, Peak:18.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:92.50M (Peak 96.24M) | Time:00:00.24 | Mem:18.00M, Peak:18.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:92.50M (Peak 96.24M) | Time:00:00.24 | Mem:18.00M, Peak:18.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:92.50M (Peak 96.24M) | Time:00:00.24 | Mem:18.00M, Peak:18.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:92.59M (Peak 96.24M) | Time:00:00.24 | Mem:18.01M, Peak:18.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:92.59M (Peak 96.24M) | Time:00:00.24 | Mem:18.01M, Peak:18.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:92.59M (Peak 96.24M) | Time:00:00.24 | Mem:18.01M, Peak:18.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:92.59M (Peak 96.24M) | Time:00:00.24 | Mem:18.01M, Peak:18.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:92.59M (Peak 96.24M) | Time:00:00.24 | Mem:18.01M, Peak:18.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:92.59M (Peak 96.24M) | Time:00:00.24 | Mem:18.01M, Peak:18.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:92.61M (Peak 96.24M) | Time:00:00.24 | Mem:18.04M, Peak:18.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:92.61M (Peak 96.24M) | Time:00:00.24 | Mem:18.04M, Peak:18.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:92.61M (Peak 96.24M) | Time:00:00.24 | Mem:18.04M, Peak:18.04M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:98.53M (Peak 98.53M) | Time:00:00.32 | Mem:18.04M, Peak:18.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:98.53M (Peak 98.53M) | Time:00:00.32 | Mem:18.04M, Peak:18.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:106.40M (Peak 106.40M) | Time:00:00.32 | Mem:18.05M, Peak:18.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:106.38M (Peak 106.40M) | Time:00:00.32 | Mem:25.88M, Peak:25.88M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:106.38M (Peak 106.40M) | Time:00:00.32 | Mem:25.88M, Peak:25.88M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:106.38M (Peak 106.40M) | Time:00:00.32 | Mem:29.20M, Peak:29.20M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:106.38M (Peak 106.40M) | Time:00:00.33 | Mem:33.15M, Peak:36.47M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:106.38M (Peak 106.40M) | Time:00:00.33 | Mem:33.15M, Peak:36.47M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:109.51M (Peak 109.51M) | Time:00:00.33 | Mem:33.15M, Peak:36.47M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:109.51M (Peak 109.51M) | Time:00:00.33 | Mem:36.29M, Peak:36.47M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:109.51M (Peak 109.51M) | Time:00:00.33 | Mem:36.29M, Peak:36.47M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:109.51M (Peak 109.51M) | Time:00:00.33 | Mem:36.29M, Peak:36.47M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:109.51M (Peak 109.51M) | Time:00:00.33 | Mem:36.29M, Peak:36.47M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:109.51M (Peak 109.51M) | Time:00:00.33 | Mem:36.29M, Peak:36.47M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:109.51M (Peak 109.51M) | Time:00:00.33 | Mem:36.37M, Peak:36.47M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:109.51M (Peak 109.51M) | Time:00:00.33 | Mem:36.37M, Peak:36.47M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:110.24M (Peak 122.24M) | Time:00:00.33 | Mem:37.09M, Peak:37.09M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:110.24M (Peak 122.24M) | Time:00:00.33 | Mem:37.09M, Peak:37.09M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:110.24M (Peak 122.24M) | Time:00:00.33 | Mem:37.01M, Peak:37.09M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:110.24M (Peak 122.24M) | Time:00:00.33 | Mem:37.10M, Peak:37.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:110.24M (Peak 122.24M) | Time:00:00.33 | Mem:37.10M, Peak:37.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:110.25M (Peak 122.24M) | Time:00:00.33 | Mem:37.10M, Peak:37.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:110.25M (Peak 122.24M) | Time:00:00.33 | Mem:37.10M, Peak:37.10M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:238.09M (Peak 238.09M) | Time:00:00.71 | Remaining:00:11.53 | Mem:164.67M, Peak:164.67M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:291.80M (Peak 372.37M) | Time:00:11.44 | Mem:164.67M, Peak:164.67M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:291.80M (Peak 372.37M) | Time:00:11.44 | Mem:164.67M, Peak:164.67M | Scene, ViewLayer | Finished
+Saved: 'D:\github\astracraft\web3\high\assets\renders\hero.png'
+Time: 00:11.64 (Saving: 00:00.17)
+
+Fra:1 Mem:71.55M (Peak 71.55M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | N O R T H   /   R E P A I R
+Fra:1 Mem:71.55M (Peak 71.55M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Warm spill.002
+Fra:1 Mem:71.61M (Peak 71.61M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | 04
+Fra:1 Mem:71.67M (Peak 71.67M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rain polished paving
+Fra:1 Mem:71.70M (Peak 71.70M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West enclosure mortar
+Fra:1 Mem:71.70M (Peak 71.70M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West enclosure brickwork
+Fra:1 Mem:72.12M (Peak 72.12M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West enclosure coping
+Fra:1 Mem:72.67M (Peak 72.67M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West enclosure capitals
+Fra:1 Mem:72.84M (Peak 72.84M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | North enclosure coping
+Fra:1 Mem:73.13M (Peak 73.13M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | North enclosure capitals
+Fra:1 Mem:73.16M (Peak 73.16M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | East cutaway brickwork
+Fra:1 Mem:73.23M (Peak 73.23M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | East cutaway coping
+Fra:1 Mem:73.76M (Peak 73.76M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | East cutaway capitals
+Fra:1 Mem:74.16M (Peak 74.16M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | South cutaway coping
+Fra:1 Mem:74.16M (Peak 74.16M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | South cutaway pilasters
+Fra:1 Mem:74.69M (Peak 74.69M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | South cutaway capitals
+Fra:1 Mem:74.80M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skyline window recess
+Fra:1 Mem:74.43M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roof machinery
+Fra:1 Mem:74.46M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Repair shop
+Fra:1 Mem:74.50M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shop posts
+Fra:1 Mem:74.51M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Window frame
+Fra:1 Mem:74.52M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Window mullions
+Fra:1 Mem:74.61M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Window sill
+Fra:1 Mem:74.64M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Door handle
+Fra:1 Mem:74.66M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shop doorstep
+Fra:1 Mem:74.67M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Copper awning
+Fra:1 Mem:74.74M (Peak 74.80M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Awning seams
+Fra:1 Mem:74.84M (Peak 74.84M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Awning supports
+Fra:1 Mem:74.83M (Peak 74.84M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shop fascia
+Fra:1 Mem:74.84M (Peak 74.84M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shop standing seam roof
+Fra:1 Mem:74.88M (Peak 74.89M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roof vent cap
+Fra:1 Mem:75.38M (Peak 75.38M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lantern mounts
+Fra:1 Mem:75.56M (Peak 75.56M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lantern caps
+Fra:1 Mem:75.73M (Peak 75.73M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Service gate
+Fra:1 Mem:75.73M (Peak 75.73M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gate ribs
+Fra:1 Mem:75.77M (Peak 75.77M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gate cross braces
+Fra:1 Mem:75.78M (Peak 75.78M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gate lights
+Fra:1 Mem:76.21M (Peak 76.21M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Service pipe
+Fra:1 Mem:76.21M (Peak 76.21M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pipe collars
+Fra:1 Mem:76.22M (Peak 76.22M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | West horizontal pipes
+Fra:1 Mem:76.82M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Valve wheel
+Fra:1 Mem:76.44M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Crate bindings
+Fra:1 Mem:76.49M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Crate front bands
+Fra:1 Mem:76.59M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cargo label
+Fra:1 Mem:76.60M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Utility kiosk
+Fra:1 Mem:76.68M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kiosk recess
+Fra:1 Mem:76.69M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kiosk ventilation
+Fra:1 Mem:76.71M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kiosk roof
+Fra:1 Mem:76.75M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Kiosk signal
+Fra:1 Mem:76.75M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot chassis
+Fra:1 Mem:76.76M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot chest panel
+Fra:1 Mem:76.77M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot chest LEDs
+Fra:1 Mem:76.78M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot neck
+Fra:1 Mem:76.80M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot head
+Fra:1 Mem:76.81M (Peak 76.82M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot visor
+Fra:1 Mem:76.85M (Peak 76.85M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot shoulders
+Fra:1 Mem:76.88M (Peak 76.88M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot arms
+Fra:1 Mem:76.91M (Peak 76.91M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot claws
+Fra:1 Mem:77.01M (Peak 77.01M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot aerial
+Fra:1 Mem:77.03M (Peak 77.03M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Robot backpack
+Fra:1 Mem:77.07M (Peak 77.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gate cyan bounce
+Fra:1 Mem:77.07M (Peak 77.07M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Drain slots
+Fra:1 Mem:77.22M (Peak 77.22M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubble
+Fra:1 Mem:77.22M (Peak 77.22M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Ivy leaves
+Fra:1 Mem:77.34M (Peak 77.34M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Late sun through cloud
+Fra:1 Mem:77.37M (Peak 77.37M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cool open sky
+Fra:1 Mem:78.65M (Peak 78.65M) | Time:00:00.10 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:78.25M (Peak 78.65M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading UV checker
+Fra:1 Mem:78.25M (Peak 78.65M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading rain-court-roughness.png
+Fra:1 Mem:90.50M (Peak 94.25M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:90.50M (Peak 94.25M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:90.50M (Peak 94.25M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:90.50M (Peak 94.25M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:90.59M (Peak 94.25M) | Time:00:00.11 | Mem:16.01M, Peak:16.01M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:90.59M (Peak 94.25M) | Time:00:00.11 | Mem:16.01M, Peak:16.01M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:90.59M (Peak 94.25M) | Time:00:00.11 | Mem:16.01M, Peak:16.01M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:90.59M (Peak 94.25M) | Time:00:00.11 | Mem:16.01M, Peak:16.01M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:90.59M (Peak 94.25M) | Time:00:00.11 | Mem:16.01M, Peak:16.01M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:90.59M (Peak 94.25M) | Time:00:00.11 | Mem:16.01M, Peak:16.01M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:90.62M (Peak 94.25M) | Time:00:00.11 | Mem:16.04M, Peak:16.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:90.62M (Peak 94.25M) | Time:00:00.11 | Mem:16.04M, Peak:16.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:90.62M (Peak 94.25M) | Time:00:00.11 | Mem:16.04M, Peak:16.04M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:96.53M (Peak 96.53M) | Time:00:00.15 | Mem:16.04M, Peak:16.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:96.53M (Peak 96.53M) | Time:00:00.15 | Mem:16.04M, Peak:16.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:104.40M (Peak 104.40M) | Time:00:00.15 | Mem:16.05M, Peak:16.05M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:104.38M (Peak 104.40M) | Time:00:00.15 | Mem:23.89M, Peak:23.89M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:104.38M (Peak 104.40M) | Time:00:00.15 | Mem:23.89M, Peak:23.89M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:104.38M (Peak 104.40M) | Time:00:00.15 | Mem:27.20M, Peak:27.20M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:104.38M (Peak 104.40M) | Time:00:00.15 | Mem:31.15M, Peak:34.47M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:104.38M (Peak 104.40M) | Time:00:00.15 | Mem:31.15M, Peak:34.47M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:107.52M (Peak 107.52M) | Time:00:00.16 | Mem:31.15M, Peak:34.47M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:107.52M (Peak 107.52M) | Time:00:00.16 | Mem:34.29M, Peak:34.47M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:107.52M (Peak 107.52M) | Time:00:00.16 | Mem:34.29M, Peak:34.47M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:107.52M (Peak 107.52M) | Time:00:00.16 | Mem:34.29M, Peak:34.47M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:107.52M (Peak 107.52M) | Time:00:00.16 | Mem:34.29M, Peak:34.47M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:107.52M (Peak 107.52M) | Time:00:00.16 | Mem:34.29M, Peak:34.47M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:107.52M (Peak 107.52M) | Time:00:00.16 | Mem:34.37M, Peak:34.47M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:107.52M (Peak 107.52M) | Time:00:00.16 | Mem:34.37M, Peak:34.47M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:108.24M (Peak 120.25M) | Time:00:00.16 | Mem:35.09M, Peak:35.09M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:108.24M (Peak 120.25M) | Time:00:00.16 | Mem:35.09M, Peak:35.09M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:108.25M (Peak 120.25M) | Time:00:00.16 | Mem:35.01M, Peak:35.09M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:108.25M (Peak 120.25M) | Time:00:00.16 | Mem:35.10M, Peak:35.10M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:108.25M (Peak 120.25M) | Time:00:00.16 | Mem:35.10M, Peak:35.10M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:108.25M (Peak 120.25M) | Time:00:00.16 | Mem:35.10M, Peak:35.10M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:108.25M (Peak 120.25M) | Time:00:00.16 | Mem:35.10M, Peak:35.10M | Scene, ViewLayer | Sample 0/12
+Fra:1 Mem:147.12M (Peak 147.12M) | Time:00:00.24 | Remaining:00:00.83 | Mem:73.70M, Peak:73.70M | Scene, ViewLayer | Sample 1/12
+Fra:1 Mem:163.37M (Peak 187.74M) | Time:00:01.85 | Mem:73.70M, Peak:73.70M | Scene, ViewLayer | Sample 12/12
+Fra:1 Mem:163.37M (Peak 187.74M) | Time:00:01.85 | Mem:73.70M, Peak:73.70M | Scene, ViewLayer | Finished
+Saved: 'D:\github\astracraft\web3\high\uv\checker-scene.png'
+Time: 00:01.91 (Saving: 00:00.03)
+
+
+
+FBX export starting... 'D:\\github\\astracraft\\web3\\high\\assets\\models\\afterlight-rain-court.fbx'
+export finished in 0.2779 sec.
+AFTERLIGHT_BUILD_COMPLETE
+
+Blender quit
