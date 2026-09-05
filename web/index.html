@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#111d19">
+  <meta name="description" content="블록 숲을 질주하고 골드 코인을 모으는 초고속 웹 러너, Astra Dash.">
+  <title>ASTRA DASH — Greenwild Run</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23c3f36b'/%3E%3Cpath d='M18 3 7 19h8l-2 10 12-17h-9z' fill='%23111d19'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./game.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="./"><span class="brand-icon">ϟ</span> ASTRA<span class="light">DASH</span><span class="edition">WEB ARCADE / 001</span></a><div class="top-right"><span class="online-dot"></span> READY TO RUN <button id="sound" class="icon-button" aria-label="효과음 켜기" aria-pressed="false">♪ OFF</button></div></header>
+  <main>
+    <section class="heading"><div><div class="eyebrow">A LITTLE WILD. A LOT OF SPEED.</div><h1>블록 너머로, <span>더 빠르게.</span></h1><p>끝없이 펼쳐진 초록빛 세상. 코인을 모으고, 나만의 기록을 넘어보세요.</p></div><div class="record"><span>PERSONAL BEST</span><strong id="best">00000</strong><small>나의 최고 점수 ↗</small></div></section>
+    <section class="game-shell" aria-label="Astra Dash 게임">
+      <canvas id="game" aria-label="블록 숲 3레인 러너. 방향키로 이동, 스페이스로 점프, Shift로 대시." tabindex="0"></canvas>
+      <div class="hud"><div class="world"><span class="world-dot"></span><div>GREENWILD<small>01 / ENDLESS RUN</small></div></div><div class="stats"><div><small>COINS</small><strong class="gold">◈ <span id="coins">0</span></strong></div><div><small>DISTANCE</small><strong><span id="distance">0</span><em> m</em></strong></div><button id="pause" class="icon-button" aria-label="일시정지" disabled>Ⅱ</button></div></div>
+      <div id="overlay" class="overlay"><div class="intro-card"><div class="tag" id="overlay-tag">YOUR NEXT ADVENTURE</div><h2 id="overlay-title">작은 블록.<br><span>무한한 질주.</span></h2><p id="overlay-copy">길을 바꾸고, 장애물을 뛰어넘으세요.<br>반짝이는 코인이 당신을 기다립니다.</p><button id="start" class="primary">달리기 시작 <span>→</span></button><div class="start-hint" id="start-hint">ENTER 또는 SPACE로 시작</div></div></div>
+      <div class="bottom-hud"><div class="speed"><span id="speed">0</span><small>KM/H</small><i>/////</i></div><div class="boost"><div><span>ϟ DASH ENERGY</span><small id="boost-label">SHIFT를 길게 눌러 대시</small></div><div class="energy-track"><div id="energy"></div></div></div></div>
+      <div id="toast" class="toast" role="status"></div>
+      <div class="touch-controls"><button data-action="left" aria-label="왼쪽 이동">←</button><button data-action="right" aria-label="오른쪽 이동">→</button><button data-action="jump" aria-label="점프">↑</button><button data-action="dash" aria-label="대시">ϟ</button></div>
+    </section>
+    <section class="below"><div class="controls"><span class="section-label">HOW TO PLAY</span><span><kbd>←</kbd><kbd>→</kbd> 레인 이동</span><span><kbd>SPACE</kbd> 점프</span><span><kbd>SHIFT</kbd> 대시</span><span><kbd>P</kbd> 일시정지</span></div><span class="tip"><span>✦</span> 코인을 모으면 대시 에너지가 충전돼요.</span></section>
+    <footer><span>CRAFTED FOR THE FAST & THE CURIOUS.</span><span>오리지널 블록 월드 · 브라우저에서 바로 플레이 <span class="footer-mark">↗</span></span></footer>
+  </main>
+</body>
+</html>
