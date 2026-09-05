@@ -1,0 +1,164 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "AstraCraft procedural modular asset generator"
+  },
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "relay-terminal",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": "relay-terminal",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "RainCourt_Atlas_PBR",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.45,
+        "roughnessFactor": 0.73
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.55
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "uri": "../textures/material-atlas.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "relay-terminal.bin",
+      "byteLength": 4200
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 1440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1440,
+      "byteLength": 1440,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2880,
+      "byteLength": 960,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3840,
+      "byteLength": 360,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC3",
+      "min": [
+        -0.675,
+        0,
+        -0.55
+      ],
+      "max": [
+        0.675,
+        2.2,
+        0.55
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 120,
+      "type": "VEC2",
+      "min": [
+        0,
+        0
+      ],
+      "max": [
+        1,
+        1
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 180,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        119
+      ]
+    }
+  ],
+  "extras": {
+    "coordinateSystem": "Y-up, right-handed",
+    "units": "meters",
+    "uvLayout": "Non-overlapping face islands inside four atlas quadrants; 0-1 range",
+    "license": "Project original asset"
+  }
+}

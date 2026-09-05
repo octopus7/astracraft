@@ -1,0 +1,21 @@
+:root { color-scheme: dark; font-family: Inter, "Segoe UI", sans-serif; background:#071012; color:#e7e2d1; }
+* { box-sizing:border-box; }
+body { margin:0; min-height:100vh; background:radial-gradient(circle at 65% 20%,#213034 0,transparent 34%),linear-gradient(135deg,#071012,#101719 55%,#080d0e); }
+body::before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.18; background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px); background-size:42px 42px; }
+.portal-shell { width:min(1120px,calc(100% - 40px)); margin:auto; padding:10vh 0; }
+.portal-head { display:flex; gap:22px; align-items:center; border-bottom:1px solid #71808355; padding-bottom:28px; }
+.portal-head .star { color:#dbc995; font-size:52px; text-shadow:0 0 20px #c8ae6c66; }
+.portal-head p,.serial,.footnote { margin:0; font:600 12px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing:.22em; color:#9da9a6; }
+h1 { margin:4px 0 0; font-size:clamp(28px,5vw,64px); font-weight:300; letter-spacing:.16em; }
+.project-card { position:relative; display:grid; grid-template-columns:130px 1fr auto; align-items:end; gap:28px; min-height:380px; margin-top:36px; padding:32px; overflow:hidden; color:inherit; text-decoration:none; border:1px solid #93a5a050; background:linear-gradient(160deg,#111b1ddd,#0a1112ee); transition:.35s ease; }
+.project-card:hover { transform:translateY(-4px); border-color:#d5c38d; box-shadow:0 24px 70px #0008; }
+.preview { position:absolute; inset:0; opacity:.55; background:linear-gradient(155deg,transparent 42%,#101719 43%),linear-gradient(25deg,#39494a,#12191b); }
+.preview::before { content:""; position:absolute; width:56%; height:56%; left:24%; top:17%; transform:rotateX(60deg) rotateZ(-34deg); border:1px solid #d7d0b24d; background:repeating-linear-gradient(90deg,#65716b 0 28px,#252e2e 29px 31px); box-shadow:0 0 70px #d2bb7270; }
+.preview i { position:absolute; z-index:1; width:70px; height:120px; background:#101717; border:1px solid #63716e; top:15%; }
+.preview i:nth-child(1){left:16%}.preview i:nth-child(2){right:18%;height:180px}.preview i:nth-child(3){right:36%;top:8%;height:90px}
+.serial,.copy,.enter { position:relative; z-index:2; }
+.copy strong { display:block; font-size:clamp(28px,5vw,60px); font-weight:300; letter-spacing:.08em; }
+.copy small { display:block; margin-top:10px; color:#b9c1bd; font-size:15px; letter-spacing:.08em; }
+.enter { padding:10px 14px; border:1px solid #cdbd8755; color:#d9cc9d; font:600 12px ui-monospace,monospace; letter-spacing:.16em; }
+.footnote { margin-top:22px; }
+@media(max-width:700px){.project-card{grid-template-columns:1fr;min-height:480px}.serial{align-self:start}.enter{justify-self:start}.copy{align-self:end}}

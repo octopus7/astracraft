@@ -1,0 +1,19 @@
+{
+  "name": "astracraft-web2",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "models": "node medium/tools/generate-models.mjs",
+    "test": "node --test medium/tests/*.test.mjs",
+    "validate:models": "node medium/tools/validate-models.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "vite": "7.1.4"
+  }
+}

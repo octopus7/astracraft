@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="description" content="비 내리는 SF 수리 지구를 탐사하는 3D 웹게임" />
+    <title>The Rain Court</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div id="game" aria-label="The Rain Court 3D game"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="brand hud-panel">
+      <div class="brand-mark">✦</div>
+      <div><h1>ASTRALIGHT</h1><p>A WORLD WORTH REPAIRING</p></div>
+    </header>
+    <section class="location">
+      <p>LOWER DISTRICT&nbsp; / &nbsp;04</p>
+      <h2>The Rain Court</h2>
+      <div class="weather"><span>☼</span> AFTER THE RAIN <b id="clock">17:42</b></div>
+    </section>
+    <aside class="signal hud-panel" aria-label="지역 신호 정보">
+      <div class="signal-head"><span>▥ LOCAL SIGNAL</span><span>N ↑</span></div>
+      <div class="minimap"><span class="map-core"><i id="mapDot"></i></span><span class="map-wing"></span></div>
+      <div class="signal-foot"><span>● THE RAIN COURT</span><b>04</b></div>
+    </aside>
+    <section class="mission hud-panel" aria-live="polite">
+      <span>ACTIVE TASK</span>
+      <strong id="missionTitle">REACTIVATE LOCAL RELAYS</strong>
+      <div class="progress"><i id="progressBar"></i></div>
+      <small id="missionProgress">0 / 3 signals restored</small>
+    </section>
+    <section class="controls hud-panel">
+      <div class="controls-title"><b>FIELD CAMERA</b><button id="cameraMode" type="button">ORBIT</button></div>
+      <p><kbd>DRAG</kbd> orbit · <kbd>SHIFT</kbd> + drag pan · <kbd>SCROLL</kbd> zoom</p>
+      <p><kbd>WASD</kbd> move drone · click ground to travel · approach glowing relays</p>
+    </section>
+    <nav class="bottom-nav" aria-label="게임 메뉴">
+      <a href="../">⌂ Archive</a>
+      <button id="soundButton" type="button">◖ Sound on</button>
+      <button id="helpButton" type="button">☷ Controls</button>
+    </nav>
+    <div id="toast" role="status"></div>
+    <div id="loading"><span></span><p>RESTORING LOCAL MAP</p></div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
