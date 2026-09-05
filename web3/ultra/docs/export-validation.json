@@ -1,17 +1,17 @@
 {
   "schema": "rain-court-export-validation/v1",
-  "checked_at_unix": 1788621260,
+  "checked_at_unix": 1788623146,
   "mode": "Blender independent re-imports",
   "uv_policy": "Compare triangles within each unique mesh; shared modular-instance UVs are intentional. Positive overlap threshold 1e-10 UV². Island packing distance is documented by source UV layouts; this check records tile-border margin.",
   "containers": {
     "glb": {
       "file": "assets\\rain-court.glb",
-      "bytes": 18781684,
+      "bytes": 18860364,
       "errors": [],
       "warnings": [],
       "meshes": 206,
       "primitives": 206,
-      "accessors": 502,
+      "accessors": 498,
       "images": 14,
       "materials": 22,
       "external_dependencies": [],
@@ -19,12 +19,12 @@
     },
     "gltf": {
       "file": "assets\\gltf\\rain-court.gltf",
-      "bytes": 1723901,
+      "bytes": 1829977,
       "errors": [],
       "warnings": [],
       "meshes": 206,
       "primitives": 206,
-      "accessors": 502,
+      "accessors": 498,
       "images": 14,
       "materials": 22,
       "external_dependencies": [
@@ -54,7 +54,7 @@
       "warnings": [],
       "mesh_objects": 3361,
       "unique_meshes": 206,
-      "vertices_unique": 22730,
+      "vertices_unique": 22469,
       "polygons_instanced": 121536,
       "world_bounds": [
         [
@@ -219,15 +219,15 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.004479494411498308,
-              0.004479467868804932
+              0.004442412406206131,
+              0.004442393779754639
             ],
             [
-              0.9955205321311951,
-              0.7160087823867798
+              0.9955575466156006,
+              0.7205528020858765
             ]
           ],
-          "minimum_tile_border_margin": 0.004479467868804932,
+          "minimum_tile_border_margin": 0.004442393779754639,
           "islands": 26,
           "overlap_pair_count": 0,
           "overlap_examples": [],
@@ -243,15 +243,15 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.004155278205871582,
-              0.004155278205871582
+              0.004056257661432028,
+              0.004056274890899658
             ],
             [
-              0.9958447813987732,
-              0.750038206577301
+              0.9959437251091003,
+              0.7546700239181519
             ]
           ],
-          "minimum_tile_border_margin": 0.004155218601226807,
+          "minimum_tile_border_margin": 0.004056257661432028,
           "islands": 26,
           "overlap_pair_count": 0,
           "overlap_examples": [],
@@ -267,11 +267,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
+              0.0013473214348778129,
               0.0013473033905029297
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -324,7 +324,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.06649398803710938,
-          "islands": 28,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -348,7 +348,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.06661385297775269,
-          "islands": 27,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -372,7 +372,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.08311223983764648,
-          "islands": 28,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -396,7 +396,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.055645901709795,
-          "islands": 27,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -420,7 +420,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.0707470178604126,
-          "islands": 26,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -5189,7 +5189,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\rust-albedo.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\rust-albedo.png",
           "missing_external_file": false
         },
         {
@@ -5199,7 +5199,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\rust-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\rust-normal.png",
           "missing_external_file": false
         },
         {
@@ -5209,7 +5209,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\rust-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\rust-roughness.png",
           "missing_external_file": false
         },
         {
@@ -5219,7 +5219,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\timber-albedo.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\timber-albedo.png",
           "missing_external_file": false
         },
         {
@@ -5229,7 +5229,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\timber-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\timber-normal.png",
           "missing_external_file": false
         },
         {
@@ -5239,7 +5239,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\timber-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\timber-roughness.png",
           "missing_external_file": false
         },
         {
@@ -5249,7 +5249,7 @@
             512
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\ripple-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\ripple-normal.png",
           "missing_external_file": false
         },
         {
@@ -5259,7 +5259,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\concrete-albedo.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\concrete-albedo.png",
           "missing_external_file": false
         },
         {
@@ -5269,7 +5269,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\concrete-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\concrete-normal.png",
           "missing_external_file": false
         },
         {
@@ -5279,7 +5279,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\concrete-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\concrete-roughness.png",
           "missing_external_file": false
         },
         {
@@ -5289,7 +5289,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\painted-metal-albedo.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\painted-metal-albedo.png",
           "missing_external_file": false
         },
         {
@@ -5299,7 +5299,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\painted-metal-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\painted-metal-normal.png",
           "missing_external_file": false
         },
         {
@@ -5309,7 +5309,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\painted-metal-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\painted-metal-roughness.png",
           "missing_external_file": false
         },
         {
@@ -5319,7 +5319,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\wet-concrete-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-1odiotit\\textures\\wet-concrete-roughness.png",
           "missing_external_file": false
         }
       ],
@@ -19563,15 +19563,15 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.004479494411498308,
-              0.004479492548853159
+              0.004442412406206131,
+              0.004442403092980385
             ],
             [
-              0.9955205321311951,
-              0.7160087823867798
+              0.9955575466156006,
+              0.7205528020858765
             ]
           ],
-          "minimum_tile_border_margin": 0.004479467868804932,
+          "minimum_tile_border_margin": 0.004442403092980385,
           "islands": 6,
           "overlap_pair_count": 0,
           "overlap_examples": [],
@@ -21747,11 +21747,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21771,11 +21771,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21795,11 +21795,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21819,11 +21819,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21843,11 +21843,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21867,11 +21867,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21891,11 +21891,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21915,11 +21915,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21939,11 +21939,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21963,11 +21963,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -21987,11 +21987,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22011,11 +22011,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22035,11 +22035,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22059,11 +22059,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22083,11 +22083,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22107,11 +22107,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22131,11 +22131,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22155,11 +22155,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22179,11 +22179,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22203,11 +22203,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22227,11 +22227,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -22251,11 +22251,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
-              0.0013473216677084565
+              0.0013473214348778129,
+              0.0013473214348778129
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -74451,15 +74451,15 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.004155278205871582,
-              0.004155275411903858
+              0.004056257661432028,
+              0.004056258127093315
             ],
             [
-              0.9958447813987732,
-              0.750038206577301
+              0.9959437251091003,
+              0.7546700239181519
             ]
           ],
-          "minimum_tile_border_margin": 0.004155218601226807,
+          "minimum_tile_border_margin": 0.004056257661432028,
           "islands": 6,
           "overlap_pair_count": 0,
           "overlap_examples": [],
@@ -85997,7 +85997,7 @@
       "warnings": [],
       "mesh_objects": 3361,
       "unique_meshes": 206,
-      "vertices_unique": 22730,
+      "vertices_unique": 22469,
       "polygons_instanced": 121536,
       "world_bounds": [
         [
@@ -86162,15 +86162,15 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.004479494411498308,
-              0.004479467868804932
+              0.004442412406206131,
+              0.004442393779754639
             ],
             [
-              0.9955205321311951,
-              0.7160087823867798
+              0.9955575466156006,
+              0.7205528020858765
             ]
           ],
-          "minimum_tile_border_margin": 0.004479467868804932,
+          "minimum_tile_border_margin": 0.004442393779754639,
           "islands": 26,
           "overlap_pair_count": 0,
           "overlap_examples": [],
@@ -86186,15 +86186,15 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.004155278205871582,
-              0.004155278205871582
+              0.004056257661432028,
+              0.004056274890899658
             ],
             [
-              0.9958447813987732,
-              0.750038206577301
+              0.9959437251091003,
+              0.7546700239181519
             ]
           ],
-          "minimum_tile_border_margin": 0.004155218601226807,
+          "minimum_tile_border_margin": 0.004056257661432028,
           "islands": 26,
           "overlap_pair_count": 0,
           "overlap_examples": [],
@@ -86210,11 +86210,11 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.0013473216677084565,
+              0.0013473214348778129,
               0.0013473033905029297
             ],
             [
-              0.08648161590099335,
+              0.08648160099983215,
               0.9986526966094971
             ]
           ],
@@ -86267,7 +86267,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.06649398803710938,
-          "islands": 28,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -86291,7 +86291,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.06661385297775269,
-          "islands": 27,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -86315,7 +86315,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.08311223983764648,
-          "islands": 28,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -86339,7 +86339,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.055645901709795,
-          "islands": 27,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -86363,7 +86363,7 @@
             ]
           ],
           "minimum_tile_border_margin": 0.0707470178604126,
-          "islands": 26,
+          "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,

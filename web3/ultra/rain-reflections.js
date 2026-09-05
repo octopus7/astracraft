@@ -127,6 +127,12 @@ function patchSurface(material, water, uniforms) {
       vec3 rainWorldNormal = inverseTransformDirection(normal, viewMatrix);
       float rainUp = smoothstep(.55, .95, rainWorldNormal.y);
       float rainWeight = rainFrame.x * rainFrame.y * step(.0001, rainProjected.w) * rainUp * rainPlanar * rainReady;
+      ${water ? '' : `
+        vec3 pavingGeometryNormal = inverseTransformDirection(nonPerturbedNormal, viewMatrix);
+        float planeEligibility = smoothstep(.9903, .9994, pavingGeometryNormal.y)
+          * (1.0 - smoothstep(.025, .12, abs(vRainWorld.y - ${WATER_HEIGHT.toFixed(3)})));
+        rainWeight *= planeEligibility;
+      `}
       if (rainWeight > .001) {
         vec3 rainRadiance = rainBlur(clamp(rainUV, .001, .999), ${water ? 'roughnessFactor' : 'mix(.34, .1, surfaceWet)'});
         ${water ? 'radiance = mix(radiance, rainRadiance, rainWeight);' : ''}
@@ -135,7 +141,7 @@ function patchSurface(material, water, uniforms) {
         #endif
       }`);
   };
-  material.customProgramCacheKey = () => 'rain-court-planar-v1-' + (water ? 'water' : 'paving');
+  material.customProgramCacheKey = () => 'rain-court-planar-v2-' + (water ? 'water' : 'paving');
   material.needsUpdate = true;
 }
 
@@ -180,6 +186,7 @@ export async function createRainReflections({ renderer, scene, camera, meshes })
   pmrem.dispose(); cubeTarget.dispose();
 
   const upgraded = new Map();
+  const capturePavingMaterials = new Map();
   for (const mesh of surfaces) {
     const old = mesh.material;
     const water = isWater(old);
@@ -200,6 +207,12 @@ export async function createRainReflections({ renderer, scene, camera, meshes })
         material.clearcoat = 1;
         material.clearcoatRoughness = .12;
         material.normalScale.multiplyScalar(.6);
+        // Raised stones must appear in the water, without sampling the texture
+        // that is currently being rendered. This clone has no planar shader.
+        const captureMaterial = material.clone();
+        captureMaterial.color.multiplyScalar(.5);
+        captureMaterial.clearcoat = .45;
+        capturePavingMaterials.set(material, captureMaterial);
       }
       patchSurface(material, water, uniforms);
       upgraded.set(old, material);
@@ -235,15 +248,18 @@ export async function createRainReflections({ renderer, scene, camera, meshes })
     // shader ripples and reuse the captured image without extra scene renders.
     if (!force && !forceCapture && !changed) return;
     if (!force && !forceCapture && time - lastCapture < interval) return;
-    const visibility = surfaces.map(mesh => mesh.visible);
+    const originalSurfaces = surfaces.map(mesh => ({ visible: mesh.visible, material: mesh.material }));
     const oldTarget = renderer.getRenderTarget();
     const oldXr = renderer.xr.enabled;
     const oldShadow = renderer.shadowMap.autoUpdate;
     const started = performance.now();
     try {
-      // Hiding every sampling surface prevents framebuffer feedback, including
-      // branches whose planar contribution currently happens to be zero.
-      surfaces.forEach(mesh => { mesh.visible = false; });
+      // Water is hidden; exposed stones use a material with no reflection-target
+      // sampler. Merely setting the planar weight to zero could still feed back.
+      surfaces.forEach(mesh => {
+        if (isWater(mesh.material)) mesh.visible = false;
+        else mesh.material = capturePavingMaterials.get(mesh.material);
+      });
       scene.updateMatrixWorld(true);
       reflector.onBeforeRender(renderer, scene, camera);
       uniforms.rainProjection.value.copy(reflector.material.uniforms.textureMatrix.value).multiply(inversePlane);
@@ -251,7 +267,10 @@ export async function createRainReflections({ renderer, scene, camera, meshes })
       captures++; captureMs = performance.now() - started;
       lastCamera.copy(camera.matrixWorld); lastCapture = time; forceCapture = false;
     } finally {
-      surfaces.forEach((mesh, index) => { mesh.visible = visibility[index]; });
+      surfaces.forEach((mesh, index) => {
+        mesh.visible = originalSurfaces[index].visible;
+        mesh.material = originalSurfaces[index].material;
+      });
       renderer.xr.enabled = oldXr; renderer.shadowMap.autoUpdate = oldShadow; renderer.setRenderTarget(oldTarget);
     }
   }
@@ -263,6 +282,9 @@ export async function createRainReflections({ renderer, scene, camera, meshes })
     setWetness(value) { uniforms.rainWetness.value = THREE.MathUtils.clamp(value, 0, 1); forceCapture = true; },
     invalidate() { forceCapture = true; },
     status() { const target = reflector.getRenderTarget(); return { captures, captureMs: Math.round(captureMs * 10) / 10, width: target.width, height: target.height }; },
-    dispose() { reflector.geometry.dispose(); reflector.dispose(); courtEnvironment.dispose(); wetMap.dispose(); rippleMap.dispose(); },
+    dispose() {
+      for (const material of capturePavingMaterials.values()) material.dispose();
+      reflector.geometry.dispose(); reflector.dispose(); courtEnvironment.dispose(); wetMap.dispose(); rippleMap.dispose();
+    },
   };
 }

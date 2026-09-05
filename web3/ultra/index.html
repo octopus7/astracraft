@@ -77,11 +77,15 @@
       <select id="quality"><option value="balanced">Balanced</option><option value="high" selected>High</option><option value="low">Battery saver</option></select>
       <label class="control-label" for="exposure">Exposure <output id="exposure-value" for="exposure">1.00</output></label>
       <input type="range" id="exposure" min="0.5" max="1.8" value="1" step="0.05">
+      <label class="control-label" for="bloom">Light bloom <output id="bloom-value" for="bloom">45%</output></label>
+      <input type="range" id="bloom" min="0" max="1.5" value="0.45" step="0.05">
       <label class="toggle-row" for="reflections"><span>Scene reflections<span class="setting-detail" id="reflection-status">Buildings and lights reflected in the rain</span></span><input type="checkbox" id="reflections" checked></label>
       <label class="control-label" for="wetness">Surface wetness <output id="wetness-value" for="wetness">100%</output></label>
       <input type="range" id="wetness" min="0" max="1" value="1" step="0.05">
       <label class="toggle-row" for="wireframe"><span>Wireframe<span class="setting-detail">Inspect the modeled geometry</span></span><input type="checkbox" id="wireframe"></label>
-      <label class="toggle-row" for="atmosphere"><span>Atmosphere<span class="setting-detail">Soft haze beyond the courtyard</span></span><input type="checkbox" id="atmosphere" checked></label>
+      <label class="toggle-row" for="atmosphere"><span>Volumetric fog<span class="setting-detail">Mist catches the courtyard lights</span></span><input type="checkbox" id="atmosphere" checked></label>
+      <label class="control-label" for="fog-density">Fog density <output id="fog-value" for="fog-density">100%</output></label>
+      <input type="range" id="fog-density" min="0" max="2" value="1" step="0.05">
       <button class="button full-width" id="capture"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h5l2-3h4l2 3h5v15H3Z"/><circle cx="12" cy="13" r="4"/></svg>Save this view</button>
       <p class="drawer-note" id="model-stats">3D scene loading…</p>
     </aside>

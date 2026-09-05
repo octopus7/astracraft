@@ -2,9 +2,9 @@
 All geometry is authored here as editable meshes; ImageGen surfaces are external inputs.
 Units metres, Z up. UV reuse across modular instances is intentional.
 """
-import bpy, bmesh, math, random, json, sys, struct
+import bpy, bmesh, math, random, json, sys, struct, os, time
 from pathlib import Path
-from mathutils import Vector
+from mathutils import Vector, Quaternion
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets'
@@ -127,21 +127,70 @@ def text_mesh(name,body,loc,size,mat,col='Signage',rot=(math.pi/2,0,0),align='CE
     bm.to_mesh(o.data);bm.free();uv_project(o.data);o.data.materials.append(mat);return o
 
 # The court is a complete diorama, open at the front to keep the subject legible.
-box('Foundation | exposed diorama plinth',(0,0,-.5),(22.6,18.8,.9),dark,'Ground',.14)
-box('Subgrade | mortar',(0,0,-.035),(21.8,18,.22),grout,'Ground',.02)
+WATER_LEVEL=.166
+PUDDLE_LAYOUT=[('Long shop reflection',2.6,4.5,4.1,.8),('Pool around companion',4.6,0,3.2,3.55),('Gate runoff',-5.6,3.3,1.6,2.4),('Front rain pool',-2,-6.6,2.3,1),('Drained right edge',9,-1,1,5)]
+terrain_rng=random.Random(271828)
+terrain_tiles=[]
+def smoothstep(low,high,value):
+    t=max(0,min(1,(value-low)/(high-low)))
+    return t*t*(3-2*t)
+
+def basin_tile_pose(x,y,original_z,yaw):
+    """Rigid stones settle into the closest elliptical basin, with a low rim.
+
+    A private RNG preserves every original architecture/prop/plant placement.
+    The normal points downhill towards the ellipse center, with small independent
+    angular variation, while the flat water remains on a single horizontal plane.
+    """
+    candidates=[]
+    for name,cx,cy,rx,ry in PUDDLE_LAYOUT:
+        radius=math.hypot((x-cx)/rx,(y-cy)/ry)
+        candidates.append((radius,name,cx,cy,rx,ry))
+    radius,name,cx,cy,rx,ry=min(candidates)
+    influence=1-smoothstep(1.15,1.75,radius)
+    rim=.070*math.exp(-((radius-1.08)/.38)**2)
+    sink=.065*(1-smoothstep(.08,1.02,radius))
+    settling=terrain_rng.uniform(-.008,.008)*influence
+    displacement=rim-sink+settling
+    shoulder=math.exp(-((radius-.9)/.45)**2)
+    basin_tilt=min(6,max(2,(2.1+3.7*shoulder)*terrain_rng.uniform(.86,1.08)))
+    tilt_degrees=basin_tilt*influence+terrain_rng.uniform(.3,.9)*(1-influence)
+    outward=math.atan2((y-cy)/(ry*ry),(x-cx)/(rx*rx))
+    direction=outward+terrain_rng.uniform(-.22,.22)
+    slope=math.tan(math.radians(tilt_degrees))
+    normal=Vector((-slope*math.cos(direction),-slope*math.sin(direction),1)).normalized()
+    tilt=Vector((0,0,1)).rotation_difference(normal)
+    rotation=(tilt @ Quaternion((0,0,1),yaw)).to_euler('XYZ')
+    return original_z+displacement,rotation,{'basin':name,'ellipse_radius':radius,
+        'settlement_m':displacement,'tilt_degrees':tilt_degrees,
+        'downhill_alignment':math.cos(direction-outward)}
+
+# Lower the supporting surfaces, keeping the plinth's bottom at -.95 m.
+# Their opaque depth remains continuous beneath the depressed paving.
+box('Foundation | exposed diorama plinth',(0,0,-.56),(22.6,18.8,.78),dark,'Ground',.14)
+box('Subgrade | mortar',(0,0,-.13),(21.8,18,.12),grout,'Ground',.02)
 for row in range(18):
     for col in range(20):
         x=-10.15+col*1.08+(.52 if row%2 else 0);y=-8.25+row*.98
         if x>10.6:continue
         if random.random()<.035:continue
-        box('Paving | staggered wet flagstone',(x,y,.07+random.uniform(-.018,.018)),(1.035,.93,.15),wet,'Paving',.025,rot=(0,0,random.uniform(-.012,.012)))
+        original_z=.07+random.uniform(-.018,.018);yaw=random.uniform(-.012,.012)
+        tile_z,tile_rotation,terrain_info=basin_tile_pose(x,y,original_z,yaw)
+        tile=box('Paving | staggered wet flagstone',(x,y,tile_z),(1.035,.93,.15),wet,'Paving',.025,rot=tile_rotation)
+        for key,value in terrain_info.items():tile['terrain_'+key]=value
+        terrain_tiles.append((tile,terrain_info))
         if random.random()<.07:
-            beam('Hairline paving fracture',(x-.4,y-.2,.15),(x+.3,y+.3,.15),.012,grout,'Ground',6)
+            rotation=tile.rotation_euler.to_matrix()
+            a=tile.location+rotation @ Vector((-.4,-.2,.071))
+            b=tile.location+rotation @ Vector((.3,.3,.071))
+            beam('Hairline paving fracture',a,b,.012,grout,'Ground',6)
 
 def puddle(name,cx,cy,rx,ry):
-    count=28;verts=[(cx,cy,.166)]
+    count=28;verts=[(cx,cy,WATER_LEVEL)]
     for i in range(count):
-        a=2*math.pi*i/count;s=random.uniform(.79,1.12);verts.append((cx+math.cos(a)*rx*s,cy+math.sin(a)*ry*s,.166+random.uniform(-.0005,.0005)))
+        a=2*math.pi*i/count;s=random.uniform(.79,1.12)
+        random.uniform(-.0005,.0005)  # Preserve legacy RNG sequence; water stays level.
+        verts.append((cx+math.cos(a)*rx*s,cy+math.sin(a)*ry*s,WATER_LEVEL))
     faces=[(0,i+1,(i+1)%count+1) for i in range(count)]
     me=bpy.data.meshes.new(name);me.from_pydata(verts,[],faces);me.update()
     uv=me.uv_layers.new(name='UVMap')
@@ -149,7 +198,72 @@ def puddle(name,cx,cy,rx,ry):
         for li in p.loop_indices:
             v=me.vertices[me.loops[li].vertex_index].co;uv.data[li].uv=((v.x-cx)/(2.5*rx)+.5,(v.y-cy)/(2.5*ry)+.5)
     return obj_from(me,name,(0,0,0),water,'Rainwater')
-for args in [('Long shop reflection',2.6,4.5,4.1,.8),('Pool around companion',4.6,0,3.2,3.55),('Gate runoff',-5.6,3.3,1.6,2.4),('Front rain pool',-2,-6.6,2.3,1),('Drained right edge',9,-1,1,5)]:puddle(*args)
+for args in PUDDLE_LAYOUT:puddle(*args)
+
+def inside_polygon(x,y,ring):
+    inside=False
+    previous=ring[-1]
+    for current in ring:
+        if (current.y>y)!=(previous.y>y):
+            crossing=(previous.x-current.x)*(y-current.y)/(previous.y-current.y)+current.x
+            if x<crossing:inside=not inside
+        previous=current
+    return inside
+
+def audit_terrain():
+    """Sample actual transformed top faces against the exact irregular water rings."""
+    bpy.context.view_layer.update()
+    rings=[[v.co.copy() for v in o.data.vertices][1:] for o in collection('Rainwater').objects]
+    report={'schema':'rain-court-paving-validation/v1','terrain_seed':271828,
+        'water_level_m':WATER_LEVEL,'mortar_top_m':-.07,'plinth_top_m':-.17,
+        'puddle_xy_layout':PUDDLE_LAYOUT,'tile_count':len(terrain_tiles),'tiles':[]}
+    depths=[];core_depths=[];all_top_heights=[];mixed=0
+    for tile,info in terrain_tiles:
+        matrix=tile.matrix_world
+        top=max(v.co.z for v in tile.data.vertices)
+        top_heights=[(matrix @ v.co).z for v in tile.data.vertices if abs(v.co.z-top)<1e-5]
+        all_top_heights.extend(top_heights)
+        tile_depths=[]
+        for xi in range(5):
+            for yi in range(5):
+                p=matrix @ Vector((-.47+xi*.235,-.42+yi*.21,top))
+                if any(inside_polygon(p.x,p.y,ring) for ring in rings):
+                    tile_depths.append(WATER_LEVEL-p.z)
+        depths.extend(tile_depths)
+        if tile_depths and min(tile_depths)<-.002 and max(tile_depths)>.002:mixed+=1
+        center=matrix @ Vector((0,0,top))
+        if info['ellipse_radius']<.55 and any(inside_polygon(center.x,center.y,ring) for ring in rings):
+            core_depths.append(WATER_LEVEL-center.z)
+        item={'name':tile.name,**{key:round(value,6) if isinstance(value,float) else value for key,value in info.items()},
+            'top_height_min_m':round(min(top_heights),6),'top_height_max_m':round(max(top_heights),6),
+            'water_covered_samples':len(tile_depths)}
+        if tile_depths:item.update(water_depth_min_m=round(min(tile_depths),6),water_depth_max_m=round(max(tile_depths),6))
+        report['tiles'].append(item)
+    wet_tiles=[info for tile,info in terrain_tiles if info['ellipse_radius']<=1.15]
+    water_heights=[v.co.z for o in collection('Rainwater').objects for v in o.data.vertices]
+    report['summary']={'tilt_min_degrees':min(info['tilt_degrees'] for tile,info in terrain_tiles),
+        'tilt_max_degrees':max(info['tilt_degrees'] for tile,info in terrain_tiles),
+        'wet_zone_tilt_min_degrees':min(info['tilt_degrees'] for info in wet_tiles),
+        'wet_zone_tilt_max_degrees':max(info['tilt_degrees'] for info in wet_tiles),
+        'minimum_inward_alignment_cosine':min(info['downhill_alignment'] for info in wet_tiles),
+        'settlement_min_m':min(info['settlement_m'] for tile,info in terrain_tiles),
+        'settlement_max_m':max(info['settlement_m'] for tile,info in terrain_tiles),
+        'water_surface_height_range_m':max(water_heights)-min(water_heights),
+        'water_covered_top_samples':len(depths),'submerged_top_samples':sum(d>.002 for d in depths),
+        'exposed_top_samples':sum(d<-.002 for d in depths),'shore_crossing_tiles':mixed,
+        'core_center_count':len(core_depths),'core_center_depth_min_m':min(core_depths),
+        'core_center_depth_max_m':max(core_depths),'water_depth_max_m':max(depths),
+        'exposed_height_max_m':-min(depths),
+        'minimum_top_clearance_above_mortar_m':min(all_top_heights)+.07}
+    assert report['summary']['water_surface_height_range_m']<1e-7
+    assert report['summary']['core_center_depth_min_m']>.008
+    assert report['summary']['minimum_top_clearance_above_mortar_m']>.025
+    assert mixed>=10 and report['summary']['exposed_top_samples']>=20
+    report['passed']=True
+    (ROOT/'docs'/'paving-validation.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+    return report['summary']
+
+terrain_summary=audit_terrain()
 
 def wall_segment(name,axis,fixed,start,end,height):
     # individually modelled bricks, courses, projecting pilasters and broken capstones
@@ -403,6 +517,7 @@ for index,me in enumerate(sorted(used,key=lambda m:m.name)):
     manifest.append({'mesh':me.name,'file':path.name,'instances':len(users),'example_objects':users[:4],'polygons':len(me.polygons),'vertices':len(me.vertices)})
 (ASSETS/'uv'/'manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf8')
 stats={'objects':sum(o.type=='MESH' for o in scene.objects),'unique_meshes':len(used),'triangles_instanced':sum(sum(len(p.vertices)-2 for p in o.data.polygons) for o in scene.objects if o.type=='MESH'),'materials':len(bpy.data.materials),'imagegen_textures':13,'shader_data_textures':3,'units':'metres','seed':42,'uv_policy':'Packed islands per module, .035 smart_project island_margin. Intentional shared layout on repeated bricks, tiles, beams, crates, robot parts. Puddle planar UV continuous with adjacent edges. No atlas painting required; material-class tiling surfaces.','wet_surface_pbr':{'paving_albedo_factor_linear':.38,'paving_roughness_range':[.2,.5],'paving_clearcoat':.45,'water_metallic':0,'water_ior':1.333,'water_roughness':.1,'normal_map':'ripple-normal.png','runtime_world_wetness_map':'wetness-map.png'}}
+stats['paving_terrain']=terrain_summary
 (ROOT/'docs'/'scene-manifest.json').write_text(json.dumps(stats,indent=2),encoding='utf8')
 
 for im in bpy.data.images:
@@ -439,8 +554,19 @@ bpy.ops.object.select_all(action='DESELECT')
 for o in scene.objects:
     if o.type=='MESH':o.select_set(True)
 bpy.ops.wm.save_as_mainfile(filepath=str(ASSETS/'rain-court.blend'),compress=True)
-bpy.ops.export_scene.gltf(filepath=str(ASSETS/'rain-court.glb'),export_format='GLB',use_selection=True,export_apply=True,export_animations=False,export_extras=True,export_cameras=False,export_lights=False,export_yup=True)
-preserve_water_ior(ASSETS/'rain-court.glb')
+glb_staging=ASSETS/'.rain-court-export.glb'
+try:
+    bpy.ops.export_scene.gltf(filepath=str(glb_staging),export_format='GLB',use_selection=True,export_apply=True,export_animations=False,export_extras=True,export_cameras=False,export_lights=False,export_yup=True)
+    preserve_water_ior(glb_staging)
+    # Publish only the completed GLB, avoiding a write into a live HTTP download.
+    for attempt in range(6):
+        try:
+            os.replace(glb_staging,ASSETS/'rain-court.glb')
+            break
+        except OSError:
+            if attempt==5:raise
+            time.sleep(.15*(attempt+1))
+finally:glb_staging.unlink(missing_ok=True)
 (ASSETS/'gltf').mkdir(exist_ok=True)
 bpy.ops.export_scene.gltf(filepath=str(ASSETS/'gltf'/'rain-court.gltf'),export_format='GLTF_SEPARATE',use_selection=True,export_apply=True,export_animations=False,export_extras=True,export_yup=True)
 preserve_water_ior(ASSETS/'gltf'/'rain-court.gltf')

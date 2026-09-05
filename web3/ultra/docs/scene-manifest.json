@@ -20,5 +20,25 @@
     "water_roughness": 0.1,
     "normal_map": "ripple-normal.png",
     "runtime_world_wetness_map": "wetness-map.png"
+  },
+  "paving_terrain": {
+    "tilt_min_degrees": 0.30664496827493554,
+    "tilt_max_degrees": 6.0,
+    "wet_zone_tilt_min_degrees": 2.1766564750549287,
+    "wet_zone_tilt_max_degrees": 6.0,
+    "minimum_inward_alignment_cosine": 0.9769730160569301,
+    "settlement_min_m": -0.06497952794466648,
+    "settlement_max_m": 0.07613474723987912,
+    "water_surface_height_range_m": 0.0,
+    "water_covered_top_samples": 1659,
+    "submerged_top_samples": 1120,
+    "exposed_top_samples": 492,
+    "shore_crossing_tiles": 45,
+    "core_center_count": 23,
+    "core_center_depth_min_m": 0.039446255922317514,
+    "core_center_depth_max_m": 0.1013880137205124,
+    "water_depth_max_m": 0.12895948699116708,
+    "exposed_height_max_m": 0.102877774477005,
+    "minimum_top_clearance_above_mortar_m": 0.10572292253375054
   }
 }

@@ -4,6 +4,7 @@ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { prepareRainGeometry, createRainReflections } from './rain-reflections.js';
+import { createAtmospherePost } from './atmosphere-post.js';
 
 const $ = id => document.getElementById(id);
 const world = $('world');
@@ -17,7 +18,7 @@ const presets = {
 };
 const ui = { mode: 'orbit', ready: false, hidden: false, wireframe: false, preset: 'court', quality: 'high' };
 let renderer, scene, camera, controls, model, sun, environmentTarget;
-let rain;
+let rain, post;
 let transition, toastTimer, frameId, lastTime = 0, lastReadout = 0;
 let meshes = [], materials = new Set();
 const pressedKeys = new Set();
@@ -187,6 +188,7 @@ function applyQuality(value) {
   renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, quality.pixel));
   renderer.shadowMap.enabled = quality.shadow;
   rain?.setQuality(value);
+  post?.setQuality(value);
   if (sun) {
     sun.shadow.mapSize.set(quality.map, quality.map);
     if (sun.shadow.map) { sun.shadow.map.dispose(); sun.shadow.map = null; }
@@ -211,6 +213,7 @@ function resize() {
   camera.updateProjectionMatrix();
   renderer.setSize(width, height);
   rain?.resize(width, height);
+  post?.resize(width, height);
   updateReflectionStatus();
 }
 
@@ -320,7 +323,8 @@ function render(time = 0) {
   panKeyboard(delta);
   controls.update(delta);
   rain?.update(time);
-  renderer.render(scene, camera);
+  if (post) post.render(time);
+  else renderer.render(scene, camera);
   if (time - lastReadout > 200) {
     $('camera-coordinates').textContent = camera.position.toArray().map(value => value.toFixed(1)).join(' / ');
     const x = THREE.MathUtils.clamp(86 + controls.target.x * 3.7, 38, 132);
@@ -342,7 +346,8 @@ async function initialize() {
     viewport.appendChild(renderer.domElement);
     scene = new THREE.Scene();
     scene.background = new THREE.Color('#33413a');
-    scene.fog = new THREE.FogExp2('#687567', .008);
+    // The depth-aware volume pass integrates fog once, after the HDR scene draw.
+    scene.fog = null;
     camera = new THREE.PerspectiveCamera(38, viewport.clientWidth / viewport.clientHeight, .1, 300);
     controls = new OrbitControls(camera, renderer.domElement);
     controls.enableDamping = true;
@@ -415,6 +420,13 @@ async function initialize() {
     environmentTarget.dispose();
     environmentTarget = null;
     materials = new Set(rain.materials);
+    post = createAtmospherePost({ renderer, scene, camera, sun });
+    post.setBloom(Number($('bloom').value));
+    post.setFogEnabled($('atmosphere').checked);
+    post.setFogDensity(Number($('fog-density').value));
+    post.setWireframe(ui.wireframe);
+    rain.setEnabled($('reflections').checked && !ui.wireframe);
+    rain.setWetness(Number($('wetness').value));
     applyQuality($('quality').value);
     $('load-progress').style.width = '97%';
     $('load-detail').textContent = 'Warming the lights…';
@@ -454,6 +466,7 @@ $('wireframe').addEventListener('change', event => {
   ui.wireframe = event.target.checked;
   for (const material of materials) { material.wireframe = ui.wireframe; material.needsUpdate = true; }
   rain?.setEnabled($('reflections').checked && !ui.wireframe);
+  post?.setWireframe(ui.wireframe);
   updateReflectionStatus();
 });
 $('reflections').addEventListener('change', event => { rain?.setEnabled(event.target.checked && !ui.wireframe); updateReflectionStatus(); });
@@ -463,11 +476,25 @@ $('wetness').addEventListener('input', event => {
   rain?.setWetness(value);
   updateReflectionStatus();
 });
-$('atmosphere').addEventListener('change', event => { if (scene) scene.fog = event.target.checked ? new THREE.FogExp2('#687567', .008) : null; rain?.invalidate(); });
+$('bloom').addEventListener('input', event => {
+  const value = Number(event.target.value);
+  $('bloom-value').value = `${Math.round(value * 100)}%`;
+  post?.setBloom(value);
+});
+$('atmosphere').addEventListener('change', event => {
+  post?.setFogEnabled(event.target.checked);
+  $('fog-density').disabled = !event.target.checked;
+});
+$('fog-density').addEventListener('input', event => {
+  const value = Number(event.target.value);
+  $('fog-value').value = `${Math.round(value * 100)}%`;
+  post?.setFogDensity(value);
+});
 $('capture').addEventListener('click', () => {
   if (!ui.ready) { toast('The courtyard is still loading.'); return; }
   rain?.update(performance.now(), true);
-  renderer.render(scene, camera);
+  if (post) post.render(performance.now());
+  else renderer.render(scene, camera);
   renderer.domElement.toBlob(blob => {
     if (!blob) { toast('This view could not be saved. Please try again.'); return; }
     const url = URL.createObjectURL(blob);
@@ -499,7 +526,7 @@ window.addEventListener('blur', () => pressedKeys.clear());
 document.addEventListener('visibilitychange', () => { pressedKeys.clear(); lastTime = performance.now(); });
 window.addEventListener('pagehide', event => {
   if (event.persisted) return;
-  cancelAnimationFrame(frameId); controls?.dispose(); rain?.dispose(); renderer?.dispose(); environmentTarget?.dispose();
+  cancelAnimationFrame(frameId); controls?.dispose(); rain?.dispose(); post?.dispose(); renderer?.dispose(); environmentTarget?.dispose();
 });
 
 initialize();

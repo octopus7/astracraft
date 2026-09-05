@@ -6,14 +6,14 @@
     {
       "name": "rain-court-gltf.zip",
       "input_files": 16,
-      "combined_zip_bytes": 17349344,
+      "combined_zip_bytes": 17373890,
       "split_into_independent_volumes": false,
       "outputs": [
         {
           "path": "downloads/rain-court-gltf.zip",
-          "bytes": 17349344,
-          "mib": 16.546,
-          "sha256": "47b4d70d3ce048964970a469b643a25cb70f8357ecf9f3af3142a3417b377df4",
+          "bytes": 17373890,
+          "mib": 16.569,
+          "sha256": "5174525d7fca07929433bd703efde1935de1ca1da260ba5ab6c622357975e4d8",
           "within_host_limit": true
         }
       ],
@@ -22,14 +22,14 @@
     {
       "name": "rain-court-textures.zip",
       "input_files": 183,
-      "combined_zip_bytes": 20549825,
+      "combined_zip_bytes": 20554808,
       "split_into_independent_volumes": false,
       "outputs": [
         {
           "path": "downloads/rain-court-textures.zip",
-          "bytes": 20549825,
-          "mib": 19.598,
-          "sha256": "a35125010c9c8e11783f66a2bd2f0342fea71c0b651df158395ae73804fb1f33",
+          "bytes": 20554808,
+          "mib": 19.603,
+          "sha256": "acc23c7746dfdbeab2652a3852c6541aa7fa98f5c3402b4de1ad7d94d406751e",
           "within_host_limit": true
         }
       ],
@@ -37,36 +37,36 @@
     },
     {
       "name": "rain-court-production.zip",
-      "input_files": 232,
-      "combined_zip_bytes": 76170229,
+      "input_files": 247,
+      "combined_zip_bytes": 77926898,
       "split_into_independent_volumes": true,
       "outputs": [
         {
           "path": "downloads/rain-court-production-part-01.zip",
-          "bytes": 17343808,
-          "mib": 16.54,
-          "sha256": "98ae5c4b1519a2b0c590d5299884394e77189449b32eb703a9b2a5998007984a",
+          "bytes": 17366823,
+          "mib": 16.562,
+          "sha256": "a84ccc6d4ce630b39d3e9b76cdb8e1271b970119d842c619c2487251d05b7f50",
           "within_host_limit": true
         },
         {
           "path": "downloads/rain-court-production-part-02.zip",
-          "bytes": 26051626,
-          "mib": 24.845,
-          "sha256": "40efd96bf7f7276f01e3ba7e7c8f6f986b242eb325a8290faad2f02197dfeb9c",
+          "bytes": 26106240,
+          "mib": 24.897,
+          "sha256": "82a7a5ec99b4040559c62a32d0ddea156a5b697a3afa472517130a711f00f654",
           "within_host_limit": true
         },
         {
           "path": "downloads/rain-court-production-part-03.zip",
-          "bytes": 26104351,
-          "mib": 24.895,
-          "sha256": "5ff988bddd7587e131fad48783aa05a42c7c57f1e483aee9bf39103fa09901ef",
+          "bytes": 25431285,
+          "mib": 24.253,
+          "sha256": "e270ecae888f2161715aa1ef3856412a547f787fd1817ec1f67083c9581fd71c",
           "within_host_limit": true
         },
         {
           "path": "downloads/rain-court-production-part-04.zip",
-          "bytes": 6670510,
-          "mib": 6.361,
-          "sha256": "3393aca4991caece32633fd65b33f9ce7ca93eb5f7d98c5a4d9095947895ea8c",
+          "bytes": 9022616,
+          "mib": 8.605,
+          "sha256": "3731c0c4db186367b4e3de53bfd8339fa0cb34761f7da8b66eeef3eac542f435",
           "within_host_limit": true
         },
         {
