@@ -1,0 +1,3025 @@
+{
+  "scene": "AFTERLIGHT \u2022 The Rain Court",
+  "blender": "4.5.12 LTS",
+  "seed": 1742,
+  "mesh_objects": 3449,
+  "unique_uv_prototypes": 301,
+  "triangles": 133432,
+  "meters": true,
+  "texture_workflow": "ImageGen base color quadrants; derived normal and roughness maps; standard Principled BSDF / glTF metallic-roughness",
+  "uv_policy": "Every unique prototype is smart-projected with 0.018 margin. No unintended prototype self-overlap. Repeated modular instances intentionally reuse texture coordinates. Text and irregular puddles are unique meshes.",
+  "prototypes": [
+    {
+      "mesh": "UV_000_box_(23.2, 18.6, 0.95)_0.14",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_000_box_23.2_18.6_0.95_0.14.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_001_box_(22.5, 17.8, 0.28)_0.055",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_001_box_22.5_17.8_0.28_0.055.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_002_box_(0.9, 0.858, 0.14)_0.026",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_002_box_0.9_0.858_0.14_0.026.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 445,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_003_Rainwater / puddle 01",
+      "vertices": 41,
+      "polygons": 40,
+      "layout": "UV_003_Rainwater___puddle_01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_004_Rainwater / puddle 02",
+      "vertices": 41,
+      "polygons": 40,
+      "layout": "UV_004_Rainwater___puddle_02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_005_Rainwater / puddle 03",
+      "vertices": 41,
+      "polygons": 40,
+      "layout": "UV_005_Rainwater___puddle_03.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_006_Rainwater / puddle 04",
+      "vertices": 41,
+      "polygons": 40,
+      "layout": "UV_006_Rainwater___puddle_04.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_007_Rainwater / puddle 05",
+      "vertices": 41,
+      "polygons": 40,
+      "layout": "UV_007_Rainwater___puddle_05.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_008_Rainwater / puddle 06",
+      "vertices": 41,
+      "polygons": 40,
+      "layout": "UV_008_Rainwater___puddle_06.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_009_Rainwater / puddle 07",
+      "vertices": 41,
+      "polygons": 40,
+      "layout": "UV_009_Rainwater___puddle_07.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_010_box_(1.1, 0.5, 0.08)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_010_box_1.1_0.5_0.08_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_011_box_(0.95, 0.36, 0.028)_0.005",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_011_box_0.95_0.36_0.028_0.005.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_012_box_(0.023, 0.34, 0.025)_0.003",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_012_box_0.023_0.34_0.025_0.003.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 55,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_013_box_(0.79, 0.43, 5.1)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_013_box_0.79_0.43_5.1_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 15,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_014_box_(0.79, 0.43, 3.9)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_014_box_0.79_0.43_3.9_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 7,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_015_box_(0.79, 0.43, 4.8)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_015_box_0.79_0.43_4.8_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 6,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_016_box_(0.79, 0.43, 4.5)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_016_box_0.79_0.43_4.5_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_017_box_(0.79, 0.43, 4.2)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_017_box_0.79_0.43_4.2_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_018_box_(0.744, 0.57, 0.265)_0.035",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_018_box_0.744_0.57_0.265_0.035.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1108,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_019_box_(0.8, 0.89, 5.5)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_019_box_0.8_0.89_5.5_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_020_box_(1.12, 1.15, 0.6)_0.04",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_020_box_1.12_1.15_0.6_0.04.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 20,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_021_box_(0.97, 1.03, 0.2)_0.03",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_021_box_0.97_1.03_0.2_0.03.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 20,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_022_box_(1.1, 1.16, 0.16)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_022_box_1.1_1.16_0.16_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 20,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_023_box_(0.91, 1.0, 0.14)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_023_box_0.91_1.0_0.14_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 41,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_024_box_(0.8, 0.89, 5.65)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_024_box_0.8_0.89_5.65_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_025_box_(0.8, 0.89, 5.35)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_025_box_0.8_0.89_5.35_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_026_box_(0.79, 0.43, 5.7)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_026_box_0.79_0.43_5.7_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_027_box_(0.79, 0.43, 5.4)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_027_box_0.79_0.43_5.4_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_028_box_(0.79, 0.43, 6.0)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_028_box_0.79_0.43_6.0_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_029_box_(0.8, 0.89, 6.25)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_029_box_0.8_0.89_6.25_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_030_box_(0.8, 0.89, 6.1)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_030_box_0.8_0.89_6.1_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_031_box_(0.8, 0.89, 6.4)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_031_box_0.8_0.89_6.4_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_032_box_(0.79, 0.43, 3.3)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_032_box_0.79_0.43_3.3_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_033_box_(0.79, 0.43, 3.0)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_033_box_0.79_0.43_3.0_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_034_box_(0.79, 0.43, 3.6)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_034_box_0.79_0.43_3.6_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_035_box_(0.8, 0.89, 4.45)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_035_box_0.8_0.89_4.45_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_036_box_(0.8, 0.89, 4.6)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_036_box_0.8_0.89_4.6_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_037_box_(0.79, 0.43, 0.6)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_037_box_0.79_0.43_0.6_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_038_box_(0.79, 0.43, 0.9)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_038_box_0.79_0.43_0.9_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_039_box_(0.79, 0.43, 0.3)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_039_box_0.79_0.43_0.3_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 15,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_040_box_(0.79, 0.43, 1.2)_0.0",
+      "vertices": 8,
+      "polygons": 6,
+      "layout": "UV_040_box_0.79_0.43_1.2_0.0.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_041_box_(0.8, 0.89, 1.45)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_041_box_0.8_0.89_1.45_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_042_box_(0.8, 0.89, 1.6)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_042_box_0.8_0.89_1.6_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_043_box_(0.8, 0.89, 1.75)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_043_box_0.8_0.89_1.75_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_044_box_(3.22, 0.6, 4.8)_0.06",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_044_box_3.22_0.6_4.8_0.06.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_045_box_(2.52, 0.22, 4.13)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_045_box_2.52_0.22_4.13_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_046_box_(0.16, 0.26, 4.7)_0.02",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_046_box_0.16_0.26_4.7_0.02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_047_box_(0.05, 0.05, 2.98)_0.006",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_047_box_0.05_0.05_2.98_0.006.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_048_box_(0.95, 0.09, 0.78)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_048_box_0.95_0.09_0.78_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 6,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_049_box_(0.83, 0.06, 0.07)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_049_box_0.83_0.06_0.07_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 6,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_050_cyl_0.045_2.05_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_050_cyl_0.045_2.05_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_051_box_(2.7, 0.26, 0.24)_0.022",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_051_box_2.7_0.26_0.24_0.022.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_052_box_(0.52, 0.035, 0.065)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_052_box_0.52_0.035_0.065_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_053_text_Gate / district stencil",
+      "vertices": 444,
+      "polygons": 440,
+      "layout": "UV_053_text_Gate___district_stencil.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_054_box_(6.4, 2.35, 3.85)_0.065",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_054_box_6.4_2.35_3.85_0.065.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_055_box_(5.92, 0.18, 3.2)_0.015",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_055_box_5.92_0.18_3.2_0.015.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_056_box_(6.55, 1.26, 0.27)_0.05",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_056_box_6.55_1.26_0.27_0.05.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_057_box_(0.16, 0.2, 3.45)_0.024",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_057_box_0.16_0.2_3.45_0.024.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_058_box_(0.25, 0.29, 0.19)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_058_box_0.25_0.29_0.19_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_059_box_(2.52, 0.13, 1.47)_0.035",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_059_box_2.52_0.13_1.47_0.035.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_060_box_(2.22, 0.035, 1.11)_0.006",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_060_box_2.22_0.035_1.11_0.006.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_061_box_(2.31, 0.08, 0.7)_0.015",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_061_box_2.31_0.08_0.7_0.015.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_062_box_(0.018, 0.03, 0.67)_0.003",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_062_box_0.018_0.03_0.67_0.003.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_063_box_(2.83, 0.7, 0.16)_0.026",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_063_box_2.83_0.7_0.16_0.026.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_064_cyl_0.035_0.62_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_064_cyl_0.035_0.62_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_065_box_(1.48, 0.15, 2.72)_0.03",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_065_box_1.48_0.15_2.72_0.03.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_066_box_(1.06, 0.08, 0.87)_0.015",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_066_box_1.06_0.08_0.87_0.015.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_067_box_(0.75, 0.025, 0.16)_0.005",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_067_box_0.75_0.025_0.16_0.005.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_068_box_(0.045, 0.12, 0.28)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_068_box_0.045_0.12_0.28_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_069_box_(0.89, 0.04, 0.09)_0.005",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_069_box_0.89_0.04_0.09_0.005.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_070_box_(0.333, 2.32, 0.09)_0.011",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_070_box_0.333_2.32_0.09_0.011.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 20,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_071_box_(0.022, 2.34, 0.055)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_071_box_0.022_2.34_0.055_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 20,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_072_cyl_0.072_7.11_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_072_cyl_0.072_7.11_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_073_cyl_0.045_1.3_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_073_cyl_0.045_1.3_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_074_box_(6.78, 2.82, 0.2)_0.022",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_074_box_6.78_2.82_0.2_0.022.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_075_box_(0.031, 2.78, 0.065)_0.007",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_075_box_0.031_2.78_0.065_0.007.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 23,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_076_box_(3.73, 0.14, 0.3)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_076_box_3.73_0.14_0.3_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_077_text_Shop / carved sign",
+      "vertices": 2408,
+      "polygons": 2380,
+      "layout": "UV_077_text_Shop___carved_sign.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_078_box_(0.3, 0.11, 0.55)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_078_box_0.3_0.11_0.55_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_079_box_(0.29, 0.31, 0.44)_0.02",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_079_box_0.29_0.31_0.44_0.02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_080_box_(0.39, 0.4, 0.09)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_080_box_0.39_0.4_0.09_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_081_box_(0.022, 0.023, 0.46)_0.004",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_081_box_0.022_0.023_0.46_0.004.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_082_box_(9, 6.7, 9.1)_0.07",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_082_box_9_6.7_9.1_0.07.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_083_box_(8.86, 0.15, 8.86)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_083_box_8.86_0.15_8.86_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_084_box_(9.28, 6.94, 0.16)_0.02",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_084_box_9.28_6.94_0.16_0.02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_085_box_(0.3, 0.38, 9.1)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_085_box_0.3_0.38_9.1_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_086_box_(1.044, 0.17, 1.456)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_086_box_1.044_0.17_1.456_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 15,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_087_box_(0.9, 0.045, 1.274)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_087_box_0.9_0.045_1.274_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 15,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_088_box_(0.036, 0.035, 1.274)_0.002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_088_box_0.036_0.035_1.274_0.002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 15,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_089_box_(1.224, 0.38, 0.12)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_089_box_1.224_0.38_0.12_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 24,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_090_box_(9.3, 0.33, 0.5)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_090_box_9.3_0.33_0.5_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_091_box_(0.3, 6.7, 0.5)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_091_box_0.3_6.7_0.5_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_092_box_(9, 6.7, 0.13)_0.015",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_092_box_9_6.7_0.13_0.015.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_093_box_(1.2, 1.3, 1.1)_0.06",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_093_box_1.2_1.3_1.1_0.06.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_094_box_(1.4, 1.47, 0.14)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_094_box_1.4_1.47_0.14_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_095_box_(11.2, 6.4, 8.15)_0.07",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_095_box_11.2_6.4_8.15_0.07.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_096_box_(11.06, 0.15, 7.91)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_096_box_11.06_0.15_7.91_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_097_box_(11.48, 6.64, 0.16)_0.02",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_097_box_11.48_6.64_0.16_0.02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_098_box_(0.3, 0.38, 8.15)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_098_box_0.3_0.38_8.15_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_099_box_(1.0827, 0.17, 1.304)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_099_box_1.0827_0.17_1.304_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 18,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_100_box_(0.9333, 0.045, 1.141)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_100_box_0.9333_0.045_1.141_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 18,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_101_box_(0.036, 0.035, 1.141)_0.002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_101_box_0.036_0.035_1.141_0.002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 18,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_102_box_(1.2693, 0.38, 0.12)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_102_box_1.2693_0.38_0.12_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 18,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_103_box_(11.5, 0.33, 0.5)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_103_box_11.5_0.33_0.5_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_104_box_(0.3, 6.4, 0.5)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_104_box_0.3_6.4_0.5_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_105_box_(11.2, 6.4, 0.13)_0.015",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_105_box_11.2_6.4_0.13_0.015.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_106_box_(6.8, 13.1, 8.3)_0.07",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_106_box_6.8_13.1_8.3_0.07.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_107_box_(6.66, 0.15, 8.06)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_107_box_6.66_0.15_8.06_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_108_box_(7.08, 13.34, 0.16)_0.02",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_108_box_7.08_13.34_0.16_0.02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_109_box_(0.3, 0.38, 8.3)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_109_box_0.3_0.38_8.3_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_110_box_(0.986, 0.17, 1.328)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_110_box_0.986_0.17_1.328_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 12,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_111_box_(0.85, 0.045, 1.162)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_111_box_0.85_0.045_1.162_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 12,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_112_box_(0.036, 0.035, 1.162)_0.002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_112_box_0.036_0.035_1.162_0.002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 12,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_113_box_(1.156, 0.38, 0.12)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_113_box_1.156_0.38_0.12_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 12,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_114_box_(7.1, 0.33, 0.5)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_114_box_7.1_0.33_0.5_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_115_box_(0.3, 13.1, 0.5)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_115_box_0.3_13.1_0.5_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_116_box_(6.8, 13.1, 0.13)_0.015",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_116_box_6.8_13.1_0.13_0.015.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_117_box_(5.4, 9, 6.7)_0.07",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_117_box_5.4_9_6.7_0.07.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_118_box_(5.26, 0.15, 6.46)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_118_box_5.26_0.15_6.46_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_119_box_(5.68, 9.24, 0.16)_0.02",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_119_box_5.68_9.24_0.16_0.02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_120_box_(0.3, 0.38, 6.7)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_120_box_0.3_0.38_6.7_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_121_box_(1.044, 0.17, 1.072)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_121_box_1.044_0.17_1.072_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 9,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_122_box_(0.9, 0.045, 0.938)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_122_box_0.9_0.045_0.938_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 9,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_123_box_(0.036, 0.035, 0.938)_0.002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_123_box_0.036_0.035_0.938_0.002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 9,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_124_box_(5.7, 0.33, 0.5)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_124_box_5.7_0.33_0.5_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_125_box_(0.3, 9, 0.5)_0.018",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_125_box_0.3_9_0.5_0.018.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_126_box_(5.4, 9, 0.13)_0.015",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_126_box_5.4_9_0.13_0.015.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_127_box_(7, 7, 14)_0.05",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_127_box_7_7_14_0.05.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_128_box_(7.4, 7.4, 0.5)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_128_box_7.4_7.4_0.5_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_129_box_(0.16, 0.06, 8.82)_0.005",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_129_box_0.16_0.06_8.82_0.005.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_130_box_(9, 7, 17)_0.05",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_130_box_9_7_17_0.05.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_131_box_(9.4, 7.4, 0.5)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_131_box_9.4_7.4_0.5_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_132_box_(0.16, 0.06, 10.71)_0.005",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_132_box_0.16_0.06_10.71_0.005.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 11,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_133_box_(8, 8, 13)_0.05",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_133_box_8_8_13_0.05.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_134_box_(8.4, 8.4, 0.5)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_134_box_8.4_8.4_0.5_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_135_box_(0.16, 0.06, 8.19)_0.005",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_135_box_0.16_0.06_8.19_0.005.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_136_box_(8, 7, 17)_0.05",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_136_box_8_7_17_0.05.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_137_box_(8.4, 7.4, 0.5)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_137_box_8.4_7.4_0.5_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_138_box_(7, 10, 14)_0.05",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_138_box_7_10_14_0.05.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_139_box_(7.4, 10.4, 0.5)_0.025",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_139_box_7.4_10.4_0.5_0.025.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_140_cyl_0.3_5.5_16",
+      "vertices": 64,
+      "polygons": 50,
+      "layout": "UV_140_cyl_0.3_5.5_16.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_141_cyl_0.37_0.16_16",
+      "vertices": 64,
+      "polygons": 50,
+      "layout": "UV_141_cyl_0.37_0.16_16.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 6,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_142_cyl_0.075_5.35_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_142_cyl_0.075_5.35_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_143_cyl_0.11_0.075_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_143_cyl_0.11_0.075_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 20,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_144_box_(0.28, 0.25, 0.07)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_144_box_0.28_0.25_0.07_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 20,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_145_cyl_0.066_4.9_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_145_cyl_0.066_4.9_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_146_cyl_0.063_4.75_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_146_cyl_0.063_4.75_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_147_box_(0.2, 0.26, 0.06)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_147_box_0.2_0.26_0.06_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 15,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_148_cyl_0.12_15.0_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_148_cyl_0.12_15.0_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_149_cyl_0.17_0.12_12",
+      "vertices": 56,
+      "polygons": 50,
+      "layout": "UV_149_cyl_0.17_0.12_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_150_box_(1.12, 0.82, 0.9)_0.05",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_150_box_1.12_0.82_0.9_0.05.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_151_cyl_0.35_0.12_20",
+      "vertices": 80,
+      "polygons": 62,
+      "layout": "UV_151_cyl_0.35_0.12_20.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_152_cyl_0.09_0.06_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_152_cyl_0.09_0.06_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_153_box_(0.36, 0.032, 0.1)_0.012",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_153_box_0.36_0.032_0.1_0.012.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 10,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_154_box_(0.014, 0.02, 0.61)_0.002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_154_box_0.014_0.02_0.61_0.002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 12,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_155_box_(1.55, 1.65, 2.4)_0.045",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_155_box_1.55_1.65_2.4_0.045.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_156_box_(1.28, 0.08, 2.1)_0.02",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_156_box_1.28_0.08_2.1_0.02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_157_box_(1.08, 0.05, 0.07)_0.006",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_157_box_1.08_0.05_0.07_0.006.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_158_box_(0.15, 0.16, 3.6)_0.02",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_158_box_0.15_0.16_3.6_0.02.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_159_box_(0.267, 2.65, 0.095)_0.015",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_159_box_0.267_2.65_0.095_0.015.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 10,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_160_box_(0.038, 0.04, 0.52)_0.006",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_160_box_0.038_0.04_0.52_0.006.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_161_cyl_0.018_0.87_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_161_cyl_0.018_0.87_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_162_cyl_0.018_0.86_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_162_cyl_0.018_0.86_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 6,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_163_cyl_0.018_0.85_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_163_cyl_0.018_0.85_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 6,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_164_cyl_0.018_0.84_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_164_cyl_0.018_0.84_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 6,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_165_cyl_0.018_0.83_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_165_cyl_0.018_0.83_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_166_box_(0.98, 0.91, 1.04)_0.024",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_166_box_0.98_0.91_1.04_0.024.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_167_box_(0.1, 0.1, 1.1)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_167_box_0.1_0.1_1.1_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_168_box_(1.02, 0.075, 0.12)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_168_box_1.02_0.075_0.12_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_169_box_(0.07, 0.98, 0.055)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_169_box_0.07_0.98_0.055_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_170_box_(0.833, 0.7735, 0.884)_0.024",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_170_box_0.833_0.7735_0.884_0.024.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_171_box_(0.085, 0.085, 0.935)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_171_box_0.085_0.085_0.935_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_172_box_(0.867, 0.0638, 0.102)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_172_box_0.867_0.0638_0.102_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_173_box_(0.0595, 0.833, 0.0467)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_173_box_0.0595_0.833_0.0467_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_174_box_(0.7448, 0.6916, 0.7904)_0.024",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_174_box_0.7448_0.6916_0.7904_0.024.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_175_box_(0.076, 0.076, 0.836)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_175_box_0.076_0.076_0.836_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_176_box_(0.7752, 0.057, 0.0912)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_176_box_0.7752_0.057_0.0912_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_177_box_(0.0532, 0.7448, 0.0418)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_177_box_0.0532_0.7448_0.0418_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_178_box_(0.931, 0.8645, 0.988)_0.024",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_178_box_0.931_0.8645_0.988_0.024.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_179_box_(0.095, 0.095, 1.045)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_179_box_0.095_0.095_1.045_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_180_box_(0.969, 0.0712, 0.114)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_180_box_0.969_0.0712_0.114_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_181_box_(0.0665, 0.931, 0.0522)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_181_box_0.0665_0.931_0.0522_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_182_box_(0.735, 0.6825, 0.78)_0.024",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_182_box_0.735_0.6825_0.78_0.024.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_183_box_(0.075, 0.075, 0.825)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_183_box_0.075_0.075_0.825_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_184_box_(0.765, 0.0562, 0.09)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_184_box_0.765_0.0562_0.09_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 8,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_185_box_(0.0525, 0.735, 0.0413)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_185_box_0.0525_0.735_0.0413_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_186_box_(0.6664, 0.6188, 0.7072)_0.024",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_186_box_0.6664_0.6188_0.7072_0.024.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_187_box_(0.068, 0.068, 0.748)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_187_box_0.068_0.068_0.748_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_188_box_(0.6936, 0.051, 0.0816)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_188_box_0.6936_0.051_0.0816_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_189_box_(0.0476, 0.6664, 0.0374)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_189_box_0.0476_0.6664_0.0374_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_190_box_(0.686, 0.637, 0.728)_0.024",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_190_box_0.686_0.637_0.728_0.024.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_191_box_(0.07, 0.07, 0.77)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_191_box_0.07_0.07_0.77_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_192_box_(0.714, 0.0525, 0.084)_0.014",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_192_box_0.714_0.0525_0.084_0.014.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_193_box_(0.049, 0.686, 0.0385)_0.008",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_193_box_0.049_0.686_0.0385_0.008.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_194_cyl_0.4_1.14_16",
+      "vertices": 64,
+      "polygons": 50,
+      "layout": "UV_194_cyl_0.4_1.14_16.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_195_cyl_0.425_0.05_16",
+      "vertices": 64,
+      "polygons": 50,
+      "layout": "UV_195_cyl_0.425_0.05_16.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 12,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_196_cyl_0.395_0.035_16",
+      "vertices": 64,
+      "polygons": 50,
+      "layout": "UV_196_cyl_0.395_0.035_16.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_197_cyl_0.05_0.05_10",
+      "vertices": 60,
+      "polygons": 62,
+      "layout": "UV_197_cyl_0.05_0.05_10.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_198_box_(0.12, 0.13, 1.35)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_198_box_0.12_0.13_1.35_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 5,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_199_box_(0.23, 1.2, 0.095)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_199_box_0.23_1.2_0.095_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_200_box_(1.32, 0.13, 0.1)_0.01",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_200_box_1.32_0.13_0.1_0.01.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_201_box_(0.7519, 0.5768, 0.2575)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_201_box_0.7519_0.5768_0.2575_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_202_box_(0.8034, 0.5768, 0.7828)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_202_box_0.8034_0.5768_0.7828_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_203_box_(0.5871, 0.0772, 0.4635)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_203_box_0.5871_0.0772_0.4635_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_204_box_(0.3193, 0.0185, 0.1133)_0.006180000000000001",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_204_box_0.3193_0.0185_0.1133_0.006180000000000001.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_205_box_(0.0288, 0.0206, 0.1442)_0.00206",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_205_box_0.0288_0.0206_0.1442_0.00206.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_206_cyl_0.1133_0.1854_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_206_cyl_0.1133_0.1854_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_207_box_(0.824, 0.618, 0.4429)_0.0618",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_207_box_0.824_0.618_0.4429_0.0618.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_208_box_(0.6592, 0.0464, 0.2678)_0.0206",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_208_box_0.6592_0.0464_0.2678_0.0206.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_209_cyl_0.10300000000000001_0.05665_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_209_cyl_0.10300000000000001_0.05665_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_210_cyl_0.06901_0.0206_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_210_cyl_0.06901_0.0206_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_211_box_(0.4738, 0.3811, 0.0824)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_211_box_0.4738_0.3811_0.0824_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_212_cyl_0.018539999999999997_0.3914_12",
+      "vertices": 56,
+      "polygons": 50,
+      "layout": "UV_212_cyl_0.018539999999999997_0.3914_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_213_sphere_0.044289999999999996",
+      "vertices": 86,
+      "polygons": 96,
+      "layout": "UV_213_sphere_0.044289999999999996.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_214_cyl_0.1545_0.20600000000000002_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_214_cyl_0.1545_0.20600000000000002_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_215_box_(0.206, 0.2472, 0.4532)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_215_box_0.206_0.2472_0.4532_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_216_cyl_0.1133_0.23690000000000003_12",
+      "vertices": 56,
+      "polygons": 50,
+      "layout": "UV_216_cyl_0.1133_0.23690000000000003_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_217_box_(0.2369, 0.2987, 0.2884)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_217_box_0.2369_0.2987_0.2884_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_218_box_(0.0464, 0.2472, 0.1751)_0.00824",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_218_box_0.0464_0.2472_0.1751_0.00824.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_219_cyl_0.11845000000000001_0.20600000000000002_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_219_cyl_0.11845000000000001_0.20600000000000002_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_220_box_(0.2163, 0.2575, 0.2884)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_220_box_0.2163_0.2575_0.2884_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_221_box_(0.3296, 0.515, 0.1648)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_221_box_0.3296_0.515_0.1648_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_222_box_(0.6077, 0.2884, 0.5665)_0.025750000000000002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_222_box_0.6077_0.2884_0.5665_0.025750000000000002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_223_cyl_0.07725_0.6077_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_223_cyl_0.07725_0.6077_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_224_box_(0.6132, 0.4704, 0.21)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_224_box_0.6132_0.4704_0.21_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_225_box_(0.6552, 0.4704, 0.6384)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_225_box_0.6552_0.4704_0.6384_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_226_box_(0.4788, 0.063, 0.378)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_226_box_0.4788_0.063_0.378_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_227_box_(0.2604, 0.0151, 0.0924)_0.00504",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_227_box_0.2604_0.0151_0.0924_0.00504.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_228_box_(0.0235, 0.0168, 0.1176)_0.00168",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_228_box_0.0235_0.0168_0.1176_0.00168.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_229_cyl_0.0924_0.1512_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_229_cyl_0.0924_0.1512_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_230_box_(0.672, 0.504, 0.3612)_0.05039999999999999",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_230_box_0.672_0.504_0.3612_0.05039999999999999.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_231_box_(0.5376, 0.0378, 0.2184)_0.0168",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_231_box_0.5376_0.0378_0.2184_0.0168.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_232_cyl_0.084_0.0462_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_232_cyl_0.084_0.0462_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_233_cyl_0.056280000000000004_0.0168_12",
+      "vertices": 56,
+      "polygons": 50,
+      "layout": "UV_233_cyl_0.056280000000000004_0.0168_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_234_box_(0.3864, 0.3108, 0.0672)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_234_box_0.3864_0.3108_0.0672_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_235_cyl_0.015119999999999998_0.3192_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_235_cyl_0.015119999999999998_0.3192_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_236_sphere_0.03611999999999999",
+      "vertices": 86,
+      "polygons": 96,
+      "layout": "UV_236_sphere_0.03611999999999999.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_237_cyl_0.126_0.168_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_237_cyl_0.126_0.168_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_238_box_(0.168, 0.2016, 0.3696)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_238_box_0.168_0.2016_0.3696_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_239_cyl_0.0924_0.1932_12",
+      "vertices": 56,
+      "polygons": 50,
+      "layout": "UV_239_cyl_0.0924_0.1932_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_240_box_(0.1932, 0.2436, 0.2352)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_240_box_0.1932_0.2436_0.2352_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_241_box_(0.0378, 0.2016, 0.1428)_0.00672",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_241_box_0.0378_0.2016_0.1428_0.00672.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_242_cyl_0.0966_0.168_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_242_cyl_0.0966_0.168_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_243_box_(0.1764, 0.21, 0.2352)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_243_box_0.1764_0.21_0.2352_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_244_box_(0.2688, 0.42, 0.1344)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_244_box_0.2688_0.42_0.1344_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_245_box_(0.4956, 0.2352, 0.462)_0.021",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_245_box_0.4956_0.2352_0.462_0.021.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_246_cyl_0.063_0.49559999999999993_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_246_cyl_0.063_0.49559999999999993_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_247_box_(0.4672, 0.3584, 0.16)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_247_box_0.4672_0.3584_0.16_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_248_box_(0.4992, 0.3584, 0.4864)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_248_box_0.4992_0.3584_0.4864_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_249_box_(0.3648, 0.048, 0.288)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_249_box_0.3648_0.048_0.288_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_250_box_(0.1984, 0.0115, 0.0704)_0.00384",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_250_box_0.1984_0.0115_0.0704_0.00384.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_251_box_(0.0179, 0.0128, 0.0896)_0.00128",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_251_box_0.0179_0.0128_0.0896_0.00128.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 3,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_252_cyl_0.0704_0.1152_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_252_cyl_0.0704_0.1152_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_253_box_(0.512, 0.384, 0.2752)_0.0384",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_253_box_0.512_0.384_0.2752_0.0384.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_254_box_(0.4096, 0.0288, 0.1664)_0.0128",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_254_box_0.4096_0.0288_0.1664_0.0128.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_255_cyl_0.064_0.0352_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_255_cyl_0.064_0.0352_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_256_cyl_0.04288_0.0128_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_256_cyl_0.04288_0.0128_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_257_box_(0.2944, 0.2368, 0.0512)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_257_box_0.2944_0.2368_0.0512_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_258_cyl_0.011519999999999999_0.2432_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_258_cyl_0.011519999999999999_0.2432_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_259_sphere_0.02752",
+      "vertices": 86,
+      "polygons": 96,
+      "layout": "UV_259_sphere_0.02752.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_260_cyl_0.096_0.128_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_260_cyl_0.096_0.128_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_261_box_(0.128, 0.1536, 0.2816)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_261_box_0.128_0.1536_0.2816_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_262_cyl_0.0704_0.1472_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_262_cyl_0.0704_0.1472_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_263_box_(0.1472, 0.1856, 0.1792)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_263_box_0.1472_0.1856_0.1792_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_264_box_(0.0288, 0.1536, 0.1088)_0.00512",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_264_box_0.0288_0.1536_0.1088_0.00512.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 4,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_265_cyl_0.0736_0.128_12",
+      "vertices": 56,
+      "polygons": 50,
+      "layout": "UV_265_cyl_0.0736_0.128_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_266_box_(0.1344, 0.16, 0.1792)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_266_box_0.1344_0.16_0.1792_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_267_box_(0.2048, 0.32, 0.1024)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_267_box_0.2048_0.32_0.1024_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 2,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_268_box_(0.3776, 0.1792, 0.352)_0.016",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_268_box_0.3776_0.1792_0.352_0.016.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_269_cyl_0.048_0.3776_12",
+      "vertices": 48,
+      "polygons": 38,
+      "layout": "UV_269_cyl_0.048_0.3776_12.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_270_cyl_0.016_1.45_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_270_cyl_0.016_1.45_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_271_ivy_leaf",
+      "vertices": 6,
+      "polygons": 1,
+      "layout": "UV_271_ivy_leaf.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 676,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_272_cyl_0.016_2.41_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_272_cyl_0.016_2.41_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_273_cyl_0.016_1.93_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_273_cyl_0.016_1.93_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_274_cyl_0.016_2.14_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_274_cyl_0.016_2.14_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_275_cyl_0.016_2.37_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_275_cyl_0.016_2.37_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_276_cyl_0.016_0.79_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_276_cyl_0.016_0.79_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_277_cyl_0.016_0.97_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_277_cyl_0.016_0.97_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_278_cyl_0.016_0.82_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_278_cyl_0.016_0.82_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_279_cyl_0.016_0.99_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_279_cyl_0.016_0.99_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_280_cyl_0.016_2.25_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_280_cyl_0.016_2.25_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_281_cyl_0.016_2.48_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_281_cyl_0.016_2.48_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_282_cyl_0.016_1.9_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_282_cyl_0.016_1.9_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_283_cyl_0.016_1.02_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_283_cyl_0.016_1.02_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_284_cyl_0.016_0.98_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_284_cyl_0.016_0.98_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_285_cyl_0.016_1.03_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_285_cyl_0.016_1.03_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_286_cyl_0.016_1.58_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_286_cyl_0.016_1.58_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_287_cyl_0.016_2.33_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_287_cyl_0.016_2.33_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_288_cyl_0.016_1.09_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_288_cyl_0.016_1.09_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_289_cyl_0.016_1.2_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_289_cyl_0.016_1.2_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_290_cyl_0.016_1.06_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_290_cyl_0.016_1.06_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_291_cyl_0.016_1.19_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_291_cyl_0.016_1.19_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_292_cyl_0.016_2.45_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_292_cyl_0.016_2.45_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_293_cyl_0.016_1.11_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_293_cyl_0.016_1.11_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_294_cyl_0.016_2.34_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_294_cyl_0.016_2.34_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_295_cyl_0.016_1.76_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_295_cyl_0.016_1.76_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_296_cyl_0.016_1.77_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_296_cyl_0.016_1.77_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_297_cyl_0.016_2.22_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_297_cyl_0.016_2.22_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_298_cyl_0.016_0.71_6",
+      "vertices": 36,
+      "polygons": 38,
+      "layout": "UV_298_cyl_0.016_0.71_6.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 1,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_299_box_(0.14, 0.2, 0.15)_0.017",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_299_box_0.14_0.2_0.15_0.017.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 55,
+      "island_margin": 0.018
+    },
+    {
+      "mesh": "UV_300_box_(0.16, 0.24, 0.007)_0.002",
+      "vertices": 24,
+      "polygons": 26,
+      "layout": "UV_300_box_0.16_0.24_0.007_0.002.svg",
+      "out_of_bounds_loops": 0,
+      "degenerate_uv_faces": 0,
+      "instances": 14,
+      "island_margin": 0.018
+    }
+  ],
+  "build_seconds_before_export": 144.5,
+  "font_cap_cleanup": "Triangulated and removed collinear font-cap faces before UV packing."
+}

@@ -1,0 +1,214 @@
+{
+  "source": {
+    "mesh_objects": 3449,
+    "triangles": 133432,
+    "bounds_min": [
+      -25.7,
+      -9.3,
+      -1.035
+    ],
+    "bounds_max": [
+      22.2,
+      25.2,
+      17.25
+    ],
+    "with_uv": 3449,
+    "materials": 20
+  },
+  "uv": {
+    "unique_meshes": 301,
+    "out_of_bounds_loops": 0,
+    "degenerate_uv_triangles": 0,
+    "overlapping_triangle_pairs": 0,
+    "overlap_area": 0.0,
+    "details": [],
+    "policy": "Overlap checked inside each unique prototype only. Modular instances deliberately share prototype UVs. Adjacent shared borders are not counted as overlap."
+  },
+  "texture_images": [
+    {
+      "name": "brickwall_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "brickwall_normal.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "brickwall_roughness.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "masonry_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "masonry_normal.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "masonry_roughness.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "slate_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "slate_normal.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "slate_roughness.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "teal_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "teal_normal.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "teal_roughness.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "timber_basecolor.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "sRGB"
+    },
+    {
+      "name": "timber_normal.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    },
+    {
+      "name": "timber_roughness.png",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true,
+      "colorspace": "Non-Color"
+    }
+  ],
+  "glb_reimport": {
+    "mesh_objects": 3449,
+    "triangles": 133432,
+    "bounds_min": [
+      -25.7,
+      -9.3,
+      -1.035
+    ],
+    "bounds_max": [
+      22.2,
+      25.2,
+      17.25
+    ],
+    "with_uv": 3449,
+    "materials": 20
+  },
+  "fbx_reimport": {
+    "mesh_objects": 3449,
+    "triangles": 133432,
+    "bounds_min": [
+      -25.7,
+      -9.3,
+      -1.035
+    ],
+    "bounds_max": [
+      22.2,
+      25.2,
+      17.25
+    ],
+    "with_uv": 3449,
+    "materials": 20
+  },
+  "file_sizes": {
+    "afterlight-rain-court.blend": 12692219,
+    "afterlight-rain-court.fbx": 15832156,
+    "afterlight-rain-court.glb": 6981776
+  },
+  "checks": {
+    "glb_mesh_count_matches": true,
+    "fbx_mesh_count_matches": true,
+    "glb_triangle_count_matches": true,
+    "fbx_triangle_count_matches": true,
+    "glb_every_mesh_has_uv": true,
+    "fbx_every_mesh_has_uv": true,
+    "uv_within_unit_square": true,
+    "no_unintended_uv_overlap": true,
+    "no_collapsed_uv_triangles": true,
+    "all_models_under_25_mib": true
+  },
+  "seconds": 17.22
+}

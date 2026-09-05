@@ -1,0 +1,54 @@
+{
+  "source": "imagegen-source-atlas.png",
+  "source_size": [
+    1254,
+    1254
+  ],
+  "output_size": [
+    512,
+    512
+  ],
+  "note": "Built-in ImageGen returned 1254 x 1254 rather than requested 2048. Preserve original; production quadrants are 512px. Normal/roughness are derived approximations. Opposite edges feathered over 16 pixels.",
+  "maps": [
+    {
+      "material": "brickwall",
+      "base_color": "brickwall_basecolor.png",
+      "normal": "brickwall_normal.png",
+      "roughness": "brickwall_roughness.png",
+      "base_color_space": "sRGB",
+      "data_space": "linear / Non-Color"
+    },
+    {
+      "material": "slate",
+      "base_color": "slate_basecolor.png",
+      "normal": "slate_normal.png",
+      "roughness": "slate_roughness.png",
+      "base_color_space": "sRGB",
+      "data_space": "linear / Non-Color"
+    },
+    {
+      "material": "teal",
+      "base_color": "teal_basecolor.png",
+      "normal": "teal_normal.png",
+      "roughness": "teal_roughness.png",
+      "base_color_space": "sRGB",
+      "data_space": "linear / Non-Color"
+    },
+    {
+      "material": "timber",
+      "base_color": "timber_basecolor.png",
+      "normal": "timber_normal.png",
+      "roughness": "timber_roughness.png",
+      "base_color_space": "sRGB",
+      "data_space": "linear / Non-Color"
+    },
+    {
+      "material": "masonry",
+      "base_color": "masonry_basecolor.png",
+      "normal": "masonry_normal.png",
+      "roughness": "masonry_roughness.png",
+      "base_color_space": "sRGB",
+      "data_space": "linear / Non-Color"
+    }
+  ]
+}

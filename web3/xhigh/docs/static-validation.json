@@ -1,0 +1,146 @@
+{
+  "testedUrl": "http://127.0.0.1:8313/xhigh/",
+  "checks": {
+    "all_http_200": true,
+    "glb_header_valid": true,
+    "glb_buffers_in_bounds": true,
+    "all_glb_images_embedded": true,
+    "all_meshes_have_normals_and_uv": true,
+    "all_files_under_25_mib": true,
+    "no_html_cdn": true
+  },
+  "glb": {
+    "bytes": 6981776,
+    "nodes": 3449,
+    "meshes": 312,
+    "materials": 20,
+    "images": 15
+  },
+  "requests": [
+    {
+      "path": "./favicon.svg",
+      "status": 200,
+      "bytes": 244
+    },
+    {
+      "path": "./style.css",
+      "status": 200,
+      "bytes": 13181
+    },
+    {
+      "path": "./assets/renders/rain-court-hero.png",
+      "status": 200,
+      "bytes": 3255078
+    },
+    {
+      "path": "../",
+      "status": 200,
+      "bytes": 4652
+    },
+    {
+      "path": "./assets/models/afterlight-rain-court.glb",
+      "status": 200,
+      "bytes": 6981776
+    },
+    {
+      "path": "./assets/models/afterlight-rain-court.fbx",
+      "status": 200,
+      "bytes": 15832156
+    },
+    {
+      "path": "./assets/models/afterlight-rain-court.blend",
+      "status": 200,
+      "bytes": 12692219
+    },
+    {
+      "path": "./assets/afterlight-source-kit.zip",
+      "status": 200,
+      "bytes": 15888678
+    },
+    {
+      "path": "./docs/README.md",
+      "status": 200,
+      "bytes": 3282
+    },
+    {
+      "path": "./main.js",
+      "status": 200,
+      "bytes": 20187
+    },
+    {
+      "path": "./vendor/three/build/three.core.min.js",
+      "status": 200,
+      "bytes": 381124
+    },
+    {
+      "path": "./vendor/three/build/three.module.min.js",
+      "status": 200,
+      "bytes": 338908
+    },
+    {
+      "path": "./docs/downloads.json",
+      "status": 200,
+      "bytes": 84
+    },
+    {
+      "path": "./vendor/three/addons/loaders/GLTFLoader.js",
+      "status": 200,
+      "bytes": 114739
+    },
+    {
+      "path": "./vendor/three/addons/controls/OrbitControls.js",
+      "status": 200,
+      "bytes": 38703
+    },
+    {
+      "path": "./vendor/three/addons/utils/BufferGeometryUtils.js",
+      "status": 200,
+      "bytes": 35539
+    },
+    {
+      "path": "./vendor/three/addons/objects/Reflector.js",
+      "status": 200,
+      "bytes": 9476
+    },
+    {
+      "path": "./vendor/three/addons/environments/RoomEnvironment.js",
+      "status": 200,
+      "bytes": 4899
+    }
+  ],
+  "file_count": 356,
+  "largest_files": [
+    {
+      "path": "assets/afterlight-source-kit.zip",
+      "bytes": 15888678
+    },
+    {
+      "path": "assets/models/afterlight-rain-court.fbx",
+      "bytes": 15832156
+    },
+    {
+      "path": "assets/models/afterlight-rain-court.blend",
+      "bytes": 12692219
+    },
+    {
+      "path": "assets/models/afterlight-rain-court.glb",
+      "bytes": 6981776
+    },
+    {
+      "path": "assets/renders/rain-court-detail.png",
+      "bytes": 3365843
+    },
+    {
+      "path": "assets/renders/rain-court-hero.png",
+      "bytes": 3255078
+    },
+    {
+      "path": "preview.png",
+      "bytes": 3255078
+    },
+    {
+      "path": "assets/textures/imagegen-source-atlas.png",
+      "bytes": 3015126
+    }
+  ]
+}

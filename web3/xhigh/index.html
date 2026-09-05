@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142023">
+  <meta name="description" content="Explore The Rain Court, an original, fully modelled AFTERLIGHT environment. Orbit the courtyard and download the Blender scene, PBR textures and engine-ready models.">
+  <title>AFTERLIGHT — The Rain Court</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.min.js","three/addons/":"./vendor/three/addons/"}}</script>
+</head>
+<body>
+  <main id="world" aria-label="Interactive 3D courtyard">
+    <canvas id="scene" tabindex="0" aria-label="3D Rain Court. Drag to orbit, Shift-drag to pan, scroll to zoom. R recenters the camera."></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <div id="loading" role="status" aria-live="polite"><span class="loader-mark">✧</span><span class="loading-title">AFTERLIGHT</span><span id="loading-label">Entering the Rain Court</span><span class="loading-track"><i id="loading-bar"></i></span></div>
+    <div id="error" hidden role="alert"><h2>The courtyard could not load.</h2><p id="error-message"></p><button onclick="location.reload()">Try again</button><a href="./assets/renders/rain-court-hero.png">View the scene render ↗</a></div>
+
+    <header class="brand hud">
+      <a href="../" class="brand-link" aria-label="AFTERLIGHT collection home"><svg viewBox="0 0 50 58" aria-hidden="true"><path d="M25 2 32 21 47 29 32 37 25 56 18 37 3 29 18 21Z"/><path d="m25 12 4 13 10 4-10 5-4 12-4-12-10-5 10-4Z"/></svg><span><span class="wordmark">AFTERLIGHT</span><small>A WORLD WORTH REPAIRING</small></span></a>
+      <a href="../" class="back-link">← COLLECTION</a>
+    </header>
+
+    <section class="place hud" aria-labelledby="place-title">
+      <div class="rule"><i></i><i></i></div>
+      <p class="eyebrow">LOWER DISTRICT / 04</p>
+      <h1 id="place-title">The Rain Court</h1>
+      <p class="weather"><span aria-hidden="true">☼</span> AFTER THE RAIN <span class="time">17:42</span></p>
+    </section>
+
+    <aside class="minimap hud" aria-label="Courtyard viewpoints">
+      <div class="map-heading"><span><i class="signal" aria-hidden="true">▂▃▅</i> LOCAL SIGNAL</span><span>N ↑</span></div>
+      <svg viewBox="0 0 250 142" role="img" aria-label="Plan of the Rain Court, workshop to the north and service entry to the east">
+        <path class="map-block" d="M45 29h109v93H45zM155 63h62v34h-62"/>
+        <path class="map-shop" d="M90 29V16h41v13M50 36h30v9H50M148 66h18v29h-18"/>
+        <path class="map-grid" d="M80 45v67m37-67v67M53 68h95M53 91h95"/>
+        <path id="map-cone" d="M100 78 86 97h28Z"/>
+        <circle class="map-glow" cx="100" cy="78" r="12"/><circle class="map-player" cx="100" cy="78" r="3.5"/>
+      </svg>
+      <div class="map-footer"><span><i></i> THE RAIN COURT</span><span>04</span></div>
+      <div class="viewpoints" aria-label="Camera presets"><button id="view-court" class="active" aria-pressed="true">Courtyard</button><button id="view-shop" aria-pressed="false">Workshop</button><button id="view-robot" aria-pressed="false">Mender</button></div>
+    </aside>
+
+    <div class="scene-note hud"><span class="status-dot"></span><span id="scene-status">ESTABLISHING SIGNAL</span><span id="coordinates">X +00.0 / Y +00.0</span></div>
+
+    <section class="camera-panel hud" aria-label="Camera controls">
+      <div class="camera-heading"><span>FREE CAMERA</span><button id="hide-hud" title="Hide interface (H)"><kbd>H</kbd> Hide interface</button></div>
+      <div class="camera-buttons"><button id="orbit" class="selected" aria-pressed="true"><span aria-hidden="true">◎</span> Orbit</button><button id="pan" aria-pressed="false"><span aria-hidden="true">✥</span> Pan</button><button id="reset"><span aria-hidden="true">⌖</span> Recenter <kbd>R</kbd></button></div>
+      <p id="control-hint">Drag to orbit · Shift + drag to pan · Scroll to zoom</p>
+      <p class="secondary">WASD or arrow keys pan <span>Pinch to zoom on touch</span></p>
+    </section>
+
+    <nav class="actions hud" aria-label="Scene tools">
+      <button id="photo" title="Save a PNG of the current view" aria-label="Save current view"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h4l2-2h4l2 2h4v14H4z"/><circle cx="12" cy="12" r="4"/></svg><span>Capture</span></button>
+      <button id="download-open" class="primary"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></svg><span>Get scene</span></button>
+      <button id="settings-open" title="View settings" aria-label="View settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16M9 3v6M16 9v6M8 15v6"/></svg></button>
+    </nav>
+    <button id="show-hud" hidden>Show interface <kbd>H</kbd></button>
+    <div id="toast" role="status" aria-live="polite"></div>
+  </main>
+
+  <dialog id="download-dialog" aria-labelledby="download-title">
+    <div class="dialog-header"><p class="eyebrow">FIELD ARCHIVE / 04</p><button class="close" data-close aria-label="Close downloads">×</button></div>
+    <h2 id="download-title">Take the court with you.</h2><p class="dialog-intro">The complete scene. Real geometry, packed UVs, and editable PBR materials.</p>
+    <div class="download-list">
+      <a href="./assets/models/afterlight-rain-court.glb" download><span class="file-kind">GLB</span><span><strong>Engine-ready scene</strong><small>glTF 2.0 · embedded PBR textures</small></span><span class="file-size" data-size="glb">—</span><span>↓</span></a>
+      <a href="./assets/models/afterlight-rain-court.fbx" download><span class="file-kind">FBX</span><span><strong>Exchange model</strong><small>Geometry · materials · embedded images</small></span><span class="file-size" data-size="fbx">—</span><span>↓</span></a>
+      <a href="./assets/models/afterlight-rain-court.blend" download><span class="file-kind">BLEND</span><span><strong>Original Blender scene</strong><small>Organised collections · lights · cameras</small></span><span class="file-size" data-size="blend">—</span><span>↓</span></a>
+      <a href="./assets/afterlight-source-kit.zip" download><span class="file-kind">KIT</span><span><strong>Texture & source kit</strong><small>UV layouts · PBR maps · scripts · documentation</small></span><span class="file-size" data-size="kit">—</span><span>↓</span></a>
+    </div>
+    <p class="archive-note"><span class="status-dot"></span> Metres · Blender Z-up / glTF Y-up · local assets</p>
+    <a class="text-link" href="./docs/README.md" target="_blank" rel="noopener">Scene notes & import guide ↗</a>
+  </dialog>
+
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <div class="dialog-header"><p class="eyebrow">VIEWPORT</p><button class="close" data-close aria-label="Close settings">×</button></div>
+    <h2 id="settings-title">Find your afterlight.</h2>
+    <label class="range-label" for="exposure">Exposure <output id="exposure-value">1.15</output></label><input type="range" id="exposure" min="0.5" max="2" step="0.05" value="1.15">
+    <label class="switch-row" for="reflections"><span>Water reflections<small>Planar reflections across the puddles</small></span><input type="checkbox" id="reflections" checked></label>
+    <label class="switch-row" for="wireframe"><span>Wireframe<small>Inspect the model’s real geometry</small></span><input type="checkbox" id="wireframe"></label>
+    <label class="switch-row" for="checker"><span>UV checker<small>Inspect texture scale and island orientation</small></span><input type="checkbox" id="checker"></label>
+    <div class="model-stats"><span id="stat-meshes">— mesh parts</span><span id="stat-triangles">— triangles</span></div>
+  </dialog>
+  <noscript><div class="no-script">Enable JavaScript to explore the 3D scene. <a href="./assets/renders/rain-court-hero.png">View the render</a> or <a href="./assets/models/afterlight-rain-court.glb" download>download the model</a>.</div></noscript>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
