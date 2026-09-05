@@ -1,31 +1,31 @@
 {
   "schema": "rain-court-export-validation/v1",
-  "checked_at_unix": 1788613746,
+  "checked_at_unix": 1788621260,
   "mode": "Blender independent re-imports",
   "uv_policy": "Compare triangles within each unique mesh; shared modular-instance UVs are intentional. Positive overlap threshold 1e-10 UV². Island packing distance is documented by source UV layouts; this check records tile-border margin.",
   "containers": {
     "glb": {
       "file": "assets\\rain-court.glb",
-      "bytes": 17794224,
+      "bytes": 18781684,
       "errors": [],
       "warnings": [],
       "meshes": 206,
       "primitives": 206,
       "accessors": 502,
-      "images": 12,
+      "images": 14,
       "materials": 22,
       "external_dependencies": [],
       "passed": true
     },
     "gltf": {
       "file": "assets\\gltf\\rain-court.gltf",
-      "bytes": 1387657,
+      "bytes": 1723901,
       "errors": [],
       "warnings": [],
       "meshes": 206,
       "primitives": 206,
       "accessors": 502,
-      "images": 12,
+      "images": 14,
       "materials": 22,
       "external_dependencies": [
         "concrete-albedo.png",
@@ -35,12 +35,14 @@
         "painted-metal-normal.png",
         "painted-metal-roughness.png",
         "rain-court.bin",
+        "ripple-normal.png",
         "rust-albedo.png",
         "rust-normal.png",
         "rust-roughness.png",
         "timber-albedo.png",
         "timber-normal.png",
-        "timber-roughness.png"
+        "timber-roughness.png",
+        "wet-concrete-roughness.png"
       ],
       "passed": true
     }
@@ -52,7 +54,7 @@
       "warnings": [],
       "mesh_objects": 3361,
       "unique_meshes": 206,
-      "vertices_unique": 22732,
+      "vertices_unique": 22730,
       "polygons_instanced": 121536,
       "world_bounds": [
         [
@@ -79,10 +81,30 @@
           "missing_external_file": false
         },
         {
+          "name": "wet-concrete-roughness",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "filepath": "",
+          "missing_external_file": false
+        },
+        {
           "name": "concrete-normal",
           "size": [
             1024,
             1024
+          ],
+          "packed": true,
+          "filepath": "",
+          "missing_external_file": false
+        },
+        {
+          "name": "ripple-normal",
+          "size": [
+            512,
+            512
           ],
           "packed": true,
           "filepath": "",
@@ -294,15 +316,15 @@
           "uv_bounds": [
             [
               0.1076466292142868,
-              0.06649404764175415
+              0.06649398803710938
             ],
             [
               0.86030513048172,
-              0.9148596525192261
+              0.9148595333099365
             ]
           ],
-          "minimum_tile_border_margin": 0.06649404764175415,
-          "islands": 27,
+          "minimum_tile_border_margin": 0.06649398803710938,
+          "islands": 28,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -317,16 +339,16 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.08456560224294662,
-              0.06661379337310791
+              0.08456559479236603,
+              0.06661385297775269
             ],
             [
-              0.9200845956802368,
+              0.9200846552848816,
               0.8993891477584839
             ]
           ],
-          "minimum_tile_border_margin": 0.06661379337310791,
-          "islands": 28,
+          "minimum_tile_border_margin": 0.06661385297775269,
+          "islands": 27,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -5167,7 +5189,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\rust-albedo.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\rust-albedo.png",
           "missing_external_file": false
         },
         {
@@ -5177,7 +5199,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\rust-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\rust-normal.png",
           "missing_external_file": false
         },
         {
@@ -5187,7 +5209,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\rust-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\rust-roughness.png",
           "missing_external_file": false
         },
         {
@@ -5197,7 +5219,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\timber-albedo.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\timber-albedo.png",
           "missing_external_file": false
         },
         {
@@ -5207,7 +5229,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\timber-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\timber-normal.png",
           "missing_external_file": false
         },
         {
@@ -5217,7 +5239,17 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\timber-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\timber-roughness.png",
+          "missing_external_file": false
+        },
+        {
+          "name": "ripple-normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "packed": false,
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\ripple-normal.png",
           "missing_external_file": false
         },
         {
@@ -5227,7 +5259,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\concrete-albedo.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\concrete-albedo.png",
           "missing_external_file": false
         },
         {
@@ -5237,7 +5269,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\concrete-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\concrete-normal.png",
           "missing_external_file": false
         },
         {
@@ -5247,7 +5279,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\concrete-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\concrete-roughness.png",
           "missing_external_file": false
         },
         {
@@ -5257,7 +5289,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\painted-metal-albedo.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\painted-metal-albedo.png",
           "missing_external_file": false
         },
         {
@@ -5267,7 +5299,7 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\painted-metal-normal.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\painted-metal-normal.png",
           "missing_external_file": false
         },
         {
@@ -5277,7 +5309,17 @@
             1024
           ],
           "packed": false,
-          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-d68o2nt8\\textures\\painted-metal-roughness.png",
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\painted-metal-roughness.png",
+          "missing_external_file": false
+        },
+        {
+          "name": "wet-concrete-roughness.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": false,
+          "filepath": "C:\\Users\\blendue\\AppData\\Local\\Temp\\rain-court-fbx-import-bwy_7v11\\textures\\wet-concrete-roughness.png",
           "missing_external_file": false
         }
       ],
@@ -50218,14 +50260,14 @@
           "uv_bounds": [
             [
               0.1076466292142868,
-              0.06649405509233475
+              0.06649398803710938
             ],
             [
               0.86030513048172,
-              0.9148596525192261
+              0.9148595333099365
             ]
           ],
-          "minimum_tile_border_margin": 0.06649405509233475,
+          "minimum_tile_border_margin": 0.06649398803710938,
           "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
@@ -71001,15 +71043,15 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.08456560224294662,
-              0.0666138157248497
+              0.08456559479236603,
+              0.0666138306260109
             ],
             [
-              0.9200845956802368,
+              0.9200846552848816,
               0.8993891477584839
             ]
           ],
-          "minimum_tile_border_margin": 0.0666138157248497,
+          "minimum_tile_border_margin": 0.0666138306260109,
           "islands": 1,
           "overlap_pair_count": 0,
           "overlap_examples": [],
@@ -85955,7 +85997,7 @@
       "warnings": [],
       "mesh_objects": 3361,
       "unique_meshes": 206,
-      "vertices_unique": 22732,
+      "vertices_unique": 22730,
       "polygons_instanced": 121536,
       "world_bounds": [
         [
@@ -85982,6 +86024,16 @@
           "missing_external_file": false
         },
         {
+          "name": "wet-concrete-roughness",
+          "size": [
+            1024,
+            1024
+          ],
+          "packed": true,
+          "filepath": "D:\\github\\astracraft\\web3\\ultra\\assets\\gltf\\wet-concrete-roughness.png",
+          "missing_external_file": false
+        },
+        {
           "name": "concrete-normal",
           "size": [
             1024,
@@ -85989,6 +86041,16 @@
           ],
           "packed": true,
           "filepath": "D:\\github\\astracraft\\web3\\ultra\\assets\\gltf\\concrete-normal.png",
+          "missing_external_file": false
+        },
+        {
+          "name": "ripple-normal",
+          "size": [
+            512,
+            512
+          ],
+          "packed": true,
+          "filepath": "D:\\github\\astracraft\\web3\\ultra\\assets\\gltf\\ripple-normal.png",
           "missing_external_file": false
         },
         {
@@ -86197,15 +86259,15 @@
           "uv_bounds": [
             [
               0.1076466292142868,
-              0.06649404764175415
+              0.06649398803710938
             ],
             [
               0.86030513048172,
-              0.9148596525192261
+              0.9148595333099365
             ]
           ],
-          "minimum_tile_border_margin": 0.06649404764175415,
-          "islands": 27,
+          "minimum_tile_border_margin": 0.06649398803710938,
+          "islands": 28,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,
@@ -86220,16 +86282,16 @@
           "uv_layer": "UVMap",
           "uv_bounds": [
             [
-              0.08456560224294662,
-              0.06661379337310791
+              0.08456559479236603,
+              0.06661385297775269
             ],
             [
-              0.9200845956802368,
+              0.9200846552848816,
               0.8993891477584839
             ]
           ],
-          "minimum_tile_border_margin": 0.06661379337310791,
-          "islands": 28,
+          "minimum_tile_border_margin": 0.06661385297775269,
+          "islands": 27,
           "overlap_pair_count": 0,
           "overlap_examples": [],
           "degenerate_uv_triangles": 0,

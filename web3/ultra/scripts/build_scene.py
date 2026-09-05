@@ -2,7 +2,7 @@
 All geometry is authored here as editable meshes; ImageGen surfaces are external inputs.
 Units metres, Z up. UV reuse across modular instances is intentional.
 """
-import bpy, bmesh, math, random, json, sys
+import bpy, bmesh, math, random, json, sys, struct
 from pathlib import Path
 from mathutils import Vector
 
@@ -21,28 +21,36 @@ def collection(name):
         c=bpy.data.collections.new(name);scene.collection.children.link(c);collections[name]=c
     return collections[name]
 
-def material(name, color, rough=.6, metal=0, texture=None, emission=0):
+def material(name, color, rough=.6, metal=0, texture=None, emission=0,
+             texture_overrides=None, albedo_factor=1, normal_strength=.32):
     m=bpy.data.materials.new(name);m.use_nodes=True;m.diffuse_color=(*color,1)
     p=m.node_tree.nodes.get('Principled BSDF');p.inputs['Base Color'].default_value=(*color,1)
     p.inputs['Roughness'].default_value=rough;p.inputs['Metallic'].default_value=metal
     if texture:
         for suffix,socket in [('albedo','Base Color'),('roughness','Roughness'),('normal','Normal')]:
-            path=TEX/f'{texture}-{suffix}.png'
+            path=TEX/(texture_overrides or {}).get(suffix,f'{texture}-{suffix}.png')
             if not path.exists(): continue
-            if suffix=='roughness' and 'Wet' in name: continue
             img=bpy.data.images.load(str(path),check_existing=True)
             if suffix!='albedo': img.colorspace_settings.name='Non-Color'
             n=m.node_tree.nodes.new('ShaderNodeTexImage');n.image=img;n.label='ImageGen / '+suffix
             if suffix=='normal':
-                normal=m.node_tree.nodes.new('ShaderNodeNormalMap');normal.inputs['Strength'].default_value=.32
+                normal=m.node_tree.nodes.new('ShaderNodeNormalMap');normal.inputs['Strength'].default_value=normal_strength
                 m.node_tree.links.new(n.outputs['Color'],normal.inputs['Color']);m.node_tree.links.new(normal.outputs[0],p.inputs[socket])
+            elif suffix=='albedo' and albedo_factor!=1:
+                # Recognized as a standard glTF baseColorFactor by Blender's exporter.
+                multiply=m.node_tree.nodes.new('ShaderNodeMix');multiply.data_type='RGBA';multiply.blend_type='MULTIPLY'
+                multiply.inputs[0].default_value=1;multiply.inputs[7].default_value=(albedo_factor,albedo_factor,albedo_factor,1)
+                m.node_tree.links.new(n.outputs['Color'],multiply.inputs[6]);m.node_tree.links.new(multiply.outputs[2],p.inputs[socket])
             else: m.node_tree.links.new(n.outputs['Color'],p.inputs[socket])
     if emission:
         p.inputs['Emission Color'].default_value=(*color,1);p.inputs['Emission Strength'].default_value=emission
     return m
 
 stone=material('M01 | ImageGen - weathered concrete',(.32,.34,.29),texture='concrete')
-wet=material('M02 | Wet paving - ImageGen concrete',(.22,.24,.22),.19,texture='concrete')
+wet=material('M02 | Wet paving - ImageGen concrete',(.22,.24,.22),.35,texture='concrete',
+             texture_overrides={'roughness':'wet-concrete-roughness.png'},albedo_factor=.38)
+wet.node_tree.nodes.get('Principled BSDF').inputs['Coat Weight'].default_value=.45
+wet.node_tree.nodes.get('Principled BSDF').inputs['Coat Roughness'].default_value=.14
 rust=material('M03 | ImageGen - oxidized iron',(.25,.11,.045),.48,.66,'rust')
 teal=material('M04 | ImageGen - old teal enamel',(.05,.32,.3),.35,.5,'painted-metal')
 wood=material('M05 | ImageGen - cargo timber',(.2,.13,.07),texture='timber')
@@ -50,8 +58,10 @@ dark=material('M06 | charcoal structural steel',(.046,.063,.062),.42,.65)
 brass=material('M07 | worn brass',(.42,.3,.11),.32,.7)
 ochre=material('M08 | ochre enamel',(.47,.24,.055),.38,.3)
 grout=material('M09 | damp earth',(.08,.092,.079),.58)
-water=material('M10 | Rainwater - metallic roughness',(.105,.15,.14),.065,.48)
-water.node_tree.nodes.get('Principled BSDF').inputs['Coat Weight'].default_value=.8
+water=material('M10 | Rainwater - shallow dielectric',(.018,.026,.023),.10,0,texture='rainwater',
+               texture_overrides={'normal':'ripple-normal.png'},normal_strength=.55)
+water.node_tree.nodes.get('Principled BSDF').inputs['IOR'].default_value=1.333
+water.node_tree.nodes.get('Principled BSDF').inputs['Coat Weight'].default_value=0
 leaves=[material('M11 | ivy '+str(i),c,.78) for i,c in enumerate([(.13,.17,.065),(.23,.22,.065),(.085,.14,.073)])]
 warm=material('M12 | lantern amber emission',(1,.56,.17),.27,emission=4)
 cyan=material('M13 | signal cyan emission',(.17,.95,1),.3,emission=3.5)
@@ -139,7 +149,7 @@ def puddle(name,cx,cy,rx,ry):
         for li in p.loop_indices:
             v=me.vertices[me.loops[li].vertex_index].co;uv.data[li].uv=((v.x-cx)/(2.5*rx)+.5,(v.y-cy)/(2.5*ry)+.5)
     return obj_from(me,name,(0,0,0),water,'Rainwater')
-for args in [('Long shop reflection',2.6,3.8,4.1,1.15),('Pool around companion',4,-2,2.8,2.3),('Gate runoff',-5.6,3.3,1.6,2.4),('Front rain pool',-2,-6.6,2.3,1),('Drained right edge',9,-1,1,5)]:puddle(*args)
+for args in [('Long shop reflection',2.6,4.5,4.1,.8),('Pool around companion',4.6,0,3.2,3.55),('Gate runoff',-5.6,3.3,1.6,2.4),('Front rain pool',-2,-6.6,2.3,1),('Drained right edge',9,-1,1,5)]:puddle(*args)
 
 def wall_segment(name,axis,fixed,start,end,height):
     # individually modelled bricks, courses, projecting pilasters and broken capstones
@@ -392,7 +402,7 @@ for index,me in enumerate(sorted(used,key=lambda m:m.name)):
     users=[o.name for o in scene.objects if o.type=='MESH' and o.data==me]
     manifest.append({'mesh':me.name,'file':path.name,'instances':len(users),'example_objects':users[:4],'polygons':len(me.polygons),'vertices':len(me.vertices)})
 (ASSETS/'uv'/'manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf8')
-stats={'objects':sum(o.type=='MESH' for o in scene.objects),'unique_meshes':len(used),'triangles_instanced':sum(sum(len(p.vertices)-2 for p in o.data.polygons) for o in scene.objects if o.type=='MESH'),'materials':len(bpy.data.materials),'imagegen_textures':len(list(TEX.glob('*.png'))),'units':'metres','seed':42,'uv_policy':'Packed islands per module, .035 smart_project island_margin. Intentional shared layout on repeated bricks, tiles, beams, crates, robot parts. Puddle planar UV continuous with adjacent edges. No atlas painting required; material-class tiling surfaces.'}
+stats={'objects':sum(o.type=='MESH' for o in scene.objects),'unique_meshes':len(used),'triangles_instanced':sum(sum(len(p.vertices)-2 for p in o.data.polygons) for o in scene.objects if o.type=='MESH'),'materials':len(bpy.data.materials),'imagegen_textures':13,'shader_data_textures':3,'units':'metres','seed':42,'uv_policy':'Packed islands per module, .035 smart_project island_margin. Intentional shared layout on repeated bricks, tiles, beams, crates, robot parts. Puddle planar UV continuous with adjacent edges. No atlas painting required; material-class tiling surfaces.','wet_surface_pbr':{'paving_albedo_factor_linear':.38,'paving_roughness_range':[.2,.5],'paving_clearcoat':.45,'water_metallic':0,'water_ior':1.333,'water_roughness':.1,'normal_map':'ripple-normal.png','runtime_world_wetness_map':'wetness-map.png'}}
 (ROOT/'docs'/'scene-manifest.json').write_text(json.dumps(stats,indent=2),encoding='utf8')
 
 for im in bpy.data.images:
@@ -400,13 +410,40 @@ for im in bpy.data.images:
         im.pack()
         im.filepath=bpy.path.relpath(im.filepath,start=str(ASSETS))
 # Save source before render, and export mesh-only game assets with standard PBR.
+def preserve_water_ior(path):
+    """Blender omits IOR on opaque surfaces without another transmission extension.
+
+    KHR_materials_ior itself permits opaque dielectrics. Preserve the exact source
+    value without adding transmission or changing the physical specular weight.
+    Buffer bytes and offsets within buffer views stay unchanged.
+    """
+    binary=path.suffix=='.glb'
+    if binary:
+        blob=path.read_bytes();size,kind=struct.unpack_from('<II',blob,12)
+        assert kind==0x4e4f534a
+        document=json.loads(blob[20:20+size]);remainder=blob[20+size:]
+    else:document=json.loads(path.read_text(encoding='utf8'))
+    for m in document['materials']:
+        if m['name']==water.name:
+            m.setdefault('extensions',{})['KHR_materials_ior']={'ior':round(water.node_tree.nodes.get('Principled BSDF').inputs['IOR'].default_value,4)}
+    extensions=document.setdefault('extensionsUsed',[])
+    if 'KHR_materials_ior' not in extensions:extensions.append('KHR_materials_ior')
+    if binary:
+        encoded=json.dumps(document,separators=(',',':'),ensure_ascii=False).encode('utf8')
+        encoded+=b' '*((-len(encoded))%4)
+        header=struct.pack('<4sII',b'glTF',2,20+len(encoded)+len(remainder))
+        path.write_bytes(header+struct.pack('<II',len(encoded),0x4e4f534a)+encoded+remainder)
+    else:path.write_text(json.dumps(document,indent=2,ensure_ascii=False),encoding='utf8')
+
 bpy.ops.object.select_all(action='DESELECT')
 for o in scene.objects:
     if o.type=='MESH':o.select_set(True)
 bpy.ops.wm.save_as_mainfile(filepath=str(ASSETS/'rain-court.blend'),compress=True)
 bpy.ops.export_scene.gltf(filepath=str(ASSETS/'rain-court.glb'),export_format='GLB',use_selection=True,export_apply=True,export_animations=False,export_extras=True,export_cameras=False,export_lights=False,export_yup=True)
+preserve_water_ior(ASSETS/'rain-court.glb')
 (ASSETS/'gltf').mkdir(exist_ok=True)
 bpy.ops.export_scene.gltf(filepath=str(ASSETS/'gltf'/'rain-court.gltf'),export_format='GLTF_SEPARATE',use_selection=True,export_apply=True,export_animations=False,export_extras=True,export_yup=True)
+preserve_water_ior(ASSETS/'gltf'/'rain-court.gltf')
 bpy.ops.export_scene.fbx(filepath=str(ASSETS/'rain-court.fbx'),use_selection=True,object_types={'MESH'},apply_unit_scale=True,axis_forward='-Z',axis_up='Y',path_mode='RELATIVE',embed_textures=False,add_leaf_bones=False,bake_anim=False)
 print('SCENE_STATS',json.dumps(stats),flush=True)
 scene.render.filepath=str(ASSETS/'rain-court-hero.png');bpy.ops.render.render(write_still=True)

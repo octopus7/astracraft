@@ -4,7 +4,21 @@
   "triangles_instanced": 121536,
   "materials": 22,
   "imagegen_textures": 13,
+  "shader_data_textures": 3,
   "units": "metres",
   "seed": 42,
-  "uv_policy": "Packed islands per module, .035 smart_project island_margin. Intentional shared layout on repeated bricks, tiles, beams, crates, robot parts. Puddle planar UV continuous with adjacent edges. No atlas painting required; material-class tiling surfaces."
+  "uv_policy": "Packed islands per module, .035 smart_project island_margin. Intentional shared layout on repeated bricks, tiles, beams, crates, robot parts. Puddle planar UV continuous with adjacent edges. No atlas painting required; material-class tiling surfaces.",
+  "wet_surface_pbr": {
+    "paving_albedo_factor_linear": 0.38,
+    "paving_roughness_range": [
+      0.2,
+      0.5
+    ],
+    "paving_clearcoat": 0.45,
+    "water_metallic": 0,
+    "water_ior": 1.333,
+    "water_roughness": 0.1,
+    "normal_map": "ripple-normal.png",
+    "runtime_world_wetness_map": "wetness-map.png"
+  }
 }

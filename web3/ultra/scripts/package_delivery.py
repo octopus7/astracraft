@@ -12,10 +12,14 @@ No source asset is removed or changed.
 from __future__ import annotations
 
 import argparse
+import errno
 import hashlib
 import json
+import os
 from pathlib import Path
 import sys
+import tempfile
+import time
 import zipfile
 from urllib.parse import unquote
 
@@ -29,9 +33,26 @@ def included(path):
 
 def zip_files(target, files, root):
     target.parent.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(target, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
-        for source in sorted(files):
-            archive.write(source, source.relative_to(root).as_posix())
+    # Build beside the destination, then publish atomically. A live download must
+    # not hold open the same file that ZipFile would otherwise truncate/rewrite.
+    descriptor, temporary_name = tempfile.mkstemp(prefix=f".{target.name}.", suffix=".tmp", dir=target.parent)
+    os.close(descriptor)
+    temporary = Path(temporary_name)
+    try:
+        with zipfile.ZipFile(temporary, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+            for source in sorted(files):
+                archive.write(source, source.relative_to(root).as_posix())
+        for attempt in range(6):
+            try:
+                os.replace(temporary, target)
+                break
+            except OSError as exc:
+                transient = exc.errno in {errno.EACCES, errno.EBUSY, errno.EINVAL} or getattr(exc, "winerror", None) in {5, 32, 33}
+                if not transient or attempt == 5:
+                    raise
+                time.sleep(.15 * (attempt + 1))
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def digest(path):
